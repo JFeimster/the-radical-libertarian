@@ -1,0 +1,11 @@
+{
+  "checks": [
+    { "name": "Homepage loads", "path": "index.html", "required": true },
+    { "name": "XML sitemap loads", "path": "sitemap.xml", "required": true },
+    { "name": "Robots loads", "path": "robots.txt", "required": true },
+    { "name": "Manifest loads", "path": "site.webmanifest", "required": true },
+    { "name": "Search page loads", "path": "search.html", "required": true },
+    { "name": "QA page loads", "path": "qa.html", "required": true },
+    { "name": "Launch page loads", "path": "launch.html", "required": true }
+  ]
+}

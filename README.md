@@ -6,34 +6,35 @@ A brutalist static site for essays, podcast content, philosophical grenades, res
 
 https://the-radical-libertarian.vercel.app/
 
-## Core Pages
+## Launch QA
 
-- `index.html` — final conversion homepage
-- `manifesto.html` — ideological spine
-- `essays.html` — essay archive
-- `podcast.html` — podcast hub
-- `join.html` — join / conversion hub
-- `newsletter.html` — direct subscription scaffold
-- `explore.html` — guided browsing
-- `search.html` — static search
-- `sitemap.html` — human sitemap
+Batch 14 added final QA tooling.
 
-## Current Launch State
+Run:
 
-The site is structurally complete through Batch 13. Remaining work is final QA, real platform URL wiring, and form provider connection.
-
-## Local Preview
-
-```bash
-python -m http.server 8080
+```powershell
+& ".\scripts\qa-audit.ps1"
+& ".\scripts\launch-check.ps1"
 ```
 
-Open:
+## Core Launch Pages
 
-```txt
-http://localhost:8080
-```
+- `index.html`
+- `qa.html`
+- `launch.html`
+- `sitemap.html`
+- `search.html`
+- `newsletter.html`
+- `essays.html`
+- `podcast.html`
+- `tools/index.html`
+- `resources/index.html`
 
-## Operating Rule
+## Remaining Post-Launch Items
 
-Static first. No framework goblins unless they pay rent.
+- Real YouTube URL
+- Real Spotify URL
+- Newsletter provider
+- Guest intake provider
+- Contact provider
+- Final PNG/WebP assets

@@ -1,0 +1,12 @@
+{
+  "launchBlockers": [
+    { "task": "Run scripts/qa-audit.ps1", "status": "todo" },
+    { "task": "Run scripts/launch-check.ps1", "status": "todo" },
+    { "task": "Confirm Vercel deployment", "status": "todo" }
+  ],
+  "nonBlocking": [
+    { "task": "Add real YouTube URL", "status": "todo" },
+    { "task": "Add real Spotify URL", "status": "todo" },
+    { "task": "Connect newsletter provider", "status": "todo" }
+  ]
+}

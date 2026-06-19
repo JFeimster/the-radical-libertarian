@@ -1,0 +1,5 @@
+{
+  "status": "pending-run",
+  "generatedBy": "scripts/site-inventory.ps1",
+  "notes": "Run the site inventory script to refresh counts."
+}

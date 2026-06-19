@@ -1,20 +1,30 @@
 # Polish Checklist
 
-## Completed
+## Batch 14 Added
 
-- [x] Final homepage conversion pass
-- [x] Homepage routes to essays, podcast, tools, resources, archive, assets
-- [x] Newsletter CTA added
-- [x] Featured essay links added
-- [x] Platform row added
-- [x] Homepage data registries added
+- [x] QA dashboard
+- [x] Launch hub
+- [x] Reports folder
+- [x] Local link audit script
+- [x] JSON validation script
+- [x] Site inventory script
+- [x] Launch check script
+- [x] Final QA docs
+- [x] Launch checklist
+- [x] Deployment check docs
 
-## Remaining
+## Run Before Launch
 
-- [ ] Final QA / broken-link audit
+- [ ] `scripts/qa-audit.ps1`
+- [ ] `scripts/launch-check.ps1`
+- [ ] Confirm Vercel deployment
+- [ ] Check homepage live
+- [ ] Check mobile layout
+
+## Post-Launch
+
 - [ ] Real YouTube URL
 - [ ] Real Spotify URL
 - [ ] Newsletter provider
 - [ ] Guest intake provider
-- [ ] Contact provider
-- [ ] Final asset replacements
+- [ ] Final production images

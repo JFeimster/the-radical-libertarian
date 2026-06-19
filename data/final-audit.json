@@ -1,0 +1,18 @@
+{
+  "batch": 14,
+  "status": "final-qa-scaffold-created",
+  "homepageTouched": false,
+  "launchReadyAfter": [
+    "Run scripts/qa-audit.ps1",
+    "Run scripts/launch-check.ps1",
+    "Confirm Vercel deployment"
+  ],
+  "remainingNonBlocking": [
+    "Real YouTube URL",
+    "Real Spotify URL",
+    "Newsletter provider",
+    "Guest intake provider",
+    "Contact provider",
+    "Final image assets"
+  ]
+}
