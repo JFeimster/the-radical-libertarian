@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Navigation | The Radical Libertarian</title>
+  <meta name="description" content="A navigation system overview for The Radical Libertarian static site." />
+
+  <meta property="og:title" content="Navigation | The Radical Libertarian" />
+  <meta property="og:description" content="A navigation system overview for The Radical Libertarian static site." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/navigation.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-home.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/navigation.html" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="grain-overlay"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">T.R.L.</a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="essays.html">Essays</a>
+      <a href="manifesto.html">Manifesto</a>
+      <a href="podcast.html">Podcast</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="sticker">Site Control Panel</div>
+      <h1>Navigation</h1>
+      <p>A navigation system overview for The Radical Libertarian static site.</p>
+    </section>
+
+    <section class="nav-command">
+      <h2>The navigation system.</h2>
+      <p>This page documents the site architecture and where visitors should go next. It is part map, part control panel, part antidote to random link spaghetti.</p>
+    </section>
+
+    <section class="nav-grid">
+      <article class="nav-card">
+        <span class="nav-badge">Primary</span>
+        <h3>Main Nav</h3>
+        <p>Home, Essays, Manifesto, Podcast, Join. Keep this small. The header is not a junk drawer.</p>
+      </article>
+
+      <article class="nav-card">
+        <span class="nav-badge">Secondary</span>
+        <h3>Discovery</h3>
+        <p>Start Here, Explore, Search, Sitemap, Library, Tools, Resources, Archive, Assets.</p>
+      </article>
+
+      <article class="nav-card">
+        <span class="nav-badge">Footer</span>
+        <h3>Deep Links</h3>
+        <p>Footer links should expose the full system without turning the top nav into a DMV kiosk.</p>
+      </article>
+
+      <article class="nav-card">
+        <span class="nav-badge">Search</span>
+        <h3>Static Index</h3>
+        <p>Search currently uses a lightweight JavaScript index. Good enough for this stage. Fancy later.</p>
+      </article>
+
+      <article class="nav-card">
+        <span class="nav-badge">Sitemap</span>
+        <h3>Human Map</h3>
+        <p>The human sitemap helps visitors and reviewers understand the structure fast.</p>
+      </article>
+
+      <article class="nav-card">
+        <span class="nav-badge">Data</span>
+        <h3>Registries</h3>
+        <p>Navigation lives in JSON so future scripts and agents can reason about the site.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
+    <p class="footer-note">NAVIGATION IS A WEAPON AGAINST PLATFORM SLUDGE.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/site-search.js"></script>
+</body>
+</html>

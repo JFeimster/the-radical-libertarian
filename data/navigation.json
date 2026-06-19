@@ -8,17 +8,19 @@
   ],
   "secondary": [
     { "label": "Start Here", "href": "start-here.html" },
-    { "label": "About", "href": "about.html" },
+    { "label": "Explore", "href": "explore.html" },
+    { "label": "Search", "href": "search.html" },
+    { "label": "Sitemap", "href": "sitemap.html" },
     { "label": "Library", "href": "library.html" },
-    { "label": "Resources", "href": "resources/index.html" },
-    { "label": "Archive", "href": "archive/index.html" }
+    { "label": "Tools", "href": "tools/" },
+    { "label": "Resources", "href": "resources/" },
+    { "label": "Archive", "href": "archive/" },
+    { "label": "Assets", "href": "assets.html" }
   ],
-  "footer": [
-    { "label": "YouTube", "href": "youtube.html" },
-    { "label": "Spotify", "href": "spotify.html" },
-    { "label": "Instagram", "href": "instagram.html" },
-    { "label": "Support", "href": "support.html" },
-    { "label": "Contact", "href": "contact.html" },
-    { "label": "Libertarian National", "href": "libertarian-national.html" }
+  "utility": [
+    { "label": "Navigation", "href": "navigation.html" },
+    { "label": "Updates", "href": "updates.html" },
+    { "label": "Subscribe", "href": "subscribe.html" },
+    { "label": "Contact", "href": "contact.html" }
   ]
 }

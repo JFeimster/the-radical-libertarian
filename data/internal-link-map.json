@@ -1,0 +1,28 @@
+{
+  "recommendedLinks": [
+    {
+      "from": "index.html",
+      "to": ["manifesto.html", "essays.html", "podcast.html", "join.html", "start-here.html"]
+    },
+    {
+      "from": "essays.html",
+      "to": ["podcast.html", "tools/", "resources/", "join.html"]
+    },
+    {
+      "from": "podcast.html",
+      "to": ["podcast/episodes.html", "podcast/clips.html", "youtube.html", "spotify.html", "join.html"]
+    },
+    {
+      "from": "resources/",
+      "to": ["library.html", "resources/glossary.html", "resources/civic-action.html", "tools/"]
+    },
+    {
+      "from": "tools/",
+      "to": ["resources/tools.html", "essays.html", "join.html"]
+    },
+    {
+      "from": "assets.html",
+      "to": ["image-prompts.md", "assets/social/README.md", "data/assets.json"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "static-site-expanded",
+  "checks": [
+    { "name": "Homepage exists", "path": "index.html", "status": "ok" },
+    { "name": "Primary nav targets exist", "status": "ok" },
+    { "name": "Human sitemap exists", "path": "sitemap.html", "status": "ok" },
+    { "name": "Search page exists", "path": "search.html", "status": "ok" },
+    { "name": "XML sitemap exists", "path": "sitemap.xml", "status": "ok" },
+    { "name": "Assets page exists", "path": "assets.html", "status": "ok" }
+  ],
+  "nextPolish": [
+    "Wire real YouTube URL",
+    "Wire real Spotify URL",
+    "Connect newsletter form",
+    "Replace SVG placeholders with production PNG/WebP assets",
+    "Add dynamic generated search index if the site grows further"
+  ]
+}

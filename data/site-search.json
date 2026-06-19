@@ -1,0 +1,11 @@
+{
+  "index": [
+    { "title": "Home", "url": "index.html", "section": "Core", "description": "The Radical Libertarian homepage.", "tags": ["home", "radical", "libertarian"] },
+    { "title": "Manifesto", "url": "manifesto.html", "section": "Core", "description": "The ideological spine: self-ownership, exit, speech, and decentralization.", "tags": ["manifesto", "sovereignty", "exit"] },
+    { "title": "Essays", "url": "essays.html", "section": "Essays", "description": "Long-form essays, rants, and philosophical grenades.", "tags": ["essays", "writing", "archive"] },
+    { "title": "Podcast", "url": "podcast.html", "section": "Podcast", "description": "Podcast hub for episodes, clips, transcripts, and guest pitches.", "tags": ["podcast", "audio", "clips"] },
+    { "title": "Tools", "url": "tools/", "section": "Tools", "description": "Interactive scorecards, checklists, generators, and printables.", "tags": ["tools", "scorecard", "checklist"] },
+    { "title": "Resources", "url": "resources/", "section": "Resources", "description": "Resource hub for liberty, privacy, organizations, and civic action.", "tags": ["resources", "library", "lp"] },
+    { "title": "Assets", "url": "assets.html", "section": "Assets", "description": "Brand assets, icons, social cards, and image prompts.", "tags": ["assets", "brand", "og"] }
+  ]
+}

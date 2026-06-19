@@ -8,61 +8,23 @@ Master link registry for The Radical Libertarian.
 - GitHub repo: https://github.com/JFeimster/the-radical-libertarian
 - Vercel project: https://vercel.com/jason-feimsters-projects/the-radical-libertarian
 
-## Assets + Social Image System
+## Navigation + Utility
 
+- Search: `/search.html`
+- Human Sitemap: `/sitemap.html`
+- Explore: `/explore.html`
+- Navigation Overview: `/navigation.html`
+- Updates: `/updates.html`
 - Assets Gallery: `/assets.html`
-- Assets README: `/assets/README.md`
-- Brand README: `/assets/brand/README.md`
-- Icons README: `/assets/icons/README.md`
-- Images README: `/assets/images/README.md`
-- Social README: `/assets/social/README.md`
 
-### Brand
+## Data Registries
 
-- Box Logo: `/assets/brand/trl-logo-box.svg`
-- Mark: `/assets/brand/trl-mark.svg`
-- Wordmark: `/assets/brand/trl-wordmark.svg`
-
-### Icons
-
-- Icon 192: `/assets/icons/icon-192.svg`
-- Icon 512: `/assets/icons/icon-512.svg`
-- Maskable Icon: `/assets/icons/icon-maskable.svg`
-- Podcast Icon: `/assets/icons/icon-podcast.svg`
-- Essays Icon: `/assets/icons/icon-essays.svg`
-- Tools Icon: `/assets/icons/icon-tools.svg`
-- Resources Icon: `/assets/icons/icon-resources.svg`
-
-### Social Cards
-
-- Home OG: `/assets/social/og-home.svg`
-- Manifesto OG: `/assets/social/og-manifesto.svg`
-- Essays OG: `/assets/social/og-essays.svg`
-- Podcast OG: `/assets/social/og-podcast.svg`
-- Tools OG: `/assets/social/og-tools.svg`
-- Resources OG: `/assets/social/og-resources.svg`
-- Join OG: `/assets/social/og-join.svg`
-- Archive OG: `/assets/social/og-archive.svg`
-
-## Asset Data
-
-- Assets Registry: `/data/assets.json`
-- Social Card Prompts: `/data/social-card-prompts.json`
-- Icon System: `/data/icon-system.json`
-- Image Prompts JSON: `/data/image-prompts.json`
-- Social Cards SEO: `/seo/social-cards.json`
-- Open Graph Config: `/seo/open-graph.json`
-
-## Podcast + Media
-
-- Podcast Hub: `/podcast.html`
-- Podcast Command Center: `/podcast/index.html`
-- Episodes: `/podcast/episodes.html`
-- Episode Template: `/podcast/episode-template.html`
-- Listen Everywhere: `/podcast/listen.html`
-- Clips: `/podcast/clips.html`
-- Transcripts: `/podcast/transcripts.html`
-- Guest Intake: `/podcast/guest-intake.html`
+- Navigation: `/data/navigation.json`
+- Footer Links: `/data/footer-links.json`
+- Site Search: `/data/site-search.json`
+- Internal Link Map: `/data/internal-link-map.json`
+- Site Health: `/data/site-health.json`
+- Page Groups: `/data/page-groups.json`
 
 ## Core Pages
 
@@ -74,26 +36,62 @@ Master link registry for The Radical Libertarian.
 - About: `/about.html`
 - Start Here: `/start-here.html`
 
+## Essay Pages
+
+- The Architecture of Digital Serfdom: `/essays/digital-serfdom.html`
+- Why Your Local Politician Is A Hologram: `/essays/local-politician-hologram.html`
+- Cryptographic Secession: `/essays/cryptographic-secession.html`
+- The State Is A Fiction: `/essays/state-is-fiction.html`
+- Code Is Speech: `/essays/code-is-speech.html`
+- The Two-Party Mirage: `/essays/two-party-mirage.html`
+- Central Bank Alchemy: `/essays/central-bank-alchemy.html`
+- Manufactured Consent: `/essays/manufactured-consent.html`
+- The Surveillance State: `/essays/surveillance-state.html`
+- Exit Over Voice: `/essays/exit-over-voice.html`
+
+## Podcast + Media
+
+- Podcast Hub: `/podcast.html`
+- Episodes: `/podcast/episodes.html`
+- Listen Everywhere: `/podcast/listen.html`
+- Clips: `/podcast/clips.html`
+- Transcripts: `/podcast/transcripts.html`
+- Guest Intake: `/podcast/guest-intake.html`
+- YouTube Hub: `/youtube.html`
+- Spotify Hub: `/spotify.html`
+
+## Resource Hub
+
+- Library: `/library.html`
+- Resources: `/resources/`
+- Reading List: `/resources/reading-list.html`
+- Organizations: `/resources/organizations.html`
+- Tools Resource Page: `/resources/tools.html`
+- Glossary: `/resources/glossary.html`
+- Civic Action: `/resources/civic-action.html`
+- Local Groups: `/resources/local-groups.html`
+- Libertarian National: `/libertarian-national.html`
+
+## Interactive Tools
+
+- Tools Index: `/tools/`
+- Tyranny Detector: `/tools/tyranny-detector.html`
+- Boot Polisher Index: `/tools/boot-polisher-index.html`
+- NPC Narrative Checker: `/tools/npc-narrative-checker.html`
+- Freedom Scorecard: `/tools/freedom-scorecard.html`
+- Exit Plan Builder: `/tools/exit-plan-builder.html`
+- Privacy Stack: `/tools/privacy-stack.html`
+- Parallel Economy Builder: `/tools/parallel-economy-builder.html`
+- Philosophy Grenade Generator: `/tools/philosophy-grenade-generator.html`
+- Propaganda Bingo: `/tools/propaganda-bingo.html`
+- Sovereignty Checklist: `/tools/sovereignty-checklist.html`
+
 ## External Platforms
 
-### YouTube
+- Instagram: https://www.instagram.com/radicallibertarian
+- LP.org: https://lp.org/
 
-- Label: The Radical Libertarian Podcast
-- URL: `TODO`
+## Missing External URLs
 
-### Spotify
-
-- Label: The Radical Libertarian on Spotify
-- URL: `TODO`
-
-### Instagram
-
-- Handle: @radicallibertarian
-- URL: https://www.instagram.com/radicallibertarian
-
-### Libertarian National
-
-- Label: Libertarian Party
-- URL: https://lp.org/
-
-Note: LP.org is an external resource. The Radical Libertarian does not speak for Libertarian National.
+- YouTube: The Radical Libertarian Podcast — `TODO`
+- Spotify: The Radical Libertarian on Spotify — `TODO`

@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "Core",
+      "pages": ["index.html", "start-here.html", "manifesto.html", "about.html", "join.html"]
+    },
+    {
+      "name": "Essays",
+      "pages": ["essays.html", "essays/digital-serfdom.html", "essays/exit-over-voice.html", "essays/code-is-speech.html"]
+    },
+    {
+      "name": "Podcast",
+      "pages": ["podcast.html", "podcast/episodes.html", "podcast/listen.html", "podcast/clips.html", "podcast/transcripts.html", "podcast/guest-intake.html"]
+    },
+    {
+      "name": "Resources",
+      "pages": ["library.html", "resources/", "resources/reading-list.html", "resources/glossary.html", "resources/civic-action.html"]
+    },
+    {
+      "name": "Tools",
+      "pages": ["tools/", "tools/tyranny-detector.html", "tools/freedom-scorecard.html", "tools/propaganda-bingo.html"]
+    },
+    {
+      "name": "Utility",
+      "pages": ["search.html", "explore.html", "sitemap.html", "navigation.html", "assets.html"]
+    }
+  ]
+}

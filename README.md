@@ -1,6 +1,6 @@
 # The Radical Libertarian
 
-A brutalist static site for essays, podcast content, philosophical grenades, resource pages, old platform archives, and interactive liberty tools.
+A brutalist static site for essays, podcast content, philosophical grenades, resource pages, old platform archives, interactive liberty tools, and shareable media assets.
 
 ## Live Site
 
@@ -10,7 +10,7 @@ https://the-radical-libertarian.vercel.app/
 
 https://github.com/JFeimster/the-radical-libertarian
 
-## Current Core Pages
+## Core Pages
 
 - `index.html` — homepage
 - `manifesto.html` — ideological spine
@@ -20,23 +20,28 @@ https://github.com/JFeimster/the-radical-libertarian
 - `about.html` — project overview
 - `start-here.html` — new visitor onboarding
 
-## Data Files
+## Utility Pages
 
-- `data/navigation.json`
-- `data/platform-links.json`
-- `data/essays.json`
-- `data/podcast-episodes.json`
+- `search.html` — static search
+- `sitemap.html` — human sitemap
+- `explore.html` — guided browsing
+- `navigation.html` — navigation system overview
+- `updates.html` — build log
+- `assets.html` — brand and social asset gallery
 
-## Older Platform Content To Connect
+## Major Folders
 
-- YouTube: The Radical Libertarian Podcast
-- Spotify: The Radical Libertarian on Spotify
-- Instagram: @radicallibertarian
-- Libertarian National: https://lp.org/
+- `essays/` — essay detail pages
+- `podcast/` — podcast/media pages
+- `resources/` — resource hub
+- `tools/` — interactive tools
+- `archive/` — recovered platform content
+- `assets/` — brand, icon, image, and social assets
+- `data/` — structured registries
+- `schemas/` — JSON schemas
+- `seo/` — SEO/social metadata
 
 ## Local Preview
-
-From the repo folder:
 
 ```bash
 python -m http.server 8080
@@ -48,6 +53,13 @@ Then open:
 http://localhost:8080
 ```
 
-## Deployment
+## Older Platform Content To Connect
 
-This is a plain static site. No build step. No framework. No npm séance.
+- YouTube: The Radical Libertarian Podcast
+- Spotify: The Radical Libertarian on Spotify
+- Instagram: @radicallibertarian
+- Libertarian National: https://lp.org/
+
+## Operating Rule
+
+Static first. No framework goblins unless they pay rent.

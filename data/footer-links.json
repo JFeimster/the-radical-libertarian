@@ -1,0 +1,38 @@
+{
+  "columns": [
+    {
+      "title": "Core",
+      "links": [
+        { "label": "Home", "href": "index.html" },
+        { "label": "Start Here", "href": "start-here.html" },
+        { "label": "Manifesto", "href": "manifesto.html" },
+        { "label": "Join", "href": "join.html" }
+      ]
+    },
+    {
+      "title": "Content",
+      "links": [
+        { "label": "Essays", "href": "essays.html" },
+        { "label": "Podcast", "href": "podcast.html" },
+        { "label": "Archive", "href": "archive/" },
+        { "label": "Updates", "href": "updates.html" }
+      ]
+    },
+    {
+      "title": "Utility",
+      "links": [
+        { "label": "Search", "href": "search.html" },
+        { "label": "Explore", "href": "explore.html" },
+        { "label": "Sitemap", "href": "sitemap.html" },
+        { "label": "Assets", "href": "assets.html" }
+      ]
+    },
+    {
+      "title": "External",
+      "links": [
+        { "label": "Instagram", "href": "https://www.instagram.com/radicallibertarian" },
+        { "label": "LP.org", "href": "https://lp.org/" }
+      ]
+    }
+  ]
+}

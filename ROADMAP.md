@@ -1,77 +1,58 @@
 # Roadmap
 
-## Phase 1 — Core Static Spine
+## Completed Phases
 
-Status: complete.
+### Phase 1 — Core Static Spine
 
-- [x] Restore homepage
-- [x] Create manifesto page
-- [x] Create essays page
-- [x] Create podcast page
-- [x] Create join page
-- [x] Create about page
-- [x] Create start-here page
-- [x] Create initial data files
+- [x] Homepage restored
+- [x] Core pages created
+- [x] Initial data files created
 
-## Phase 2 — Archive Recovery
-
-Status: complete.
+### Phase 2 — Archive Recovery
 
 - [x] YouTube / Spotify / Instagram bridge pages
 - [x] Archive pages
 - [x] Podcast listen and episode pages
 
-## Phase 3 — Resource Hub
-
-Status: complete.
+### Phase 3 — Resource Hub
 
 - [x] Library page
 - [x] Libertarian National resource page
 - [x] Resources directory
 
-## Phase 4 — Interactive Tools
-
-Status: complete.
+### Phase 4 — Interactive Tools
 
 - [x] Tools index
-- [x] Interactive scorecards/checklists/generator/printable
+- [x] Scorecards
+- [x] Checklists
+- [x] Generator
+- [x] Printable bingo
 
-## Phase 5 — SEO + Metadata
+### Phase 5 — SEO + Metadata
 
-Status: complete.
-
-- [x] Robots
-- [x] Sitemap
-- [x] Manifest
-- [x] Metadata JSON
+- [x] robots.txt
+- [x] sitemap.xml
+- [x] manifest
 - [x] Open Graph preview
-- [x] 404
 - [x] SEO registries
 
-## Phase 6 — Schemas + Governance
-
-Status: complete.
+### Phase 6 — Schemas + Governance
 
 - [x] JSON schemas
 - [x] Brand voice
 - [x] Design system
 - [x] Content taxonomy
 - [x] Copy bank
-- [x] Prompt docs
 - [x] Governance docs
 
-## Phase 7 — Essay Detail Pages + Content Fill
-
-Status: complete.
+### Phase 7 — Essay Detail Pages
 
 - [x] 10 essay detail pages
 - [x] Essay index
 - [x] Essay metadata
 - [x] Quotes and tags
 
-## Phase 8 — Podcast + Media Content Fill
-
-Status: complete.
+### Phase 8 — Podcast + Media
 
 - [x] Podcast pages
 - [x] Episode archive
@@ -80,30 +61,42 @@ Status: complete.
 - [x] Guest intake
 - [x] Podcast data files
 
-## Phase 9 — Assets + Social Image System
+### Phase 9 — Assets + Social Image System
 
-Status: complete.
-
-- [x] `assets.html`
-- [x] Brand assets
-- [x] Icon assets
+- [x] Assets page
+- [x] Brand SVGs
+- [x] Icons
 - [x] Image placeholders
-- [x] Open Graph SVG cards
-- [x] Asset README files
-- [x] `data/assets.json`
-- [x] `data/social-card-prompts.json`
-- [x] `data/icon-system.json`
-- [x] `data/image-prompts.json`
-- [x] Updated `site.webmanifest`
-- [x] Updated social card SEO registries
+- [x] OG cards
+- [x] Prompt registries
 
-## Phase 10 — Navigation + Site Polish
+### Phase 10 — Navigation + Site Polish
 
-Recommended next:
+- [x] Human sitemap
+- [x] Search page
+- [x] Explore page
+- [x] Navigation overview
+- [x] Updates page
+- [x] Navigation registries
+- [x] Footer link registry
+- [x] Internal link map
+- [x] Site health registry
+- [x] Polish checklist
 
-- Add secondary nav or footer links to important pages
-- Improve mobile nav
-- Add asset page to footer
-- Add internal links across essays, resources, podcast, tools
-- Add simple static search index
-- Add sitemap page for humans
+## Recommended Phase 11 — Real Platform URLs + Newsletter Wiring
+
+- [ ] Add real YouTube channel URL
+- [ ] Add real Spotify show URL
+- [ ] Add newsletter form provider
+- [ ] Replace static guest form with real intake form
+- [ ] Add real embeds to YouTube/Spotify pages
+- [ ] Add real archive import entries
+
+## Recommended Phase 12 — Final Content/Conversion Polish
+
+- [ ] Add footer link columns to templates/pages
+- [ ] Add “related essays” blocks
+- [ ] Add “related tools” blocks
+- [ ] Add stronger homepage sections linking to tools/resources/assets
+- [ ] Add final PNG/WebP social cards
+- [ ] Run external broken-link check
