@@ -1,0 +1,9 @@
+{
+  "formats": [
+    { "name": "Cold Open", "length": "5-15 seconds", "use": "attention hook" },
+    { "name": "Short Clip", "length": "15-60 seconds", "use": "social post" },
+    { "name": "Quote Card", "length": "single line", "use": "static graphic" },
+    { "name": "Carousel", "length": "5-7 slides", "use": "argument breakdown" },
+    { "name": "Thread", "length": "5-12 posts", "use": "text platform" }
+  ]
+}

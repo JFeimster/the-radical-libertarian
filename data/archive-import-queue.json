@@ -1,0 +1,9 @@
+{
+  "status": "queue-created",
+  "items": [
+    { "source": "YouTube", "needed": ["channelUrl", "playlistUrl", "videoUrls", "descriptions", "thumbnails"], "status": "needs-url" },
+    { "source": "Spotify", "needed": ["showUrl", "episodeUrls", "descriptions", "embedCode"], "status": "needs-url" },
+    { "source": "Instagram", "needed": ["postUrls", "captions", "screenshots", "hooks"], "status": "known-handle" },
+    { "source": "Podcast", "needed": ["audioFiles", "showNotes", "transcripts", "clips"], "status": "needs-source-material" }
+  ]
+}

@@ -1,6 +1,6 @@
 # Roadmap
 
-## Completed Through Batch 16
+## Completed Through Batch 17
 
 - [x] Core static spine
 - [x] Archive recovery
@@ -18,12 +18,13 @@
 - [x] Final QA + broken-link audit scaffold
 - [x] Production asset slots + image QA
 - [x] Real URL/form provider wiring scaffold
+- [x] Archive import + content expansion scaffold
 
-## Remaining Before Fully Wired Launch
+## Recommended Batch 18 — Final Repo Ops + Maintenance System
 
-- [ ] Add real YouTube URL
-- [ ] Add real Spotify URL
-- [ ] Choose newsletter provider
-- [ ] Choose guest intake provider
-- [ ] Choose contact provider
-- [ ] Apply confirmed provider config
+- [ ] Add GitHub issue templates
+- [ ] Add maintenance checklist
+- [ ] Add release notes
+- [ ] Add changelog
+- [ ] Add contribution/operating docs
+- [ ] Add final v1 launch summary

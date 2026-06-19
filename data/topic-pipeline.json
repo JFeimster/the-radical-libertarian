@@ -1,0 +1,10 @@
+{
+  "topics": [
+    { "lane": "Personal Sovereignty", "nextAssets": ["essay", "podcast", "tool"], "priority": "high" },
+    { "lane": "Digital Serfdom", "nextAssets": ["essay", "clip", "resource"], "priority": "high" },
+    { "lane": "Money & Fiat Theater", "nextAssets": ["essay", "podcast"], "priority": "medium" },
+    { "lane": "Political Theater", "nextAssets": ["essay", "short clips"], "priority": "high" },
+    { "lane": "Media & Narrative", "nextAssets": ["essay", "propaganda tools"], "priority": "medium" },
+    { "lane": "Parallel Systems", "nextAssets": ["resources", "local groups", "tools"], "priority": "high" }
+  ]
+}

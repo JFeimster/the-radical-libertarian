@@ -1,0 +1,13 @@
+{
+  "batch": 17,
+  "status": "archive-import-and-content-expansion-scaffold-created",
+  "urlsInvented": false,
+  "indexTouched": false,
+  "next": [
+    "Add real YouTube URL",
+    "Add real Spotify URL",
+    "Collect old episode URLs",
+    "Create first real transcript page",
+    "Create first imported archive entry"
+  ]
+}

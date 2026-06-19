@@ -1,0 +1,12 @@
+{
+  "steps": [
+    "collect source URL",
+    "generate raw transcript",
+    "clean transcript",
+    "extract clips",
+    "create summary",
+    "publish transcript page",
+    "link to related essays/tools"
+  ],
+  "status": "scaffolded"
+}

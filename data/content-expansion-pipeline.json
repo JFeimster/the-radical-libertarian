@@ -1,0 +1,8 @@
+{
+  "pipeline": [
+    { "input": "Essay", "outputs": ["podcast episode", "clip hooks", "quote cards", "newsletter"], "status": "ready" },
+    { "input": "Podcast episode", "outputs": ["transcript", "clips", "summary", "resource links"], "status": "ready" },
+    { "input": "Archive URL", "outputs": ["archive entry", "transcript", "clip ideas", "topic tags"], "status": "needs-url" },
+    { "input": "Instagram post", "outputs": ["essay seed", "quote card", "carousel", "newsletter blurb"], "status": "known-handle" }
+  ]
+}

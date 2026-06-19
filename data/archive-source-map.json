@@ -1,0 +1,7 @@
+{
+  "sources": [
+    { "name": "YouTube", "knownUrl": "", "status": "needs-url", "queue": "archive/youtube-import-queue.html" },
+    { "name": "Spotify", "knownUrl": "", "status": "needs-url", "queue": "archive/spotify-import-queue.html" },
+    { "name": "Instagram", "knownUrl": "https://www.instagram.com/radicallibertarian", "status": "known", "queue": "archive/instagram-import-queue.html" }
+  ]
+}
