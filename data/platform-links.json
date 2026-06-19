@@ -8,13 +8,15 @@
       "name": "YouTube",
       "label": "The Radical Libertarian Podcast",
       "url": "",
-      "status": "needs-url"
+      "status": "needs-url",
+      "notes": "Add the actual channel or playlist URL."
     },
     {
       "name": "Spotify",
       "label": "The Radical Libertarian on Spotify",
       "url": "",
-      "status": "needs-url"
+      "status": "needs-url",
+      "notes": "Add the actual Spotify show URL."
     },
     {
       "name": "Instagram",
@@ -26,7 +28,8 @@
       "name": "Libertarian National",
       "label": "Libertarian Party",
       "url": "https://lp.org/",
-      "status": "external-resource"
+      "status": "external-resource",
+      "notes": "Independent resource link. This site does not speak for LP.org."
     }
   ]
 }

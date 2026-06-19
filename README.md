@@ -1,18 +1,53 @@
-# 🗽 The Radical Libertarian
+# The Radical Libertarian
 
-Welcome to the official repository for **The Radical Libertarian** brand and podcast hosted by Jason Feimster. 
+A brutalist static site for essays, podcast content, philosophical grenades, resource pages, old platform archives, and interactive liberty tools.
 
-*100% Libertarian 92% of the time.*
-*All memes are taxed: Like the govt, I make nothing.*
+## Live Site
 
-## About the Project
-This space is dedicated to exploring where current events meet the uncompromising pursuit of liberty. From deep dives into the drug war and gun control to redefining freedom in the 21st century, this repository serves as a hub for open-source resources, show notes, and brand assets related to the podcast.
+https://the-radical-libertarian.vercel.app/
 
-## 🎧 Listen & Watch
-Catch the latest episodes and join the conversation across our platforms:
-* **YouTube:** [The Radical Libertarian Podcast](https://www.youtube.com/playlist?list=PLNVTCBFgR1TcFG8Blwuciuq8bQay4SWWd)
-* **Spotify:** [The Radical Libertarian on Spotify](https://open.spotify.com/show/3cP4yQijoAUS1xS71ZEBoG)
-* **Instagram:** [@radicallibertarian](https://www.instagram.com/radicallibertarian)
+## GitHub Repo
 
----
-*"Embarking on a Quest for Truth"*
+https://github.com/JFeimster/the-radical-libertarian
+
+## Current Core Pages
+
+- `index.html` — homepage
+- `manifesto.html` — ideological spine
+- `essays.html` — essay archive
+- `podcast.html` — podcast hub
+- `join.html` — newsletter / follow / conversion page
+- `about.html` — project overview
+- `start-here.html` — new visitor onboarding
+
+## Data Files
+
+- `data/navigation.json`
+- `data/platform-links.json`
+- `data/essays.json`
+- `data/podcast-episodes.json`
+
+## Older Platform Content To Connect
+
+- YouTube: The Radical Libertarian Podcast
+- Spotify: The Radical Libertarian on Spotify
+- Instagram: @radicallibertarian
+- Libertarian National: https://lp.org/
+
+## Local Preview
+
+From the repo folder:
+
+```bash
+python -m http.server 8080
+```
+
+Then open:
+
+```txt
+http://localhost:8080
+```
+
+## Deployment
+
+This is a plain static site. No build step. No framework. No npm séance.

@@ -19,6 +19,46 @@
       "excerpt": "Building systems that do not beg brittle institutions for permission.",
       "status": "draft",
       "featured": true
+    },
+    {
+      "title": "The State Is A Fiction",
+      "slug": "state-is-fiction",
+      "url": "essays/state-is-fiction.html",
+      "category": "Power",
+      "tags": ["state", "legitimacy", "political-theater"],
+      "excerpt": "A philosophical grenade aimed at legitimacy, narrative, paperwork, and power.",
+      "status": "planned",
+      "featured": false
+    },
+    {
+      "title": "Code Is Speech",
+      "slug": "code-is-speech",
+      "url": "essays/code-is-speech.html",
+      "category": "Privacy",
+      "tags": ["encryption", "privacy", "censorship"],
+      "excerpt": "Encryption, privacy, censorship, and why math gives authoritarians night sweats.",
+      "status": "planned",
+      "featured": false
+    },
+    {
+      "title": "The Two-Party Mirage",
+      "slug": "two-party-mirage",
+      "url": "essays/two-party-mirage.html",
+      "category": "Political Theater",
+      "tags": ["parties", "voting", "consensus"],
+      "excerpt": "When two brands sell the same cage with different bumper stickers.",
+      "status": "planned",
+      "featured": false
+    },
+    {
+      "title": "Central Bank Alchemy",
+      "slug": "central-bank-alchemy",
+      "url": "essays/central-bank-alchemy.html",
+      "category": "Money",
+      "tags": ["fiat", "inflation", "central-banks"],
+      "excerpt": "Fiat money, inflation, and monetary sorcery with a committee nameplate.",
+      "status": "planned",
+      "featured": false
     }
   ]
 }

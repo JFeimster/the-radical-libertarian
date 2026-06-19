@@ -8,14 +8,12 @@
   ],
   "secondary": [
     { "label": "Start Here", "href": "start-here.html" },
-    { "label": "Principles", "href": "principles.html" },
+    { "label": "About", "href": "about.html" },
     { "label": "Library", "href": "library.html" },
     { "label": "Resources", "href": "resources/index.html" },
-    { "label": "Tools", "href": "tools/index.html" },
     { "label": "Archive", "href": "archive/index.html" }
   ],
   "footer": [
-    { "label": "About", "href": "about.html" },
     { "label": "YouTube", "href": "youtube.html" },
     { "label": "Spotify", "href": "spotify.html" },
     { "label": "Instagram", "href": "instagram.html" },
