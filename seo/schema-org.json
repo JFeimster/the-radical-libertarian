@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "The Radical Libertarian",
+  "url": "https://the-radical-libertarian.vercel.app/",
+  "description": "Essays, podcasts, rants, and philosophical grenades for people who distrust both the boot and the person begging to polish it.",
+  "inLanguage": "en-US",
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Radical Libertarian",
+    "url": "https://the-radical-libertarian.vercel.app/"
+  },
+  "sameAs": [
+    "https://www.instagram.com/radicallibertarian",
+    "https://lp.org/"
+  ]
+}

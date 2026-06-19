@@ -69,16 +69,25 @@ Status: complete.
 
 ## Phase 5 — SEO + Metadata
 
-Create:
+Status: complete.
 
-- `robots.txt`
-- `sitemap.xml`
-- `site.webmanifest`
-- `metadata.json`
-- `seo/pages.json`
-- `seo/social-cards.json`
-- `seo/redirects.json`
-- `seo/keywords.json`
+- [x] `robots.txt`
+- [x] `sitemap.xml`
+- [x] `site.webmanifest`
+- [x] `browserconfig.xml`
+- [x] `metadata.json`
+- [x] `opengraph.html`
+- [x] `404.html`
+- [x] `humans.txt`
+- [x] `_headers`
+- [x] `seo/pages.json`
+- [x] `seo/social-cards.json`
+- [x] `seo/redirects.json`
+- [x] `seo/keywords.json`
+- [x] `seo/schema-org.json`
+- [x] `seo/open-graph.json`
+- [x] `seo/twitter-cards.json`
+- [x] `assets/social/og-placeholder.svg`
 
 ## Phase 6 — Schemas + Governance
 

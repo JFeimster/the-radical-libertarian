@@ -1,8 +1,18 @@
 {
   "name": "The Radical Libertarian",
   "short_name": "T.R.L.",
+  "description": "Essays, podcasts, rants, and philosophical grenades for people allergic to permission slips.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f6f0df",
-  "theme_color": "#e4002b"
+  "theme_color": "#e4002b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
 }

@@ -1,1 +1,35 @@
-{"name":"The Radical Libertarian","url":"https://the-radical-libertarian.vercel.app/","description":"Essays, podcasts, rants, and philosophical grenades."}
+{
+  "name": "The Radical Libertarian",
+  "shortName": "T.R.L.",
+  "url": "https://the-radical-libertarian.vercel.app/",
+  "description": "Essays, podcasts, rants, and philosophical grenades for people who distrust both the boot and the person begging to polish it.",
+  "language": "en-US",
+  "themeColor": "#e4002b",
+  "backgroundColor": "#f6f0df",
+  "brand": {
+    "voice": "sharp, satirical, anti-bureaucratic, liberty-forward, brutalist, and direct",
+    "visualStyle": "cream, black, red, hard borders, hard shadows, editorial brutalism"
+  },
+  "platforms": {
+    "youtube": {
+      "label": "The Radical Libertarian Podcast",
+      "url": "",
+      "status": "needs-url"
+    },
+    "spotify": {
+      "label": "The Radical Libertarian on Spotify",
+      "url": "",
+      "status": "needs-url"
+    },
+    "instagram": {
+      "label": "@radicallibertarian",
+      "url": "https://www.instagram.com/radicallibertarian",
+      "status": "active"
+    },
+    "libertarianNational": {
+      "label": "Libertarian Party",
+      "url": "https://lp.org/",
+      "status": "external-resource"
+    }
+  }
+}

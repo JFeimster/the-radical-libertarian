@@ -1,0 +1,11 @@
+/* TEAM */
+Site: The Radical Libertarian
+Repo: https://github.com/JFeimster/the-radical-libertarian
+Live: https://the-radical-libertarian.vercel.app/
+
+/* SITE */
+Language: English
+Standards: HTML, CSS, JavaScript
+Framework: None
+Deployment: Vercel
+Style: Brutalist, editorial, anti-bureaucratic, cream/black/red

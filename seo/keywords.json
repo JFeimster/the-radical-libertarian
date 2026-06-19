@@ -1,1 +1,49 @@
-{"clusters":["libertarian podcast","personal sovereignty","digital privacy","decentralization","free speech"]}
+{
+  "clusters": [
+    {
+      "name": "The Radical Libertarian Podcast",
+      "keywords": [
+        "The Radical Libertarian Podcast",
+        "radical libertarian podcast",
+        "libertarian podcast",
+        "liberty podcast"
+      ]
+    },
+    {
+      "name": "Personal Sovereignty",
+      "keywords": [
+        "personal sovereignty",
+        "self ownership",
+        "exit over voice",
+        "individual liberty"
+      ]
+    },
+    {
+      "name": "Digital Privacy",
+      "keywords": [
+        "digital privacy",
+        "privacy stack",
+        "surveillance state",
+        "code is speech"
+      ]
+    },
+    {
+      "name": "Decentralization",
+      "keywords": [
+        "decentralization",
+        "parallel economy",
+        "cryptographic secession",
+        "agorism"
+      ]
+    },
+    {
+      "name": "Media Literacy",
+      "keywords": [
+        "manufactured consent",
+        "propaganda bingo",
+        "npc narrative checker",
+        "political theater"
+      ]
+    }
+  ]
+}

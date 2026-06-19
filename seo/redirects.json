@@ -1,1 +1,22 @@
-{"redirects":[]}
+{
+  "redirects": [
+    {
+      "from": "/archive",
+      "to": "/archive/",
+      "status": 308,
+      "notes": "Directory canonical."
+    },
+    {
+      "from": "/resources",
+      "to": "/resources/",
+      "status": 308,
+      "notes": "Directory canonical."
+    },
+    {
+      "from": "/tools",
+      "to": "/tools/",
+      "status": 308,
+      "notes": "Directory canonical."
+    }
+  ]
+}

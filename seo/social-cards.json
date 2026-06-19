@@ -1,1 +1,29 @@
-{"cards":[]}
+{
+  "defaultImage": "/assets/social/og-placeholder.svg",
+  "cards": [
+    {
+      "page": "/",
+      "title": "The Radical Libertarian",
+      "image": "/assets/social/og-placeholder.svg",
+      "status": "placeholder"
+    },
+    {
+      "page": "/manifesto.html",
+      "title": "The Manifesto",
+      "image": "/assets/social/og-placeholder.svg",
+      "status": "placeholder"
+    },
+    {
+      "page": "/podcast.html",
+      "title": "Podcast",
+      "image": "/assets/social/og-placeholder.svg",
+      "status": "placeholder"
+    },
+    {
+      "page": "/tools/tyranny-detector.html",
+      "title": "Tyranny Detector",
+      "image": "/assets/social/og-placeholder.svg",
+      "status": "placeholder"
+    }
+  ]
+}

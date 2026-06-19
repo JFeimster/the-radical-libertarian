@@ -8,6 +8,20 @@ Master link registry for The Radical Libertarian.
 - GitHub repo: https://github.com/JFeimster/the-radical-libertarian
 - Vercel project: https://vercel.com/jason-feimsters-projects/the-radical-libertarian
 
+## SEO + Metadata
+
+- Robots: `/robots.txt`
+- Sitemap: `/sitemap.xml`
+- Manifest: `/site.webmanifest`
+- Metadata: `/metadata.json`
+- Open Graph Preview: `/opengraph.html`
+- 404 Page: `/404.html`
+- Humans: `/humans.txt`
+- SEO Pages Registry: `/seo/pages.json`
+- SEO Keywords: `/seo/keywords.json`
+- Social Cards Registry: `/seo/social-cards.json`
+- Schema.org JSON: `/seo/schema-org.json`
+
 ## Internal Pages
 
 ### Core

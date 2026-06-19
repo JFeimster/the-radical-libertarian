@@ -1,0 +1,9 @@
+{
+  "default": {
+    "title": "The Radical Libertarian",
+    "description": "Essays, podcasts, rants, and philosophical grenades for people allergic to permission slips.",
+    "type": "website",
+    "image": "/assets/social/og-placeholder.svg",
+    "siteName": "The Radical Libertarian"
+  }
+}

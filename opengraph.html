@@ -1,3 +1,80 @@
-<!DOCTYPE html><html><head><title>Open Graph Preview</title><link rel='stylesheet' href='style.css'>  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-</head><body><section class='page-hero'><div class='sticker'>Preview</div><h1>Open Graph Preview</h1><p>Use this page to preview social card direction.</p></section></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Open Graph Preview | The Radical Libertarian</title>
+  <meta name="description" content="A preview page for Open Graph and social-card assets for The Radical Libertarian." />
+
+  <meta property="og:title" content="Open Graph Preview | The Radical Libertarian" />
+  <meta property="og:description" content="A preview page for Open Graph and social-card assets for The Radical Libertarian." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/opengraph.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Open Graph Preview | The Radical Libertarian" />
+  <meta name="twitter:description" content="A preview page for Open Graph and social-card assets for The Radical Libertarian." />
+  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/opengraph.html" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain-overlay"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">T.R.L.</a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="essays.html">Essays</a>
+      <a href="manifesto.html">Manifesto</a>
+      <a href="podcast.html">Podcast</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="sticker">Social Metadata</div>
+      <h1>Open Graph Preview</h1>
+      <p>A preview page for Open Graph and social-card assets for The Radical Libertarian.</p>
+    </section>
+
+    <section class="seo-command">
+      <h2>Social preview staging area.</h2>
+      <p>This page exists to preview Open Graph and social-card direction. Replace placeholder cards with final PNG/WebP assets when ready.</p>
+    </section>
+
+    <section class="seo-grid">
+      <article class="seo-card">
+        <h3>Default OG Card</h3>
+        <p><img src="assets/social/og-placeholder.svg" alt="The Radical Libertarian OG placeholder" style="width:100%; border:4px solid #050505;" /></p>
+        <span class="seo-badge">Placeholder</span>
+      </article>
+
+      <article class="seo-card">
+        <h3>Metadata Files</h3>
+        <p>SEO metadata now lives in <code>seo/</code> and <code>metadata.json</code>.</p>
+        <span class="seo-badge">Registry</span>
+      </article>
+
+      <article class="seo-card">
+        <h3>Sitemap</h3>
+        <p>The sitemap includes core pages, archive pages, resources, and interactive tools.</p>
+        <span class="seo-badge">XML</span>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
+    <p class="footer-note">METADATA FOR THE MACHINES. SIGNAL FOR THE HUMANS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
