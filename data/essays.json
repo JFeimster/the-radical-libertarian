@@ -5,60 +5,110 @@
       "slug": "digital-serfdom",
       "url": "essays/digital-serfdom.html",
       "category": "Technology",
-      "tags": ["surveillance", "platforms", "digital-sovereignty"],
+      "tags": ["surveillance", "platforms", "digital-sovereignty", "convenience"],
       "excerpt": "How convenience became the leash and the login screen became the new border checkpoint.",
-      "status": "draft",
-      "featured": true
+      "status": "published",
+      "featured": true,
+      "readTimeMinutes": 6
+    },
+    {
+      "title": "Why Your Local Politician Is A Hologram",
+      "slug": "local-politician-hologram",
+      "url": "essays/local-politician-hologram.html",
+      "category": "Political Theater",
+      "tags": ["local-politics", "bureaucracy", "power", "civic-action"],
+      "excerpt": "A rant about power, theater, bureaucracy, and the machinery hiding behind local political stagecraft.",
+      "status": "published",
+      "featured": true,
+      "readTimeMinutes": 5
     },
     {
       "title": "Cryptographic Secession",
       "slug": "cryptographic-secession",
       "url": "essays/cryptographic-secession.html",
       "category": "Decentralization",
-      "tags": ["crypto", "privacy", "exit"],
+      "tags": ["crypto", "privacy", "exit", "self-custody"],
       "excerpt": "Building systems that do not beg brittle institutions for permission.",
-      "status": "draft",
-      "featured": true
+      "status": "published",
+      "featured": true,
+      "readTimeMinutes": 6
     },
     {
       "title": "The State Is A Fiction",
       "slug": "state-is-fiction",
       "url": "essays/state-is-fiction.html",
       "category": "Power",
-      "tags": ["state", "legitimacy", "political-theater"],
+      "tags": ["state", "legitimacy", "political-theater", "myth"],
       "excerpt": "A philosophical grenade aimed at legitimacy, narrative, paperwork, and power.",
-      "status": "planned",
-      "featured": false
+      "status": "published",
+      "featured": false,
+      "readTimeMinutes": 5
     },
     {
       "title": "Code Is Speech",
       "slug": "code-is-speech",
       "url": "essays/code-is-speech.html",
       "category": "Privacy",
-      "tags": ["encryption", "privacy", "censorship"],
+      "tags": ["encryption", "privacy", "censorship", "code"],
       "excerpt": "Encryption, privacy, censorship, and why math gives authoritarians night sweats.",
-      "status": "planned",
-      "featured": false
+      "status": "published",
+      "featured": false,
+      "readTimeMinutes": 5
     },
     {
       "title": "The Two-Party Mirage",
       "slug": "two-party-mirage",
       "url": "essays/two-party-mirage.html",
       "category": "Political Theater",
-      "tags": ["parties", "voting", "consensus"],
+      "tags": ["parties", "voting", "consensus", "power"],
       "excerpt": "When two brands sell the same cage with different bumper stickers.",
-      "status": "planned",
-      "featured": false
+      "status": "published",
+      "featured": false,
+      "readTimeMinutes": 5
     },
     {
       "title": "Central Bank Alchemy",
       "slug": "central-bank-alchemy",
       "url": "essays/central-bank-alchemy.html",
       "category": "Money",
-      "tags": ["fiat", "inflation", "central-banks"],
+      "tags": ["fiat", "inflation", "central-banks", "money"],
       "excerpt": "Fiat money, inflation, and monetary sorcery with a committee nameplate.",
-      "status": "planned",
-      "featured": false
+      "status": "published",
+      "featured": false,
+      "readTimeMinutes": 6
+    },
+    {
+      "title": "Manufactured Consent",
+      "slug": "manufactured-consent",
+      "url": "essays/manufactured-consent.html",
+      "category": "Media",
+      "tags": ["media", "propaganda", "consensus", "narrative"],
+      "excerpt": "Media narratives, institutional trust, and the pageantry of agreement.",
+      "status": "published",
+      "featured": false,
+      "readTimeMinutes": 5
+    },
+    {
+      "title": "The Surveillance State",
+      "slug": "surveillance-state",
+      "url": "essays/surveillance-state.html",
+      "category": "Surveillance",
+      "tags": ["surveillance", "privacy", "data", "platform-power"],
+      "excerpt": "Privacy erosion, convenience culture, and the comfort trap.",
+      "status": "published",
+      "featured": false,
+      "readTimeMinutes": 6
+    },
+    {
+      "title": "Exit Over Voice",
+      "slug": "exit-over-voice",
+      "url": "essays/exit-over-voice.html",
+      "category": "Personal Sovereignty",
+      "tags": ["exit", "voice", "sovereignty", "parallel-systems"],
+      "excerpt": "A practical argument for building escape hatches instead of complaint rituals.",
+      "status": "published",
+      "featured": false,
+      "readTimeMinutes": 5
     }
   ]
 }

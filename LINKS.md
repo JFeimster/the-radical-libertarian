@@ -8,6 +8,20 @@ Master link registry for The Radical Libertarian.
 - GitHub repo: https://github.com/JFeimster/the-radical-libertarian
 - Vercel project: https://vercel.com/jason-feimsters-projects/the-radical-libertarian
 
+## Essay Pages
+
+- Essays Index: `/essays.html`
+- The Architecture of Digital Serfdom: `/essays/digital-serfdom.html`
+- Why Your Local Politician Is A Hologram: `/essays/local-politician-hologram.html`
+- Cryptographic Secession: `/essays/cryptographic-secession.html`
+- The State Is A Fiction: `/essays/state-is-fiction.html`
+- Code Is Speech: `/essays/code-is-speech.html`
+- The Two-Party Mirage: `/essays/two-party-mirage.html`
+- Central Bank Alchemy: `/essays/central-bank-alchemy.html`
+- Manufactured Consent: `/essays/manufactured-consent.html`
+- The Surveillance State: `/essays/surveillance-state.html`
+- Exit Over Voice: `/essays/exit-over-voice.html`
+
 ## SEO + Metadata
 
 - Robots: `/robots.txt`
@@ -22,29 +36,7 @@ Master link registry for The Radical Libertarian.
 - Social Cards Registry: `/seo/social-cards.json`
 - Schema.org JSON: `/seo/schema-org.json`
 
-## Governance + Docs
-
-- Governance: `/GOVERNANCE.md`
-- Editorial Policy: `/EDITORIAL_POLICY.md`
-- Style Rules: `/STYLE_RULES.md`
-- Design System: `/design-system.md`
-- Brand Voice: `/brand-voice.md`
-- Content Taxonomy: `/content-taxonomy.md`
-- Copy Bank: `/copy-bank.md`
-- Image Prompts: `/image-prompts.md`
-- Social Post Prompts: `/social-post-prompts.md`
-- Prompts: `/PROMPTS.md`
-- Schemas README: `/schemas/README.md`
-
-## Data Governance
-
-- Brand System: `/data/brand-system.json`
-- Content Taxonomy JSON: `/data/content-taxonomy.json`
-- Copy Bank JSON: `/data/copy-bank.json`
-
-## Internal Pages
-
-### Core
+## Core Pages
 
 - Home: `/index.html`
 - Manifesto: `/manifesto.html`
@@ -54,7 +46,7 @@ Master link registry for The Radical Libertarian.
 - About: `/about.html`
 - Start Here: `/start-here.html`
 
-### Platform + Archive
+## Platform + Archive
 
 - YouTube: `/youtube.html`
 - Spotify: `/spotify.html`
@@ -68,7 +60,7 @@ Master link registry for The Radical Libertarian.
 - Podcast Episodes: `/podcast/episodes.html`
 - Listen Everywhere: `/podcast/listen.html`
 
-### Resource Hub
+## Resource Hub
 
 - Library: `/library.html`
 - Libertarian National: `/libertarian-national.html`
@@ -83,7 +75,7 @@ Master link registry for The Radical Libertarian.
 - Civic Action: `/resources/civic-action.html`
 - Local Groups: `/resources/local-groups.html`
 
-### Interactive Tools
+## Interactive Tools
 
 - Tools Index: `/tools/index.html`
 - Tyranny Detector: `/tools/tyranny-detector.html`

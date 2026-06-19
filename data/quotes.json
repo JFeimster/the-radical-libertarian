@@ -1,1 +1,84 @@
-{"quotes":["Freedom is not supposed to be comfortable.","The leash is always marketed as convenience.","Exit is a strategy. Voice is a suggestion box."]}
+{
+  "quotes": [
+    {
+      "text": "The leash is always marketed as convenience.",
+      "source": "The Architecture of Digital Serfdom",
+      "category": "Technology",
+      "tags": ["platforms", "dependency", "digital-sovereignty"],
+      "status": "approved",
+      "useCases": ["quote-card", "essay-pull-quote", "social-hook"]
+    },
+    {
+      "text": "The public gets a speech. The machine gets a mechanism.",
+      "source": "Why Your Local Politician Is A Hologram",
+      "category": "Political Theater",
+      "tags": ["local-politics", "bureaucracy"],
+      "status": "approved",
+      "useCases": ["quote-card", "podcast-hook"]
+    },
+    {
+      "text": "Cryptographic secession means making permission less necessary.",
+      "source": "Cryptographic Secession",
+      "category": "Decentralization",
+      "tags": ["crypto", "privacy", "exit"],
+      "status": "approved",
+      "useCases": ["quote-card", "essay-pull-quote"]
+    },
+    {
+      "text": "The state is a fiction with a billing department.",
+      "source": "The State Is A Fiction",
+      "category": "Power",
+      "tags": ["state", "legitimacy"],
+      "status": "approved",
+      "useCases": ["quote-card", "tagline"]
+    },
+    {
+      "text": "Privacy is not suspicious. It is a boundary.",
+      "source": "Code Is Speech",
+      "category": "Privacy",
+      "tags": ["privacy", "encryption"],
+      "status": "approved",
+      "useCases": ["quote-card", "tool-copy"]
+    },
+    {
+      "text": "A cage painted in your team colors is still a cage.",
+      "source": "The Two-Party Mirage",
+      "category": "Political Theater",
+      "tags": ["parties", "tribalism"],
+      "status": "approved",
+      "useCases": ["quote-card", "social-hook"]
+    },
+    {
+      "text": "Someone is moving the floor while you try to build a house.",
+      "source": "Central Bank Alchemy",
+      "category": "Money",
+      "tags": ["inflation", "fiat", "money"],
+      "status": "approved",
+      "useCases": ["quote-card", "essay-pull-quote"]
+    },
+    {
+      "text": "Thought dies when questions become status threats.",
+      "source": "Manufactured Consent",
+      "category": "Media",
+      "tags": ["media", "consensus", "narrative"],
+      "status": "approved",
+      "useCases": ["quote-card", "podcast-hook"]
+    },
+    {
+      "text": "The cage does not need to close if the bird budgets its wing movements.",
+      "source": "The Surveillance State",
+      "category": "Surveillance",
+      "tags": ["surveillance", "privacy"],
+      "status": "approved",
+      "useCases": ["quote-card", "essay-pull-quote"]
+    },
+    {
+      "text": "Exit is a strategy. Voice is a suggestion box.",
+      "source": "Exit Over Voice",
+      "category": "Personal Sovereignty",
+      "tags": ["exit", "sovereignty", "parallel-systems"],
+      "status": "approved",
+      "useCases": ["quote-card", "tagline"]
+    }
+  ]
+}

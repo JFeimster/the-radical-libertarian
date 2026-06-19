@@ -17,114 +17,87 @@ Status: complete.
 
 Status: complete.
 
-- [x] `youtube.html`
-- [x] `spotify.html`
-- [x] `instagram.html`
-- [x] `social.html`
-- [x] `subscribe.html`
-- [x] `archive/index.html`
-- [x] `archive/old-youtube-posts.html`
-- [x] `archive/old-instagram-posts.html`
-- [x] `archive/old-podcast-episodes.html`
-- [x] `podcast/episodes.html`
-- [x] `podcast/listen.html`
+- [x] YouTube / Spotify / Instagram bridge pages
+- [x] Archive pages
+- [x] Podcast listen and episode pages
 
 ## Phase 3 — Resource Hub
 
 Status: complete.
 
-- [x] `library.html`
-- [x] `libertarian-national.html`
-- [x] `resources/index.html`
-- [x] `resources/libertarian-party.html`
-- [x] `resources/state-parties.html`
-- [x] `resources/reading-list.html`
-- [x] `resources/organizations.html`
-- [x] `resources/tools.html`
-- [x] `resources/glossary.html`
-- [x] `resources/timeline.html`
-- [x] `resources/civic-action.html`
-- [x] `resources/local-groups.html`
-- [x] `data/resources.json`
-- [x] `data/glossary.json`
-- [x] `data/state-parties.json`
+- [x] Library page
+- [x] Libertarian National resource page
+- [x] Resources directory
+- [x] Reading list, organizations, tools, glossary, timeline, civic action, local groups
 
 ## Phase 4 — Interactive Tools
 
 Status: complete.
 
-- [x] `tools/index.html`
-- [x] `tools/tyranny-detector.html`
-- [x] `tools/boot-polisher-index.html`
-- [x] `tools/npc-narrative-checker.html`
-- [x] `tools/freedom-scorecard.html`
-- [x] `tools/exit-plan-builder.html`
-- [x] `tools/privacy-stack.html`
-- [x] `tools/parallel-economy-builder.html`
-- [x] `tools/philosophy-grenade-generator.html`
-- [x] `tools/propaganda-bingo.html`
-- [x] `tools/sovereignty-checklist.html`
-- [x] `data/tools.json`
-- [x] `js/toolkit.js`
+- [x] Tools index
+- [x] Tyranny Detector
+- [x] Boot Polisher Index
+- [x] NPC Narrative Checker
+- [x] Freedom Scorecard
+- [x] Exit Plan Builder
+- [x] Privacy Stack
+- [x] Parallel Economy Builder
+- [x] Philosophy Grenade Generator
+- [x] Propaganda Bingo
+- [x] Sovereignty Checklist
 
 ## Phase 5 — SEO + Metadata
 
 Status: complete.
 
-- [x] `robots.txt`
-- [x] `sitemap.xml`
-- [x] `site.webmanifest`
-- [x] `browserconfig.xml`
-- [x] `metadata.json`
-- [x] `opengraph.html`
-- [x] `404.html`
-- [x] `humans.txt`
-- [x] `_headers`
-- [x] `seo/pages.json`
-- [x] `seo/social-cards.json`
-- [x] `seo/redirects.json`
-- [x] `seo/keywords.json`
-- [x] `seo/schema-org.json`
-- [x] `seo/open-graph.json`
-- [x] `seo/twitter-cards.json`
-- [x] `assets/social/og-placeholder.svg`
+- [x] Robots
+- [x] Sitemap
+- [x] Manifest
+- [x] Metadata JSON
+- [x] Open Graph preview
+- [x] 404
+- [x] SEO registries
 
 ## Phase 6 — Schemas + Governance
 
 Status: complete.
 
-- [x] `schemas/essay.schema.json`
-- [x] `schemas/podcast-episode.schema.json`
-- [x] `schemas/resource.schema.json`
-- [x] `schemas/quote.schema.json`
-- [x] `schemas/platform-link.schema.json`
-- [x] `schemas/glossary-term.schema.json`
-- [x] `schemas/tool.schema.json`
-- [x] `schemas/manifesto.schema.json`
-- [x] `schemas/site-page.schema.json`
-- [x] `schemas/archive-item.schema.json`
-- [x] `schemas/README.md`
-- [x] `design-system.md`
-- [x] `brand-voice.md`
-- [x] `content-taxonomy.md`
-- [x] `copy-bank.md`
-- [x] `image-prompts.md`
-- [x] `social-post-prompts.md`
-- [x] `PROMPTS.md`
-- [x] `GOVERNANCE.md`
-- [x] `EDITORIAL_POLICY.md`
-- [x] `STYLE_RULES.md`
-- [x] `data/brand-system.json`
-- [x] `data/content-taxonomy.json`
-- [x] `data/copy-bank.json`
+- [x] JSON schemas
+- [x] Brand voice
+- [x] Design system
+- [x] Content taxonomy
+- [x] Copy bank
+- [x] Prompt docs
+- [x] Governance docs
 
 ## Phase 7 — Essay Detail Pages + Content Fill
 
+Status: complete.
+
+- [x] The Architecture of Digital Serfdom
+- [x] Why Your Local Politician Is A Hologram
+- [x] Cryptographic Secession
+- [x] The State Is A Fiction
+- [x] Code Is Speech
+- [x] The Two-Party Mirage
+- [x] Central Bank Alchemy
+- [x] Manufactured Consent
+- [x] The Surveillance State
+- [x] Exit Over Voice
+- [x] Updated `essays.html`
+- [x] Updated `data/essays.json`
+- [x] Updated `data/quotes.json`
+- [x] Updated `data/tags.json`
+- [x] Updated sitemap and SEO essay registry
+
+## Phase 8 — Podcast + Media Content Fill
+
 Recommended next:
 
-- Flesh out essay detail pages under `essays/`
-- Add real podcast URLs
-- Add real YouTube and Spotify links
-- Add real resource entries
-- Generate final social card images
-- Add static search/index page
+- Add real YouTube channel URL
+- Add real Spotify show URL
+- Add podcast episode cards
+- Add transcript pages
+- Add clips page
+- Add guest intake page
+- Add YouTube/Spotify embeds

@@ -1,1 +1,28 @@
-{"featured":[]}
+{
+  "featured": [
+    {
+      "type": "essay",
+      "title": "The Architecture of Digital Serfdom",
+      "url": "essays/digital-serfdom.html",
+      "excerpt": "How convenience became the leash and the login screen became the new border checkpoint."
+    },
+    {
+      "type": "essay",
+      "title": "Why Your Local Politician Is A Hologram",
+      "url": "essays/local-politician-hologram.html",
+      "excerpt": "A rant about power, theater, bureaucracy, and the machinery hiding behind local political stagecraft."
+    },
+    {
+      "type": "essay",
+      "title": "Cryptographic Secession",
+      "url": "essays/cryptographic-secession.html",
+      "excerpt": "Building systems that do not beg brittle institutions for permission."
+    },
+    {
+      "type": "tool",
+      "title": "Tyranny Detector",
+      "url": "tools/tyranny-detector.html",
+      "excerpt": "A satirical policy sniff test for tyranny, theater, and bureaucratic nonsense."
+    }
+  ]
+}

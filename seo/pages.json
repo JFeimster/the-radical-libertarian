@@ -1,335 +1,67 @@
 {
-  "generated": "2026-06-19",
-  "pages": [
-    {
-      "changefreq": "weekly",
-      "canonical": "https://the-radical-libertarian.vercel.app/",
-      "priority": "1.0",
-      "description": "Essays, podcasts, rants, and philosophical grenades for people who distrust both the boot and the person begging to polish it.",
-      "path": "/",
-      "title": "The Radical Libertarian"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/manifesto.html",
-      "priority": "0.9",
-      "description": "The operating principles behind The Radical Libertarian.",
-      "path": "/manifesto.html",
-      "title": "The Manifesto"
-    },
-    {
-      "changefreq": "weekly",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays.html",
-      "priority": "0.9",
-      "description": "Essays, rants, philosophy, and anti-consensus firepower.",
-      "path": "/essays.html",
-      "title": "Essays"
-    },
-    {
-      "changefreq": "weekly",
-      "canonical": "https://the-radical-libertarian.vercel.app/podcast.html",
-      "priority": "0.9",
-      "description": "The Radical Libertarian Podcast hub.",
-      "path": "/podcast.html",
-      "title": "Podcast"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/join.html",
-      "priority": "0.8",
-      "description": "Subscribe, follow, listen, share, and help distribute the signal.",
-      "path": "/join.html",
-      "title": "Join The Signal"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/about.html",
-      "priority": "0.6",
-      "description": "The origin, mission, and voice behind The Radical Libertarian.",
-      "path": "/about.html",
-      "title": "About"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/start-here.html",
-      "priority": "0.8",
-      "description": "A quick orientation page for new visitors.",
-      "path": "/start-here.html",
-      "title": "Start Here"
-    },
-    {
-      "changefreq": "weekly",
-      "canonical": "https://the-radical-libertarian.vercel.app/youtube.html",
-      "priority": "0.7",
-      "description": "Video archive and playlist hub.",
-      "path": "/youtube.html",
-      "title": "YouTube"
-    },
-    {
-      "changefreq": "weekly",
-      "canonical": "https://the-radical-libertarian.vercel.app/spotify.html",
-      "priority": "0.7",
-      "description": "Audio archive and listening hub.",
-      "path": "/spotify.html",
-      "title": "Spotify"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/instagram.html",
-      "priority": "0.6",
-      "description": "Social landing page and archive bridge.",
-      "path": "/instagram.html",
-      "title": "Instagram"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/social.html",
-      "priority": "0.7",
-      "description": "Brutalist link hub.",
-      "path": "/social.html",
-      "title": "Social Links"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/subscribe.html",
-      "priority": "0.7",
-      "description": "Direct subscription page.",
-      "path": "/subscribe.html",
-      "title": "Subscribe"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/library.html",
-      "priority": "0.8",
-      "description": "Resource library for liberty, decentralization, privacy, civic action, and personal sovereignty.",
-      "path": "/library.html",
-      "title": "Library"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/libertarian-national.html",
-      "priority": "0.6",
-      "description": "Independent resource page linking visitors to LP.org.",
-      "path": "/libertarian-national.html",
-      "title": "Libertarian National"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/archive/",
-      "priority": "0.7",
-      "description": "Recovered older content from YouTube, Spotify, and Instagram.",
-      "path": "/archive/",
-      "title": "Archive"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/archive/old-youtube-posts.html",
-      "priority": "0.5",
-      "description": "Recovery page for older YouTube content.",
-      "path": "/archive/old-youtube-posts.html",
-      "title": "Old YouTube Posts"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/archive/old-instagram-posts.html",
-      "priority": "0.5",
-      "description": "Recovery page for older Instagram content.",
-      "path": "/archive/old-instagram-posts.html",
-      "title": "Old Instagram Posts"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/archive/old-podcast-episodes.html",
-      "priority": "0.5",
-      "description": "Recovery page for older podcast episodes.",
-      "path": "/archive/old-podcast-episodes.html",
-      "title": "Old Podcast Episodes"
-    },
-    {
-      "changefreq": "weekly",
-      "canonical": "https://the-radical-libertarian.vercel.app/podcast/episodes.html",
-      "priority": "0.7",
-      "description": "Static podcast episode archive.",
-      "path": "/podcast/episodes.html",
-      "title": "Podcast Episodes"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/podcast/listen.html",
-      "priority": "0.7",
-      "description": "All podcast listening and subscription links.",
-      "path": "/podcast/listen.html",
-      "title": "Listen Everywhere"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/",
-      "priority": "0.8",
-      "description": "Resource hub for liberty, privacy, decentralization, and local action.",
-      "path": "/resources/",
-      "title": "Resources"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/libertarian-party.html",
-      "priority": "0.6",
-      "description": "Independent resource page for LP.org links and context.",
-      "path": "/resources/libertarian-party.html",
-      "title": "Libertarian Party"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/state-parties.html",
-      "priority": "0.6",
-      "description": "Future directory for state-party affiliates.",
-      "path": "/resources/state-parties.html",
-      "title": "State Parties"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/reading-list.html",
-      "priority": "0.7",
-      "description": "Reading list for liberty, money, privacy, decentralization, and personal sovereignty.",
-      "path": "/resources/reading-list.html",
-      "title": "Reading List"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/organizations.html",
-      "priority": "0.7",
-      "description": "Directory scaffold for liberty organizations and media projects.",
-      "path": "/resources/organizations.html",
-      "title": "Organizations"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/tools.html",
-      "priority": "0.7",
-      "description": "Practical tool stack for privacy, publishing, money, and sovereignty.",
-      "path": "/resources/tools.html",
-      "title": "Tools"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/glossary.html",
-      "priority": "0.7",
-      "description": "Glossary of liberty, money, privacy, decentralization, and media terms.",
-      "path": "/resources/glossary.html",
-      "title": "Glossary"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/timeline.html",
-      "priority": "0.6",
-      "description": "Timeline scaffold for liberty, money, privacy, and platform power.",
-      "path": "/resources/timeline.html",
-      "title": "Timeline"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/civic-action.html",
-      "priority": "0.7",
-      "description": "Practical civic action ideas.",
-      "path": "/resources/civic-action.html",
-      "title": "Civic Action"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/resources/local-groups.html",
-      "priority": "0.6",
-      "description": "Future directory for local liberty groups.",
-      "path": "/resources/local-groups.html",
-      "title": "Local Groups"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/",
-      "priority": "0.8",
-      "description": "Interactive scorecards, checklists, generators, and printable tools.",
-      "path": "/tools/",
-      "title": "Tools"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/tyranny-detector.html",
-      "priority": "0.7",
-      "description": "Satirical policy sniff test for tyranny and bureaucratic nonsense.",
-      "path": "/tools/tyranny-detector.html",
-      "title": "Tyranny Detector"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/boot-polisher-index.html",
-      "priority": "0.6",
-      "description": "Comedic scorecard for institutional obedience.",
-      "path": "/tools/boot-polisher-index.html",
-      "title": "Boot Polisher Index"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/npc-narrative-checker.html",
-      "priority": "0.6",
-      "description": "Satirical checker for recycled consensus sludge.",
-      "path": "/tools/npc-narrative-checker.html",
-      "title": "NPC Narrative Checker"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/freedom-scorecard.html",
-      "priority": "0.7",
-      "description": "Personal liberty self-audit.",
-      "path": "/tools/freedom-scorecard.html",
-      "title": "Freedom Scorecard"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/exit-plan-builder.html",
-      "priority": "0.7",
-      "description": "Checklist for money, media, tech, skills, and community independence.",
-      "path": "/tools/exit-plan-builder.html",
-      "title": "Exit Plan Builder"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/privacy-stack.html",
-      "priority": "0.7",
-      "description": "Basic digital privacy checklist.",
-      "path": "/tools/privacy-stack.html",
-      "title": "Privacy Stack"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/parallel-economy-builder.html",
-      "priority": "0.7",
-      "description": "Checklist for local trade, independent income, and resilience.",
-      "path": "/tools/parallel-economy-builder.html",
-      "title": "Parallel Economy Builder"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/philosophy-grenade-generator.html",
-      "priority": "0.7",
-      "description": "Random quote and rant-line generator.",
-      "path": "/tools/philosophy-grenade-generator.html",
-      "title": "Philosophy Grenade Generator"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/propaganda-bingo.html",
-      "priority": "0.6",
-      "description": "Printable bingo card for media narratives and political theater.",
-      "path": "/tools/propaganda-bingo.html",
-      "title": "Propaganda Bingo"
-    },
-    {
-      "changefreq": "monthly",
-      "canonical": "https://the-radical-libertarian.vercel.app/tools/sovereignty-checklist.html",
-      "priority": "0.7",
-      "description": "Personal sovereignty checklist.",
-      "path": "/tools/sovereignty-checklist.html",
-      "title": "Sovereignty Checklist"
-    }
-  ],
   "site": "The Radical Libertarian",
-  "baseUrl": "https://the-radical-libertarian.vercel.app"
+  "baseUrl": "https://the-radical-libertarian.vercel.app",
+  "batch7Updated": true,
+  "essayPages": [
+    {
+      "title": "The Architecture of Digital Serfdom",
+      "path": "/essays/digital-serfdom.html",
+      "description": "How convenience became the leash and the login screen became the new border checkpoint.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/digital-serfdom.html"
+    },
+    {
+      "title": "Why Your Local Politician Is A Hologram",
+      "path": "/essays/local-politician-hologram.html",
+      "description": "A rant about power, theater, bureaucracy, and the machinery hiding behind local political stagecraft.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/local-politician-hologram.html"
+    },
+    {
+      "title": "Cryptographic Secession",
+      "path": "/essays/cryptographic-secession.html",
+      "description": "Building systems that do not beg brittle institutions for permission.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/cryptographic-secession.html"
+    },
+    {
+      "title": "The State Is A Fiction",
+      "path": "/essays/state-is-fiction.html",
+      "description": "A philosophical grenade aimed at legitimacy, narrative, paperwork, and power.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/state-is-fiction.html"
+    },
+    {
+      "title": "Code Is Speech",
+      "path": "/essays/code-is-speech.html",
+      "description": "Encryption, privacy, censorship, and why math gives authoritarians night sweats.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/code-is-speech.html"
+    },
+    {
+      "title": "The Two-Party Mirage",
+      "path": "/essays/two-party-mirage.html",
+      "description": "When two brands sell the same cage with different bumper stickers.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/two-party-mirage.html"
+    },
+    {
+      "title": "Central Bank Alchemy",
+      "path": "/essays/central-bank-alchemy.html",
+      "description": "Fiat money, inflation, and monetary sorcery with a committee nameplate.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/central-bank-alchemy.html"
+    },
+    {
+      "title": "Manufactured Consent",
+      "path": "/essays/manufactured-consent.html",
+      "description": "Media narratives, institutional trust, and the pageantry of agreement.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/manufactured-consent.html"
+    },
+    {
+      "title": "The Surveillance State",
+      "path": "/essays/surveillance-state.html",
+      "description": "Privacy erosion, convenience culture, and the comfort trap.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/surveillance-state.html"
+    },
+    {
+      "title": "Exit Over Voice",
+      "path": "/essays/exit-over-voice.html",
+      "description": "A practical argument for building escape hatches instead of complaint rituals.",
+      "canonical": "https://the-radical-libertarian.vercel.app/essays/exit-over-voice.html"
+    }
+  ]
 }
