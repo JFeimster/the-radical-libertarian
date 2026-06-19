@@ -5,8 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Podcast | The Radical Libertarian</title>
-  <meta name="description" content="The Radical Libertarian Podcast hub for YouTube, Spotify, episode archives, clips, transcripts, and future audio grenades." />
+  <meta name="description" content="The Radical Libertarian Podcast hub for YouTube, Spotify, episode archives, clips, transcripts, and guest pitches." />
 
+  <meta property="og:title" content="Podcast | The Radical Libertarian" />
+  <meta property="og:description" content="The Radical Libertarian Podcast hub for YouTube, Spotify, episode archives, clips, transcripts, and guest pitches." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/podcast.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Podcast | The Radical Libertarian" />
+  <meta name="twitter:description" content="The Radical Libertarian Podcast hub for YouTube, Spotify, episode archives, clips, transcripts, and guest pitches." />
+  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/podcast.html" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -28,39 +40,59 @@
     <section class="page-hero">
       <div class="sticker">Podcast Hub</div>
       <h1>Podcast</h1>
-      <p>The Radical Libertarian Podcast hub for YouTube, Spotify, episode archives, clips, transcripts, and future audio grenades.</p>
+      <p>The Radical Libertarian Podcast hub for YouTube, Spotify, episode archives, clips, transcripts, and guest pitches.</p>
     </section>
 
-    <section class="page-stack">
-      <div class="callout-red">
-        <h2>The audio grenade rack.</h2>
-        <p>Use this page to route listeners to YouTube, Spotify, clips, transcripts, episode archives, and future guest requests.</p>
-      </div>
+    <section class="media-command">
+      <h2>The audio grenade rack.</h2>
+      <p>The Radical Libertarian Podcast hub for episodes, clips, transcripts, YouTube, Spotify, guest pitches, and future syndication. Old content gets recovered. New content gets weaponized into signal.</p>
     </section>
 
-    <section class="link-grid">
-      <a class="link-card" href="youtube.html">
-        <h3>YouTube</h3>
-        <p>The Radical Libertarian Podcast video archive and future playlist embeds.</p>
-      </a>
-
-      <a class="link-card" href="spotify.html">
-        <h3>Spotify</h3>
-        <p>The Radical Libertarian on Spotify. Audio archive and listening hub.</p>
-      </a>
-
-      <a class="link-card" href="podcast/episodes.html">
+    <section class="media-grid">
+      <a class="media-card" href="podcast/episodes.html">
         <h3>Episodes</h3>
-        <p>Static episode archive powered by metadata today, automation goblins tomorrow.</p>
+        <p>Static episode archive with metadata, summaries, and future embeds.</p>
+        <span class="media-badge">Archive</span>
+      </a>
+
+      <a class="media-card" href="podcast/listen.html">
+        <h3>Listen Everywhere</h3>
+        <p>Spotify, YouTube, RSS, direct links, and platform routing.</p>
+        <span class="media-badge">Distribution</span>
+      </a>
+
+      <a class="media-card" href="podcast/clips.html">
+        <h3>Clips</h3>
+        <p>Short-form clip ideas for Shorts, Reels, quote cards, and social hooks.</p>
+        <span class="media-badge">Repurpose</span>
+      </a>
+
+      <a class="media-card" href="podcast/transcripts.html">
+        <h3>Transcripts</h3>
+        <p>Transcript archive scaffold for SEO, accessibility, and content repurposing.</p>
+        <span class="media-badge">SEO</span>
+      </a>
+
+      <a class="media-card" href="podcast/topics.html">
+        <h3>Topics</h3>
+        <p>Liberty, money, privacy, decentralization, culture, media, and political theater.</p>
+        <span class="media-badge">Clusters</span>
+      </a>
+
+      <a class="media-card" href="podcast/guest-intake.html">
+        <h3>Guest Intake</h3>
+        <p>Static guest pitch scaffold ready for a real form provider.</p>
+        <span class="media-badge">Booking</span>
       </a>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">AUDIO GRENADES. VIDEO SIGNALS. ARCHIVE EVERYTHING.</p>
   </footer>
 
   <script src="script.js"></script>
+  <script src="js/media.js"></script>
 </body>
 </html>

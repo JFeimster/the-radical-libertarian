@@ -28,23 +28,13 @@ Status: complete.
 - [x] Library page
 - [x] Libertarian National resource page
 - [x] Resources directory
-- [x] Reading list, organizations, tools, glossary, timeline, civic action, local groups
 
 ## Phase 4 — Interactive Tools
 
 Status: complete.
 
 - [x] Tools index
-- [x] Tyranny Detector
-- [x] Boot Polisher Index
-- [x] NPC Narrative Checker
-- [x] Freedom Scorecard
-- [x] Exit Plan Builder
-- [x] Privacy Stack
-- [x] Parallel Economy Builder
-- [x] Philosophy Grenade Generator
-- [x] Propaganda Bingo
-- [x] Sovereignty Checklist
+- [x] Interactive scorecards/checklists/generator/printable
 
 ## Phase 5 — SEO + Metadata
 
@@ -74,30 +64,43 @@ Status: complete.
 
 Status: complete.
 
-- [x] The Architecture of Digital Serfdom
-- [x] Why Your Local Politician Is A Hologram
-- [x] Cryptographic Secession
-- [x] The State Is A Fiction
-- [x] Code Is Speech
-- [x] The Two-Party Mirage
-- [x] Central Bank Alchemy
-- [x] Manufactured Consent
-- [x] The Surveillance State
-- [x] Exit Over Voice
-- [x] Updated `essays.html`
-- [x] Updated `data/essays.json`
-- [x] Updated `data/quotes.json`
-- [x] Updated `data/tags.json`
-- [x] Updated sitemap and SEO essay registry
+- [x] 10 essay detail pages
+- [x] Essay index
+- [x] Essay metadata
+- [x] Quotes and tags
 
 ## Phase 8 — Podcast + Media Content Fill
 
+Status: complete.
+
+- [x] `podcast.html`
+- [x] `podcast/index.html`
+- [x] `podcast/episodes.html`
+- [x] `podcast/episode-template.html`
+- [x] `podcast/listen.html`
+- [x] `podcast/youtube.html`
+- [x] `podcast/spotify.html`
+- [x] `podcast/topics.html`
+- [x] `podcast/clips.html`
+- [x] `podcast/transcripts.html`
+- [x] `podcast/guest-intake.html`
+- [x] Updated `youtube.html`
+- [x] Updated `spotify.html`
+- [x] `data/podcast-episodes.json`
+- [x] `data/podcast-topics.json`
+- [x] `data/media-platforms.json`
+- [x] `data/clip-ideas.json`
+- [x] `data/transcripts.json`
+- [x] `data/guest-intake.json`
+- [x] `js/media.js`
+
+## Phase 9 — Assets + Social Images
+
 Recommended next:
 
-- Add real YouTube channel URL
-- Add real Spotify show URL
-- Add podcast episode cards
-- Add transcript pages
-- Add clips page
-- Add guest intake page
-- Add YouTube/Spotify embeds
+- Add asset README files
+- Add SVG placeholders for major page images
+- Add social card prompt registry
+- Add OG card variants for core pages
+- Add site icon variants
+- Add image prompt library

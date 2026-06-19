@@ -4,18 +4,78 @@
     "spotifyUrl": "",
     "youtubeUrl": "",
     "instagramUrl": "https://www.instagram.com/radicallibertarian",
-    "description": "Essays, rants, interviews, and philosophical grenades for people allergic to permission slips."
+    "description": "Essays, rants, interviews, and philosophical grenades for people allergic to permission slips.",
+    "status": "platform-urls-needed"
   },
   "episodes": [
     {
       "episodeNumber": 1,
       "title": "Welcome to the Unfiltered Republic",
       "slug": "welcome-to-the-unfiltered-republic",
-      "summary": "A starter episode explaining the mission, tone, and ideological operating system behind The Radical Libertarian.",
+      "summary": "The opening salvo: what this show is, what it is not, and why comfort is overrated.",
+      "topics": ["personal-sovereignty", "free-speech", "decentralization", "media"],
       "youtubeUrl": "",
       "spotifyUrl": "",
       "transcriptUrl": "",
       "status": "planned"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "The Architecture of Digital Serfdom",
+      "slug": "architecture-of-digital-serfdom",
+      "summary": "Convenience, platform dependency, digital borders, and how the login screen became a checkpoint.",
+      "topics": ["digital-sovereignty", "surveillance", "platform-power"],
+      "youtubeUrl": "",
+      "spotifyUrl": "",
+      "transcriptUrl": "essays/digital-serfdom.html",
+      "status": "planned"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "Exit Over Voice",
+      "slug": "exit-over-voice",
+      "summary": "Why building an escape hatch beats yelling at the suggestion box.",
+      "topics": ["exit-over-voice", "parallel-systems", "personal-sovereignty"],
+      "youtubeUrl": "",
+      "spotifyUrl": "",
+      "transcriptUrl": "essays/exit-over-voice.html",
+      "status": "planned"
+    },
+    {
+      "episodeNumber": 4,
+      "title": "Code Is Speech",
+      "slug": "code-is-speech",
+      "summary": "Encryption, privacy, censorship, and why math gives authoritarians night sweats.",
+      "topics": ["privacy", "encryption", "free-speech", "censorship"],
+      "youtubeUrl": "",
+      "spotifyUrl": "",
+      "transcriptUrl": "essays/code-is-speech.html",
+      "status": "planned"
+    },
+    {
+      "episodeNumber": 5,
+      "title": "The Two-Party Mirage",
+      "slug": "two-party-mirage",
+      "summary": "When two brands sell the same cage with different bumper stickers.",
+      "topics": ["political-theater", "parties", "power"],
+      "youtubeUrl": "",
+      "spotifyUrl": "",
+      "transcriptUrl": "essays/two-party-mirage.html",
+      "status": "planned"
+    }
+  ],
+  "recoveryQueue": [
+    {
+      "source": "YouTube",
+      "label": "The Radical Libertarian Podcast",
+      "url": "",
+      "status": "needs-url"
+    },
+    {
+      "source": "Spotify",
+      "label": "The Radical Libertarian on Spotify",
+      "url": "",
+      "status": "needs-url"
     }
   ]
 }

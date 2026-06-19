@@ -1,67 +1,42 @@
 {
   "site": "The Radical Libertarian",
   "baseUrl": "https://the-radical-libertarian.vercel.app",
-  "batch7Updated": true,
-  "essayPages": [
+  "batch8Updated": true,
+  "podcastPages": [
     {
-      "title": "The Architecture of Digital Serfdom",
-      "path": "/essays/digital-serfdom.html",
-      "description": "How convenience became the leash and the login screen became the new border checkpoint.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/digital-serfdom.html"
+      "title": "Podcast",
+      "path": "/podcast.html",
+      "description": "The Radical Libertarian Podcast hub for YouTube, Spotify, episode archives, clips, transcripts, and guest pitches."
     },
     {
-      "title": "Why Your Local Politician Is A Hologram",
-      "path": "/essays/local-politician-hologram.html",
-      "description": "A rant about power, theater, bureaucracy, and the machinery hiding behind local political stagecraft.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/local-politician-hologram.html"
+      "title": "Podcast Command Center",
+      "path": "/podcast/",
+      "description": "The folder home for podcast episodes, links, clips, transcripts, topics, and guest intake."
     },
     {
-      "title": "Cryptographic Secession",
-      "path": "/essays/cryptographic-secession.html",
-      "description": "Building systems that do not beg brittle institutions for permission.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/cryptographic-secession.html"
+      "title": "Podcast Episodes",
+      "path": "/podcast/episodes.html",
+      "description": "A static episode archive for The Radical Libertarian Podcast."
     },
     {
-      "title": "The State Is A Fiction",
-      "path": "/essays/state-is-fiction.html",
-      "description": "A philosophical grenade aimed at legitimacy, narrative, paperwork, and power.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/state-is-fiction.html"
+      "title": "Listen Everywhere",
+      "path": "/podcast/listen.html",
+      "description": "All podcast listening and subscription links for The Radical Libertarian."
     },
     {
-      "title": "Code Is Speech",
-      "path": "/essays/code-is-speech.html",
-      "description": "Encryption, privacy, censorship, and why math gives authoritarians night sweats.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/code-is-speech.html"
+      "title": "Podcast Clips",
+      "path": "/podcast/clips.html",
+      "description": "Short-form clip ideas, quote hooks, and repurposing prompts."
     },
     {
-      "title": "The Two-Party Mirage",
-      "path": "/essays/two-party-mirage.html",
-      "description": "When two brands sell the same cage with different bumper stickers.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/two-party-mirage.html"
+      "title": "Podcast Transcripts",
+      "path": "/podcast/transcripts.html",
+      "description": "Transcript archive scaffold for The Radical Libertarian Podcast."
     },
     {
-      "title": "Central Bank Alchemy",
-      "path": "/essays/central-bank-alchemy.html",
-      "description": "Fiat money, inflation, and monetary sorcery with a committee nameplate.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/central-bank-alchemy.html"
-    },
-    {
-      "title": "Manufactured Consent",
-      "path": "/essays/manufactured-consent.html",
-      "description": "Media narratives, institutional trust, and the pageantry of agreement.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/manufactured-consent.html"
-    },
-    {
-      "title": "The Surveillance State",
-      "path": "/essays/surveillance-state.html",
-      "description": "Privacy erosion, convenience culture, and the comfort trap.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/surveillance-state.html"
-    },
-    {
-      "title": "Exit Over Voice",
-      "path": "/essays/exit-over-voice.html",
-      "description": "A practical argument for building escape hatches instead of complaint rituals.",
-      "canonical": "https://the-radical-libertarian.vercel.app/essays/exit-over-voice.html"
+      "title": "Guest Intake",
+      "path": "/podcast/guest-intake.html",
+      "description": "A static guest pitch scaffold for The Radical Libertarian Podcast."
     }
   ]
 }

@@ -5,10 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Episode Template | The Radical Libertarian</title>
-  <meta name="description" content="Reusable static template for future podcast episodes." />
+  <meta name="description" content="A reusable static template for future Radical Libertarian podcast episode pages." />
 
-  <link rel="stylesheet" href="../style.css" />
+  <meta property="og:title" content="Episode Template | The Radical Libertarian" />
+  <meta property="og:description" content="A reusable static template for future Radical Libertarian podcast episode pages." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/podcast/episode-template.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Episode Template | The Radical Libertarian" />
+  <meta name="twitter:description" content="A reusable static template for future Radical Libertarian podcast episode pages." />
+  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/podcast/episode-template.html" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +38,39 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Podcast Layer</div>
+      <div class="sticker">Template</div>
       <h1>Episode Template</h1>
-      <p>Reusable static template for future podcast episodes.</p>
+      <p>A reusable static template for future Radical Libertarian podcast episode pages.</p>
     </section>
 
-    <section class='podcast-grid'><article class='podcast-card'><h3>YouTube</h3><p>Add YouTube embeds or links.</p></article><article class='podcast-card'><h3>Spotify</h3><p>Add Spotify embeds or links.</p></article><article class='podcast-card'><h3>Archive</h3><p>Use data/podcast-episodes.json to power this section later.</p></article></section>
+    <section class="media-command">
+      <h2>Reusable episode template.</h2>
+      <p>Duplicate this structure when creating a new static episode page. Replace the placeholders, wire real URLs, and harvest clips like a civilized maniac.</p>
+    </section>
+
+    <section class="media-table">
+      <div class="media-row"><strong>Field</strong><strong>Value</strong><strong>Status</strong></div>
+      <div class="media-row"><span>Episode Number</span><span>TODO</span><span>Required</span></div>
+      <div class="media-row"><span>Title</span><span>TODO</span><span>Required</span></div>
+      <div class="media-row"><span>Spotify URL</span><span>TODO</span><span>Optional</span></div>
+      <div class="media-row"><span>YouTube URL</span><span>TODO</span><span>Optional</span></div>
+      <div class="media-row"><span>Transcript URL</span><span>TODO</span><span>Optional</span></div>
+      <div class="media-row"><span>Clip Ideas</span><span>3–10 short hooks</span><span>Recommended</span></div>
+    </section>
+
+    <section class="episode-grid">
+      <article class="episode-card"><h3>Summary</h3><p>Add the episode summary here.</p><span class="media-badge">Summary</span></article>
+      <article class="episode-card"><h3>Topics</h3><p>Add topic tags and related essays here.</p><span class="media-badge">Topics</span></article>
+      <article class="episode-card"><h3>Clips</h3><p>Add clip hooks and social snippets here.</p><span class="media-badge">Repurpose</span></article>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">AUDIO GRENADES. VIDEO SIGNALS. ARCHIVE EVERYTHING.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/media.js"></script>
 </body>
 </html>
-

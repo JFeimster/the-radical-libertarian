@@ -1,0 +1,34 @@
+{
+  "topics": [
+    {
+      "name": "Personal Sovereignty",
+      "slug": "personal-sovereignty",
+      "description": "Self-ownership, exit strategy, skills, money, privacy, and local leverage."
+    },
+    {
+      "name": "Digital Serfdom",
+      "slug": "digital-serfdom",
+      "description": "Platforms, surveillance, identity systems, censorship, and audience captivity."
+    },
+    {
+      "name": "Money & Fiat Theater",
+      "slug": "money-fiat-theater",
+      "description": "Central banks, inflation, debt, payment rails, and financial sovereignty."
+    },
+    {
+      "name": "Political Theater",
+      "slug": "political-theater",
+      "description": "Two-party mirage, local bureaucracy, legitimacy, consent, and civic fog machines."
+    },
+    {
+      "name": "Media & Narrative",
+      "slug": "media-narrative",
+      "description": "Manufactured consent, propaganda patterns, NPC scripts, and information hygiene."
+    },
+    {
+      "name": "Parallel Systems",
+      "slug": "parallel-systems",
+      "description": "Agorism, local groups, independent media, crypto rails, and community resilience."
+    }
+  ]
+}

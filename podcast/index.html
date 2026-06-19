@@ -4,11 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Podcast Hub | The Radical Libertarian</title>
-  <meta name="description" content="The home base for episodes, clips, transcripts, and listening links." />
+  <title>Podcast Command Center | The Radical Libertarian</title>
+  <meta name="description" content="The folder home for Radical Libertarian podcast episodes, links, clips, transcripts, topics, and guest intake." />
 
-  <link rel="stylesheet" href="../style.css" />
+  <meta property="og:title" content="Podcast Command Center | The Radical Libertarian" />
+  <meta property="og:description" content="The folder home for Radical Libertarian podcast episodes, links, clips, transcripts, topics, and guest intake." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/podcast/" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Podcast Command Center | The Radical Libertarian" />
+  <meta name="twitter:description" content="The folder home for Radical Libertarian podcast episodes, links, clips, transcripts, topics, and guest intake." />
+  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/podcast/" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +38,32 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Podcast Layer</div>
-      <h1>Podcast Hub</h1>
-      <p>The home base for episodes, clips, transcripts, and listening links.</p>
+      <div class="sticker">Audio OS</div>
+      <h1>Podcast Command Center</h1>
+      <p>The folder home for Radical Libertarian podcast episodes, links, clips, transcripts, topics, and guest intake.</p>
     </section>
 
-    <section class='podcast-grid'><article class='podcast-card'><h3>YouTube</h3><p>Add YouTube embeds or links.</p></article><article class='podcast-card'><h3>Spotify</h3><p>Add Spotify embeds or links.</p></article><article class='podcast-card'><h3>Archive</h3><p>Use data/podcast-episodes.json to power this section later.</p></article></section>
+    <section class="media-command">
+      <h2>Podcast command center.</h2>
+      <p>Use this folder index as the operating center for episodes, clips, transcripts, guest intake, YouTube, Spotify, and listen links.</p>
+    </section>
+
+    <section class="media-grid">
+      <a class="media-card" href="episodes.html"><h3>Episodes</h3><p>Episode archive and metadata.</p><span class="media-badge">Archive</span></a>
+      <a class="media-card" href="listen.html"><h3>Listen</h3><p>All listening links.</p><span class="media-badge">Links</span></a>
+      <a class="media-card" href="clips.html"><h3>Clips</h3><p>Short-form repurposing ideas.</p><span class="media-badge">Clips</span></a>
+      <a class="media-card" href="transcripts.html"><h3>Transcripts</h3><p>SEO and accessibility content.</p><span class="media-badge">Text</span></a>
+      <a class="media-card" href="topics.html"><h3>Topics</h3><p>Content clusters and future episode lanes.</p><span class="media-badge">Topics</span></a>
+      <a class="media-card" href="guest-intake.html"><h3>Guest Intake</h3><p>Guest pitch page.</p><span class="media-badge">Guests</span></a>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">AUDIO GRENADES. VIDEO SIGNALS. ARCHIVE EVERYTHING.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/media.js"></script>
 </body>
 </html>
-

@@ -1,0 +1,22 @@
+{
+  "guestIntake": {
+    "status": "static-scaffold",
+    "recommendedFormProviders": ["Tally", "Formspree", "Basin", "Airtable", "Notion"],
+    "fields": [
+      { "name": "guestName", "label": "Guest Name", "required": true },
+      { "name": "proposedTopic", "label": "Proposed Topic", "required": true },
+      { "name": "bestFit", "label": "Best Fit", "required": false },
+      { "name": "whyThisGuest", "label": "Why This Guest?", "required": true },
+      { "name": "links", "label": "Links", "required": false }
+    ],
+    "topicLanes": [
+      "Personal Sovereignty",
+      "Digital Privacy",
+      "Money / Fiat / Capital",
+      "Political Theater",
+      "Media / Narrative",
+      "Parallel Systems",
+      "Local Organizing"
+    ]
+  }
+}

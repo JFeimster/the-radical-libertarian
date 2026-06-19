@@ -9,6 +9,7 @@
       "label": "The Radical Libertarian Podcast",
       "url": "",
       "localPage": "youtube.html",
+      "podcastPage": "podcast/youtube.html",
       "archivePage": "archive/old-youtube-posts.html",
       "status": "needs-url",
       "notes": "Add the actual YouTube channel or playlist URL."
@@ -18,6 +19,7 @@
       "label": "The Radical Libertarian on Spotify",
       "url": "",
       "localPage": "spotify.html",
+      "podcastPage": "podcast/spotify.html",
       "archivePage": "archive/old-podcast-episodes.html",
       "status": "needs-url",
       "notes": "Add the actual Spotify show URL."
@@ -27,6 +29,7 @@
       "label": "@radicallibertarian",
       "url": "https://www.instagram.com/radicallibertarian",
       "localPage": "instagram.html",
+      "podcastPage": "",
       "archivePage": "archive/old-instagram-posts.html",
       "status": "active"
     },
@@ -35,6 +38,7 @@
       "label": "Libertarian Party",
       "url": "https://lp.org/",
       "localPage": "libertarian-national.html",
+      "podcastPage": "",
       "archivePage": "",
       "status": "external-resource",
       "notes": "Independent resource link. This site does not speak for LP.org."

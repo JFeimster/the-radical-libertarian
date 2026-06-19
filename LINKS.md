@@ -8,6 +8,32 @@ Master link registry for The Radical Libertarian.
 - GitHub repo: https://github.com/JFeimster/the-radical-libertarian
 - Vercel project: https://vercel.com/jason-feimsters-projects/the-radical-libertarian
 
+## Podcast + Media
+
+- Podcast Hub: `/podcast.html`
+- Podcast Command Center: `/podcast/index.html`
+- Episodes: `/podcast/episodes.html`
+- Episode Template: `/podcast/episode-template.html`
+- Listen Everywhere: `/podcast/listen.html`
+- Podcast on YouTube: `/podcast/youtube.html`
+- Podcast on Spotify: `/podcast/spotify.html`
+- Topics: `/podcast/topics.html`
+- Clips: `/podcast/clips.html`
+- Transcripts: `/podcast/transcripts.html`
+- Guest Intake: `/podcast/guest-intake.html`
+- Root YouTube Hub: `/youtube.html`
+- Root Spotify Hub: `/spotify.html`
+
+## Podcast Data
+
+- Episodes: `/data/podcast-episodes.json`
+- Topics: `/data/podcast-topics.json`
+- Media Platforms: `/data/media-platforms.json`
+- Clip Ideas: `/data/clip-ideas.json`
+- Transcripts: `/data/transcripts.json`
+- Guest Intake Config: `/data/guest-intake.json`
+- Media JS: `/js/media.js`
+
 ## Essay Pages
 
 - Essays Index: `/essays.html`
@@ -21,73 +47,6 @@ Master link registry for The Radical Libertarian.
 - Manufactured Consent: `/essays/manufactured-consent.html`
 - The Surveillance State: `/essays/surveillance-state.html`
 - Exit Over Voice: `/essays/exit-over-voice.html`
-
-## SEO + Metadata
-
-- Robots: `/robots.txt`
-- Sitemap: `/sitemap.xml`
-- Manifest: `/site.webmanifest`
-- Metadata: `/metadata.json`
-- Open Graph Preview: `/opengraph.html`
-- 404 Page: `/404.html`
-- Humans: `/humans.txt`
-- SEO Pages Registry: `/seo/pages.json`
-- SEO Keywords: `/seo/keywords.json`
-- Social Cards Registry: `/seo/social-cards.json`
-- Schema.org JSON: `/seo/schema-org.json`
-
-## Core Pages
-
-- Home: `/index.html`
-- Manifesto: `/manifesto.html`
-- Essays: `/essays.html`
-- Podcast: `/podcast.html`
-- Join: `/join.html`
-- About: `/about.html`
-- Start Here: `/start-here.html`
-
-## Platform + Archive
-
-- YouTube: `/youtube.html`
-- Spotify: `/spotify.html`
-- Instagram: `/instagram.html`
-- Social Links: `/social.html`
-- Subscribe: `/subscribe.html`
-- Archive: `/archive/index.html`
-- Old YouTube Posts: `/archive/old-youtube-posts.html`
-- Old Instagram Posts: `/archive/old-instagram-posts.html`
-- Old Podcast Episodes: `/archive/old-podcast-episodes.html`
-- Podcast Episodes: `/podcast/episodes.html`
-- Listen Everywhere: `/podcast/listen.html`
-
-## Resource Hub
-
-- Library: `/library.html`
-- Libertarian National: `/libertarian-national.html`
-- Resources: `/resources/index.html`
-- Libertarian Party Resource: `/resources/libertarian-party.html`
-- State Parties: `/resources/state-parties.html`
-- Reading List: `/resources/reading-list.html`
-- Organizations: `/resources/organizations.html`
-- Tools: `/resources/tools.html`
-- Glossary: `/resources/glossary.html`
-- Timeline: `/resources/timeline.html`
-- Civic Action: `/resources/civic-action.html`
-- Local Groups: `/resources/local-groups.html`
-
-## Interactive Tools
-
-- Tools Index: `/tools/index.html`
-- Tyranny Detector: `/tools/tyranny-detector.html`
-- Boot Polisher Index: `/tools/boot-polisher-index.html`
-- NPC Narrative Checker: `/tools/npc-narrative-checker.html`
-- Freedom Scorecard: `/tools/freedom-scorecard.html`
-- Exit Plan Builder: `/tools/exit-plan-builder.html`
-- Privacy Stack: `/tools/privacy-stack.html`
-- Parallel Economy Builder: `/tools/parallel-economy-builder.html`
-- Philosophy Grenade Generator: `/tools/philosophy-grenade-generator.html`
-- Propaganda Bingo: `/tools/propaganda-bingo.html`
-- Sovereignty Checklist: `/tools/sovereignty-checklist.html`
 
 ## External Platforms
 

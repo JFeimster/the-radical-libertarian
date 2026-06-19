@@ -1,0 +1,46 @@
+{
+  "clips": [
+    {
+      "title": "The Leash Has UX",
+      "source": "The Architecture of Digital Serfdom",
+      "hook": "The leash is always marketed as convenience.",
+      "format": "short",
+      "status": "ready"
+    },
+    {
+      "title": "The Suggestion Box Trap",
+      "source": "Exit Over Voice",
+      "hook": "Exit is a strategy. Voice is a suggestion box.",
+      "format": "short",
+      "status": "ready"
+    },
+    {
+      "title": "The State Has A Billing Department",
+      "source": "The State Is A Fiction",
+      "hook": "The state is a fiction with a billing department.",
+      "format": "short",
+      "status": "ready"
+    },
+    {
+      "title": "Privacy Is A Boundary",
+      "source": "Code Is Speech",
+      "hook": "Privacy is not suspicious. It is a boundary.",
+      "format": "short",
+      "status": "ready"
+    },
+    {
+      "title": "Your Team-Colored Cage",
+      "source": "The Two-Party Mirage",
+      "hook": "A cage painted in your team colors is still a cage.",
+      "format": "short",
+      "status": "ready"
+    },
+    {
+      "title": "The Algorithmic Landlord",
+      "source": "Podcast General",
+      "hook": "The algorithm is not your community. It is your landlord with analytics.",
+      "format": "short",
+      "status": "ready"
+    }
+  ]
+}

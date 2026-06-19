@@ -7,6 +7,18 @@
   <title>Spotify | The Radical Libertarian</title>
   <meta name="description" content="An audio archive and listening hub for The Radical Libertarian on Spotify." />
 
+  <meta property="og:title" content="Spotify | The Radical Libertarian" />
+  <meta property="og:description" content="An audio archive and listening hub for The Radical Libertarian on Spotify." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/spotify.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Spotify | The Radical Libertarian" />
+  <meta name="twitter:description" content="An audio archive and listening hub for The Radical Libertarian on Spotify." />
+  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/spotify.html" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -31,37 +43,25 @@
       <p>An audio archive and listening hub for The Radical Libertarian on Spotify.</p>
     </section>
 
-    <section class="import-warning">
+    <section class="embed-placeholder">
       <h2>Audio archive staging area.</h2>
-      <p>Add the actual Spotify show URL for <strong>The Radical Libertarian on Spotify</strong>. This page is ready for show embeds, episode links, and listening CTAs.</p>
+      <p>Add the actual Spotify show URL for <strong>The Radical Libertarian on Spotify</strong>. Until then, this hub routes traffic into listen links and episode recovery.</p>
+      <a class="btn" href="podcast/spotify.html">Podcast Spotify Page</a>
     </section>
 
-    <section class="platform-grid">
-      <article class="platform-card">
-        <h3>Spotify Show Embed</h3>
-        <p>Drop the Spotify embed here once the show URL is confirmed.</p>
-        <span class="platform-badge">Needs URL</span>
-      </article>
-
-      <article class="platform-card">
-        <h3>Episode Archive</h3>
-        <p>Use the podcast data file to organize titles, summaries, topics, and links.</p>
-        <span class="platform-badge">Metadata</span>
-      </article>
-
-      <article class="platform-card">
-        <h3>Listen Everywhere</h3>
-        <p>Route listeners to Spotify, YouTube, RSS, and any future syndication platform.</p>
-        <span class="platform-badge">Distribution</span>
-      </article>
+    <section class="media-grid">
+      <a class="media-card" href="podcast/listen.html"><h3>Listen Everywhere</h3><p>Spotify, YouTube, RSS, direct subscription, and archive links.</p><span class="media-badge">Listen</span></a>
+      <a class="media-card" href="podcast/episodes.html"><h3>Episode Archive</h3><p>Seed episodes and recovered-audio placeholders.</p><span class="media-badge">Episodes</span></a>
+      <a class="media-card" href="archive/old-podcast-episodes.html"><h3>Old Podcast Episodes</h3><p>Recover older audio episodes and metadata.</p><span class="media-badge">Recover</span></a>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">ARCHIVE THE SIGNAL. DISTRIBUTE THE GRENADE.</p>
+    <p class="footer-note">AUDIO GRENADES. VIDEO SIGNALS. ARCHIVE EVERYTHING.</p>
   </footer>
 
   <script src="script.js"></script>
+  <script src="js/media.js"></script>
 </body>
 </html>

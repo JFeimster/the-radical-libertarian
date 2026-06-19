@@ -1,0 +1,32 @@
+{
+  "transcripts": [
+    {
+      "title": "Welcome to the Unfiltered Republic",
+      "episodeNumber": 1,
+      "sourceUrl": "",
+      "transcriptUrl": "",
+      "status": "planned"
+    },
+    {
+      "title": "The Architecture of Digital Serfdom",
+      "episodeNumber": 2,
+      "sourceUrl": "",
+      "transcriptUrl": "essays/digital-serfdom.html",
+      "status": "essay-seed"
+    },
+    {
+      "title": "Exit Over Voice",
+      "episodeNumber": 3,
+      "sourceUrl": "",
+      "transcriptUrl": "essays/exit-over-voice.html",
+      "status": "essay-seed"
+    },
+    {
+      "title": "Code Is Speech",
+      "episodeNumber": 4,
+      "sourceUrl": "",
+      "transcriptUrl": "essays/code-is-speech.html",
+      "status": "essay-seed"
+    }
+  ]
+}

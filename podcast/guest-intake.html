@@ -5,10 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Guest Intake | The Radical Libertarian</title>
-  <meta name="description" content="A pitch page for future guests and collaborators." />
+  <meta name="description" content="A static guest pitch scaffold for The Radical Libertarian Podcast." />
 
-  <link rel="stylesheet" href="../style.css" />
+  <meta property="og:title" content="Guest Intake | The Radical Libertarian" />
+  <meta property="og:description" content="A static guest pitch scaffold for The Radical Libertarian Podcast." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/podcast/guest-intake.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Guest Intake | The Radical Libertarian" />
+  <meta name="twitter:description" content="A static guest pitch scaffold for The Radical Libertarian Podcast." />
+  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/podcast/guest-intake.html" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +38,55 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Podcast Layer</div>
+      <div class="sticker">Guest Pipeline</div>
       <h1>Guest Intake</h1>
-      <p>A pitch page for future guests and collaborators.</p>
+      <p>A static guest pitch scaffold for The Radical Libertarian Podcast.</p>
     </section>
 
-    <section class='podcast-grid'><article class='podcast-card'><h3>YouTube</h3><p>Add YouTube embeds or links.</p></article><article class='podcast-card'><h3>Spotify</h3><p>Add Spotify embeds or links.</p></article><article class='podcast-card'><h3>Archive</h3><p>Use data/podcast-episodes.json to power this section later.</p></article></section>
+    <section class="media-command">
+      <h2>Pitch a guest without sending a fog machine.</h2>
+      <p>This is a static intake scaffold. Wire it to Tally, Formspree, Airtable, Notion, or a backend later. For now, it defines the questions so bad pitches have fewer hiding places.</p>
+    </section>
+
+    <form class="guest-form" data-guest-form>
+      <label for="guest-name">Guest Name</label>
+      <input id="guest-name" name="guest-name" type="text" placeholder="Name / handle" required />
+
+      <label for="guest-topic">Proposed Topic</label>
+      <input id="guest-topic" name="guest-topic" type="text" placeholder="What should we talk about?" required />
+
+      <label for="guest-lane">Best Fit</label>
+      <select id="guest-lane" name="guest-lane">
+        <option>Personal Sovereignty</option>
+        <option>Digital Privacy</option>
+        <option>Money / Fiat / Capital</option>
+        <option>Political Theater</option>
+        <option>Media / Narrative</option>
+        <option>Parallel Systems</option>
+        <option>Local Organizing</option>
+      </select>
+
+      <label for="guest-proof">Why This Guest?</label>
+      <textarea id="guest-proof" name="guest-proof" rows="6" placeholder="Give receipts. Links, work, story, expertise, controversy, usefulness."></textarea>
+
+      <label for="guest-links">Links</label>
+      <textarea id="guest-links" name="guest-links" rows="4" placeholder="Website, YouTube, Spotify, X, Instagram, book, project, etc."></textarea>
+
+      <button class="btn" type="submit">Stage Pitch</button>
+    </form>
+
+    <section class="media-command" data-guest-result>
+      <h2>Form scaffold ready.</h2>
+      <p>Submit the test form to confirm the front-end behavior. Then wire to your actual intake tool.</p>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">AUDIO GRENADES. VIDEO SIGNALS. ARCHIVE EVERYTHING.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/media.js"></script>
 </body>
 </html>
-

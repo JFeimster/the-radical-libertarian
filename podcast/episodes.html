@@ -5,8 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Podcast Episodes | The Radical Libertarian</title>
-  <meta name="description" content="A static episode archive for The Radical Libertarian Podcast." />
+  <meta name="description" content="A static episode archive for The Radical Libertarian Podcast with seed episodes and recovered-content placeholders." />
 
+  <meta property="og:title" content="Podcast Episodes | The Radical Libertarian" />
+  <meta property="og:description" content="A static episode archive for The Radical Libertarian Podcast with seed episodes and recovered-content placeholders." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/podcast/episodes.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Podcast Episodes | The Radical Libertarian" />
+  <meta name="twitter:description" content="A static episode archive for The Radical Libertarian Podcast with seed episodes and recovered-content placeholders." />
+  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/podcast/episodes.html" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../style.css" />
 </head>
@@ -28,40 +40,71 @@
     <section class="page-hero">
       <div class="sticker">Episode Archive</div>
       <h1>Podcast Episodes</h1>
-      <p>A static episode archive for The Radical Libertarian Podcast.</p>
+      <p>A static episode archive for The Radical Libertarian Podcast with seed episodes and recovered-content placeholders.</p>
     </section>
 
-    <section class="import-warning">
+    <section class="media-command">
       <h2>Episode archive scaffold.</h2>
-      <p>This page is ready for episode cards powered by <code>data/podcast-episodes.json</code>. Add old Spotify and YouTube episode links as they are recovered.</p>
+      <p>These are seed episodes and archive placeholders. Replace placeholders with real YouTube/Spotify links as older content is recovered.</p>
     </section>
 
-    <section class="archive-table">
-      <div class="archive-row">
-        <strong>Episode</strong>
-        <strong>Platform</strong>
-        <strong>Status</strong>
-      </div>
+    <section class="episode-grid">
+      <article class="episode-card">
+        <span class="media-badge">EP. 001</span>
+        <span class="media-badge">Planned</span>
+        <h3>Welcome to the Unfiltered Republic</h3>
+        <p>The opening salvo: what this show is, what it is not, and why comfort is overrated.</p>
+        <a class="btn" href="episode-template.html">Use Template</a>
+      </article>
 
-      <div class="archive-row">
-        <span>Welcome to the Unfiltered Republic</span>
-        <span>Website / Podcast</span>
-        <span>Planned</span>
-      </div>
+      <article class="episode-card">
+        <span class="media-badge">EP. 002</span>
+        <span class="media-badge">Planned</span>
+        <h3>The Architecture of Digital Serfdom</h3>
+        <p>Convenience, platform dependency, digital borders, and how the login screen became a checkpoint.</p>
+        <a class="btn" href="../essays/digital-serfdom.html">Read Essay</a>
+      </article>
 
-      <div class="archive-row">
-        <span>Recovered older episodes</span>
-        <span>Spotify / YouTube</span>
-        <span>Needs import</span>
-      </div>
+      <article class="episode-card">
+        <span class="media-badge">EP. 003</span>
+        <span class="media-badge">Planned</span>
+        <h3>Exit Over Voice</h3>
+        <p>Why building an escape hatch beats yelling at the suggestion box.</p>
+        <a class="btn" href="../essays/exit-over-voice.html">Read Essay</a>
+      </article>
+
+      <article class="episode-card">
+        <span class="media-badge">Recovered</span>
+        <span class="media-badge">Needs URL</span>
+        <h3>Older YouTube Episodes</h3>
+        <p>Recover old video links from The Radical Libertarian Podcast and add them to the registry.</p>
+        <a class="btn" href="../archive/old-youtube-posts.html">Open Archive</a>
+      </article>
+
+      <article class="episode-card">
+        <span class="media-badge">Recovered</span>
+        <span class="media-badge">Needs URL</span>
+        <h3>Older Spotify Episodes</h3>
+        <p>Recover old audio links from The Radical Libertarian on Spotify and add them to the registry.</p>
+        <a class="btn" href="../archive/old-podcast-episodes.html">Open Archive</a>
+      </article>
+
+      <article class="episode-card">
+        <span class="media-badge">Future</span>
+        <span class="media-badge">Guest</span>
+        <h3>Dissidents, Builders, And Weirdos</h3>
+        <p>A future interview lane for cypherpunks, local organizers, liberty builders, and economic heretics.</p>
+        <a class="btn" href="guest-intake.html">Pitch Guest</a>
+      </article>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">ARCHIVE THE SIGNAL. DISTRIBUTE THE GRENADE.</p>
+    <p class="footer-note">AUDIO GRENADES. VIDEO SIGNALS. ARCHIVE EVERYTHING.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/media.js"></script>
 </body>
 </html>

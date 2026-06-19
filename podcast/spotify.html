@@ -5,10 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Podcast on Spotify | The Radical Libertarian</title>
-  <meta name="description" content="Spotify show and episode embed page." />
+  <meta name="description" content="Spotify embed and archive page for The Radical Libertarian on Spotify." />
 
-  <link rel="stylesheet" href="../style.css" />
+  <meta property="og:title" content="Podcast on Spotify | The Radical Libertarian" />
+  <meta property="og:description" content="Spotify embed and archive page for The Radical Libertarian on Spotify." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/podcast/spotify.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Podcast on Spotify | The Radical Libertarian" />
+  <meta name="twitter:description" content="Spotify embed and archive page for The Radical Libertarian on Spotify." />
+  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/podcast/spotify.html" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +38,30 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Podcast Layer</div>
+      <div class="sticker">Audio Signal</div>
       <h1>Podcast on Spotify</h1>
-      <p>Spotify show and episode embed page.</p>
+      <p>Spotify embed and archive page for The Radical Libertarian on Spotify.</p>
     </section>
 
-    <section class='podcast-grid'><article class='podcast-card'><h3>YouTube</h3><p>Add YouTube embeds or links.</p></article><article class='podcast-card'><h3>Spotify</h3><p>Add Spotify embeds or links.</p></article><article class='podcast-card'><h3>Archive</h3><p>Use data/podcast-episodes.json to power this section later.</p></article></section>
+    <section class="embed-placeholder">
+      <h2>Spotify embed goes here.</h2>
+      <p>Add the confirmed Spotify show or episode embed for The Radical Libertarian on Spotify.</p>
+      <a class="btn" href="../spotify.html">Open Spotify Hub</a>
+    </section>
+
+    <section class="media-grid">
+      <article class="media-card"><h3>Show Embed</h3><p>Drop Spotify show embed code here when URL is confirmed.</p><span class="media-badge">Needs URL</span></article>
+      <article class="media-card"><h3>Episode Links</h3><p>Add individual Spotify episode URLs and summaries.</p><span class="media-badge">Archive</span></article>
+      <article class="media-card"><h3>Audio Notes</h3><p>Use summaries and transcripts for SEO and social repurposing.</p><span class="media-badge">Notes</span></article>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">AUDIO GRENADES. VIDEO SIGNALS. ARCHIVE EVERYTHING.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/media.js"></script>
 </body>
 </html>
-

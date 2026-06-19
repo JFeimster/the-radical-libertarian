@@ -1,0 +1,31 @@
+{
+  "platforms": [
+    {
+      "name": "YouTube",
+      "label": "The Radical Libertarian Podcast",
+      "url": "",
+      "localPage": "youtube.html",
+      "podcastPage": "podcast/youtube.html",
+      "status": "needs-url",
+      "embedStatus": "pending"
+    },
+    {
+      "name": "Spotify",
+      "label": "The Radical Libertarian on Spotify",
+      "url": "",
+      "localPage": "spotify.html",
+      "podcastPage": "podcast/spotify.html",
+      "status": "needs-url",
+      "embedStatus": "pending"
+    },
+    {
+      "name": "Instagram",
+      "label": "@radicallibertarian",
+      "url": "https://www.instagram.com/radicallibertarian",
+      "localPage": "instagram.html",
+      "podcastPage": "",
+      "status": "active",
+      "embedStatus": "external-link"
+    }
+  ]
+}
