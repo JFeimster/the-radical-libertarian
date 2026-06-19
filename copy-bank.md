@@ -1,0 +1,64 @@
+# Copy Bank
+
+Reusable copy for The Radical Libertarian.
+
+## Taglines
+
+- Freedom is not supposed to be comfortable.
+- Essays, podcasts, rants, and philosophical grenades.
+- For people allergic to permission slips.
+- The signal fire for the unfiltered and ungovernable.
+- Build parallel rails before the bridge toll gets weird.
+
+## CTA Copy
+
+### Primary
+
+- Read the Manifesto
+- Join the Signal
+- Browse Essays
+- Listen to the Podcast
+- Start Here
+- Open the Archive
+- Use the Tools
+
+### Social / Sharing
+
+- Share this grenade
+- Send this to one person who still thinks
+- Forward the signal
+- Archive the signal
+- Screenshot responsibly
+- Disturb the group chat
+
+### Newsletter
+
+- Get the philosophical grenades.
+- Once a week. Maybe less. Never beige.
+- No spam. No obedience rituals.
+- Subscribe before the algorithm gets moody.
+
+## One-Liners
+
+- The leash is always marketed as convenience.
+- The state is a fiction with a billing department.
+- Exit is a strategy. Voice is a suggestion box.
+- A cage painted in your team colors is still a cage.
+- Every bureaucracy eventually mistakes paperwork for morality.
+- If your rights require permission, they are privileges with better lighting.
+- Centralized power attracts the exact people who should never have it.
+- The algorithm is not your community. It is your landlord with analytics.
+
+## Disclaimers
+
+### Tool Disclaimer
+
+This tool is satire, education, and self-reflection — not legal, financial, political, or professional advice.
+
+### LP.org Disclaimer
+
+This independent site links to LP.org as an external resource and does not speak for Libertarian National or any party organization.
+
+### Archive Disclaimer
+
+Archive pages may reference older platform content. Recovered content should be labeled clearly and should not be presented as newly published material.

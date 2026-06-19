@@ -1,0 +1,51 @@
+{
+  "contentTypes": [
+    "core-page",
+    "essay",
+    "podcast-episode",
+    "archive-item",
+    "resource",
+    "tool",
+    "quote",
+    "glossary-term"
+  ],
+  "categories": [
+    "Liberty",
+    "Money",
+    "Technology",
+    "Privacy",
+    "Surveillance",
+    "Media",
+    "Decentralization",
+    "Culture",
+    "Political Theater",
+    "Personal Sovereignty",
+    "Parallel Economy",
+    "Civic Action"
+  ],
+  "tags": [
+    "self-ownership",
+    "decentralization",
+    "free-speech",
+    "digital-privacy",
+    "surveillance-state",
+    "fiat-money",
+    "platform-power",
+    "manufactured-consent",
+    "exit-over-voice",
+    "parallel-systems",
+    "local-groups",
+    "media-literacy"
+  ],
+  "statuses": [
+    "planned",
+    "draft",
+    "review",
+    "active",
+    "published",
+    "archived",
+    "needs-url",
+    "needs-review",
+    "external-resource"
+  ]
+}

@@ -1,5 +1,18 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-radical-libertarian.vercel.app/schemas/tool.schema.json",
+  "title": "Interactive Tool",
   "type": "object",
-  "additionalProperties": true
+  "required": ["title", "slug", "url", "type", "category", "description"],
+  "additionalProperties": false,
+  "properties": {
+    "title": { "type": "string", "minLength": 3 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "url": { "type": "string" },
+    "type": { "type": "string", "enum": ["scorecard", "checklist", "generator", "printable", "directory", "quiz"] },
+    "category": { "type": "string" },
+    "description": { "type": "string" },
+    "status": { "type": "string", "enum": ["planned", "draft", "active", "archived"] },
+    "disclaimer": { "type": "string" }
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "name": "The Radical Libertarian",
+  "shortName": "T.R.L.",
+  "voice": {
+    "summary": "sharp, satirical, liberty-forward, anti-bureaucratic, philosophical, funny, and practical",
+    "approvedTraits": [
+      "brutalist",
+      "punk",
+      "philosophical",
+      "street-smart",
+      "anti-fluff",
+      "comical",
+      "sincere",
+      "suspicious of power",
+      "pro-builder"
+    ],
+    "avoid": [
+      "calls for violence",
+      "harassment",
+      "unsupported claims",
+      "fake legal advice",
+      "fake financial advice",
+      "fake official representation",
+      "lazy conspiracy sludge",
+      "boring party brochure voice"
+    ]
+  },
+  "visuals": {
+    "colors": {
+      "cream": "#f6f0df",
+      "cream2": "#fff8e7",
+      "black": "#050505",
+      "red": "#e4002b",
+      "yellow": "#f7c600",
+      "blue": "#00a3ff",
+      "green": "#00d084"
+    },
+    "style": "brutalist editorial zine, thick borders, hard shadows, red/black/cream contrast"
+  }
+}

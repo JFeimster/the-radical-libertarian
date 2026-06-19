@@ -1,5 +1,21 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-radical-libertarian.vercel.app/schemas/podcast-episode.schema.json",
+  "title": "Podcast Episode",
   "type": "object",
-  "additionalProperties": true
+  "required": ["episodeNumber", "title", "slug", "summary", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "episodeNumber": { "type": "integer", "minimum": 1 },
+    "title": { "type": "string", "minLength": 3 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "summary": { "type": "string" },
+    "topics": { "type": "array", "items": { "type": "string" } },
+    "youtubeUrl": { "type": "string" },
+    "spotifyUrl": { "type": "string" },
+    "transcriptUrl": { "type": "string" },
+    "publishedDate": { "type": "string" },
+    "duration": { "type": "string" },
+    "status": { "type": "string", "enum": ["planned", "recorded", "draft", "published", "archived"] }
+  }
 }

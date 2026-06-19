@@ -1,5 +1,20 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-radical-libertarian.vercel.app/schemas/archive-item.schema.json",
+  "title": "Archive Item",
   "type": "object",
-  "additionalProperties": true
+  "required": ["source", "label", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "source": { "type": "string", "enum": ["YouTube", "Spotify", "Instagram", "Website", "Other"] },
+    "label": { "type": "string" },
+    "title": { "type": "string" },
+    "url": { "type": "string" },
+    "date": { "type": "string" },
+    "type": { "type": "string" },
+    "topics": { "type": "array", "items": { "type": "string" } },
+    "status": { "type": "string", "enum": ["needs-url", "needs-review", "imported", "published", "archived", "active"] },
+    "targetPage": { "type": "string" },
+    "notes": { "type": "string" }
+  }
 }

@@ -1,5 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-radical-libertarian.vercel.app/schemas/platform-link.schema.json",
+  "title": "Platform Link",
   "type": "object",
-  "additionalProperties": true
+  "required": ["name", "label", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "name": { "type": "string" },
+    "label": { "type": "string" },
+    "url": { "type": "string" },
+    "localPage": { "type": "string" },
+    "archivePage": { "type": "string" },
+    "status": { "type": "string", "enum": ["active", "needs-url", "external-resource", "archived", "planned"] },
+    "notes": { "type": "string" }
+  }
 }

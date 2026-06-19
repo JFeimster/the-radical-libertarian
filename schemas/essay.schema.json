@@ -1,5 +1,23 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-radical-libertarian.vercel.app/schemas/essay.schema.json",
+  "title": "Essay",
   "type": "object",
-  "additionalProperties": true
+  "required": ["title", "slug", "url", "category", "excerpt", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "title": { "type": "string", "minLength": 3 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "url": { "type": "string" },
+    "category": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "excerpt": { "type": "string" },
+    "status": { "type": "string", "enum": ["planned", "draft", "review", "published", "archived"] },
+    "featured": { "type": "boolean" },
+    "publishedDate": { "type": "string" },
+    "updatedDate": { "type": "string" },
+    "readTimeMinutes": { "type": "integer", "minimum": 1 },
+    "socialImage": { "type": "string" },
+    "canonical": { "type": "string" }
+  }
 }

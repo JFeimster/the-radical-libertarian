@@ -1,5 +1,19 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-radical-libertarian.vercel.app/schemas/site-page.schema.json",
+  "title": "Site Page",
   "type": "object",
-  "additionalProperties": true
+  "required": ["title", "path", "description", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "title": { "type": "string" },
+    "path": { "type": "string" },
+    "description": { "type": "string" },
+    "canonical": { "type": "string" },
+    "section": { "type": "string" },
+    "navGroup": { "type": "string" },
+    "priority": { "type": "string" },
+    "changefreq": { "type": "string" },
+    "status": { "type": "string", "enum": ["planned", "draft", "active", "archived"] }
+  }
 }

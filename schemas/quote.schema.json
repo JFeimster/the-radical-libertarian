@@ -1,5 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-radical-libertarian.vercel.app/schemas/quote.schema.json",
+  "title": "Quote",
   "type": "object",
-  "additionalProperties": true
+  "required": ["text", "category", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "text": { "type": "string", "minLength": 3 },
+    "source": { "type": "string" },
+    "category": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "status": { "type": "string", "enum": ["draft", "approved", "published", "archived"] },
+    "useCases": { "type": "array", "items": { "type": "string" } }
+  }
 }

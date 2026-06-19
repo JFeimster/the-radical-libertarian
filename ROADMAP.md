@@ -91,21 +91,40 @@ Status: complete.
 
 ## Phase 6 — Schemas + Governance
 
-Create:
+Status: complete.
 
-- `schemas/essay.schema.json`
-- `schemas/podcast-episode.schema.json`
-- `schemas/resource.schema.json`
-- `schemas/quote.schema.json`
-- `schemas/platform-link.schema.json`
-- `schemas/glossary-term.schema.json`
-- `schemas/tool.schema.json`
-- `schemas/manifesto.schema.json`
-- `schemas/site-page.schema.json`
-- `schemas/archive-item.schema.json`
-- `design-system.md`
-- `brand-voice.md`
-- `content-taxonomy.md`
-- `copy-bank.md`
-- `image-prompts.md`
-- `social-post-prompts.md`
+- [x] `schemas/essay.schema.json`
+- [x] `schemas/podcast-episode.schema.json`
+- [x] `schemas/resource.schema.json`
+- [x] `schemas/quote.schema.json`
+- [x] `schemas/platform-link.schema.json`
+- [x] `schemas/glossary-term.schema.json`
+- [x] `schemas/tool.schema.json`
+- [x] `schemas/manifesto.schema.json`
+- [x] `schemas/site-page.schema.json`
+- [x] `schemas/archive-item.schema.json`
+- [x] `schemas/README.md`
+- [x] `design-system.md`
+- [x] `brand-voice.md`
+- [x] `content-taxonomy.md`
+- [x] `copy-bank.md`
+- [x] `image-prompts.md`
+- [x] `social-post-prompts.md`
+- [x] `PROMPTS.md`
+- [x] `GOVERNANCE.md`
+- [x] `EDITORIAL_POLICY.md`
+- [x] `STYLE_RULES.md`
+- [x] `data/brand-system.json`
+- [x] `data/content-taxonomy.json`
+- [x] `data/copy-bank.json`
+
+## Phase 7 — Essay Detail Pages + Content Fill
+
+Recommended next:
+
+- Flesh out essay detail pages under `essays/`
+- Add real podcast URLs
+- Add real YouTube and Spotify links
+- Add real resource entries
+- Generate final social card images
+- Add static search/index page

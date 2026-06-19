@@ -22,6 +22,26 @@ Master link registry for The Radical Libertarian.
 - Social Cards Registry: `/seo/social-cards.json`
 - Schema.org JSON: `/seo/schema-org.json`
 
+## Governance + Docs
+
+- Governance: `/GOVERNANCE.md`
+- Editorial Policy: `/EDITORIAL_POLICY.md`
+- Style Rules: `/STYLE_RULES.md`
+- Design System: `/design-system.md`
+- Brand Voice: `/brand-voice.md`
+- Content Taxonomy: `/content-taxonomy.md`
+- Copy Bank: `/copy-bank.md`
+- Image Prompts: `/image-prompts.md`
+- Social Post Prompts: `/social-post-prompts.md`
+- Prompts: `/PROMPTS.md`
+- Schemas README: `/schemas/README.md`
+
+## Data Governance
+
+- Brand System: `/data/brand-system.json`
+- Content Taxonomy JSON: `/data/content-taxonomy.json`
+- Copy Bank JSON: `/data/copy-bank.json`
+
 ## Internal Pages
 
 ### Core
