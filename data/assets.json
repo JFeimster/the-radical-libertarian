@@ -1,0 +1,46 @@
+{
+  "assets": [
+    {
+      "title": "T.R.L. Box Logo",
+      "type": "brand",
+      "path": "assets/brand/trl-logo-box.svg",
+      "status": "placeholder-active",
+      "usage": ["header", "brand-kit", "media-kit"]
+    },
+    {
+      "title": "T.R.L. Mark",
+      "type": "brand",
+      "path": "assets/brand/trl-mark.svg",
+      "status": "placeholder-active",
+      "usage": ["avatar", "favicon", "profile"]
+    },
+    {
+      "title": "T.R.L. Wordmark",
+      "type": "brand",
+      "path": "assets/brand/trl-wordmark.svg",
+      "status": "placeholder-active",
+      "usage": ["banner", "cover", "media-kit"]
+    },
+    {
+      "title": "Home OG Card",
+      "type": "social-card",
+      "path": "assets/social/og-home.svg",
+      "status": "placeholder-active",
+      "usage": ["open-graph", "social-share"]
+    },
+    {
+      "title": "Manifesto OG Card",
+      "type": "social-card",
+      "path": "assets/social/og-manifesto.svg",
+      "status": "placeholder-active",
+      "usage": ["open-graph", "social-share"]
+    },
+    {
+      "title": "Podcast Placeholder",
+      "type": "image",
+      "path": "assets/images/podcast-placeholder.svg",
+      "status": "placeholder-active",
+      "usage": ["podcast", "media", "hero"]
+    }
+  ]
+}

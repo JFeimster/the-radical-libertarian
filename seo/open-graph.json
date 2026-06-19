@@ -3,7 +3,30 @@
     "title": "The Radical Libertarian",
     "description": "Essays, podcasts, rants, and philosophical grenades for people allergic to permission slips.",
     "type": "website",
-    "image": "/assets/social/og-placeholder.svg",
+    "image": "/assets/social/og-home.svg",
     "siteName": "The Radical Libertarian"
+  },
+  "pages": {
+    "/manifesto.html": {
+      "image": "/assets/social/og-manifesto.svg"
+    },
+    "/essays.html": {
+      "image": "/assets/social/og-essays.svg"
+    },
+    "/podcast.html": {
+      "image": "/assets/social/og-podcast.svg"
+    },
+    "/tools/": {
+      "image": "/assets/social/og-tools.svg"
+    },
+    "/resources/": {
+      "image": "/assets/social/og-resources.svg"
+    },
+    "/join.html": {
+      "image": "/assets/social/og-join.svg"
+    },
+    "/archive/": {
+      "image": "/assets/social/og-archive.svg"
+    }
   }
 }

@@ -73,34 +73,37 @@ Status: complete.
 
 Status: complete.
 
-- [x] `podcast.html`
-- [x] `podcast/index.html`
-- [x] `podcast/episodes.html`
-- [x] `podcast/episode-template.html`
-- [x] `podcast/listen.html`
-- [x] `podcast/youtube.html`
-- [x] `podcast/spotify.html`
-- [x] `podcast/topics.html`
-- [x] `podcast/clips.html`
-- [x] `podcast/transcripts.html`
-- [x] `podcast/guest-intake.html`
-- [x] Updated `youtube.html`
-- [x] Updated `spotify.html`
-- [x] `data/podcast-episodes.json`
-- [x] `data/podcast-topics.json`
-- [x] `data/media-platforms.json`
-- [x] `data/clip-ideas.json`
-- [x] `data/transcripts.json`
-- [x] `data/guest-intake.json`
-- [x] `js/media.js`
+- [x] Podcast pages
+- [x] Episode archive
+- [x] Clips
+- [x] Transcripts
+- [x] Guest intake
+- [x] Podcast data files
 
-## Phase 9 — Assets + Social Images
+## Phase 9 — Assets + Social Image System
+
+Status: complete.
+
+- [x] `assets.html`
+- [x] Brand assets
+- [x] Icon assets
+- [x] Image placeholders
+- [x] Open Graph SVG cards
+- [x] Asset README files
+- [x] `data/assets.json`
+- [x] `data/social-card-prompts.json`
+- [x] `data/icon-system.json`
+- [x] `data/image-prompts.json`
+- [x] Updated `site.webmanifest`
+- [x] Updated social card SEO registries
+
+## Phase 10 — Navigation + Site Polish
 
 Recommended next:
 
-- Add asset README files
-- Add SVG placeholders for major page images
-- Add social card prompt registry
-- Add OG card variants for core pages
-- Add site icon variants
-- Add image prompt library
+- Add secondary nav or footer links to important pages
+- Improve mobile nav
+- Add asset page to footer
+- Add internal links across essays, resources, podcast, tools
+- Add simple static search index
+- Add sitemap page for humans

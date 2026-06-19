@@ -1318,3 +1318,101 @@ select {
     grid-template-columns: 1fr;
   }
 }
+
+/* === Batch 9 Assets + Social Image System === */
+.asset-command {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 34px;
+  background: var(--red, #e4002b);
+  color: #fff;
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+}
+
+.asset-command h2 {
+  margin-top: 0;
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  line-height: .95;
+  text-transform: uppercase;
+}
+
+.asset-grid,
+.social-card-grid,
+.icon-grid {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.asset-card,
+.social-preview-card,
+.icon-preview-card {
+  display: block;
+  color: var(--black, #050505);
+  background: var(--cream-2, #fff8e7);
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+  padding: 28px;
+  text-decoration: none;
+}
+
+.asset-card:hover,
+.social-preview-card:hover,
+.icon-preview-card:hover {
+  background: var(--yellow, #f7c600);
+}
+
+.asset-card h2,
+.asset-card h3,
+.social-preview-card h2,
+.social-preview-card h3,
+.icon-preview-card h2,
+.icon-preview-card h3 {
+  margin-top: 0;
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+}
+
+.asset-badge {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 8px 12px;
+  color: var(--cream, #f6f0df);
+  background: var(--black, #050505);
+  border: 3px solid var(--black, #050505);
+  font-family: "Courier New", monospace;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.asset-preview-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 18px;
+  border: 4px solid var(--black, #050505);
+  background: var(--cream, #f6f0df);
+}
+
+.icon-preview-img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 0 18px;
+  border: 4px solid var(--black, #050505);
+  background: var(--cream, #f6f0df);
+}
+
+@media (max-width: 860px) {
+  .asset-grid,
+  .social-card-grid,
+  .icon-grid {
+    grid-template-columns: 1fr;
+  }
+}

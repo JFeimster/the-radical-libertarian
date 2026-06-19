@@ -1,0 +1,35 @@
+{
+  "style": "Brutalist punk-libertarian editorial design. Cream paper background, black ink, red accents, thick black borders, hard offset shadows, torn paper texture, zine layout, high contrast, bold type energy.",
+  "cards": [
+    {
+      "name": "Home",
+      "path": "assets/social/og-home.svg",
+      "prompt": "Create a 1200x630 Open Graph image for The Radical Libertarian homepage. Huge bold headline: Freedom Is Not Supposed To Be Comfortable. Brutalist punk-libertarian editorial design, cream paper background, black and red palette, thick borders, hard shadows, zine texture, no official party logos."
+    },
+    {
+      "name": "Manifesto",
+      "path": "assets/social/og-manifesto.svg",
+      "prompt": "Create a 1200x630 Open Graph image for The Radical Libertarian manifesto. Use a torn-paper declaration, black ink, red stamp accents, thick shadows, chaotic but premium editorial layout. No official logos, no fake seals."
+    },
+    {
+      "name": "Essays",
+      "path": "assets/social/og-essays.svg",
+      "prompt": "Create a 1200x630 Open Graph image for a radical libertarian essay archive. Stacked zine pages, bold black typography, red highlights, cream background, hard shadows, philosophical grenade energy."
+    },
+    {
+      "name": "Podcast",
+      "path": "assets/social/og-podcast.svg",
+      "prompt": "Create a 1200x630 Open Graph image for The Radical Libertarian Podcast. Black microphone as signal flare, red sound waves, cream paper background, thick black borders, underground radio energy."
+    },
+    {
+      "name": "Tools",
+      "path": "assets/social/og-tools.svg",
+      "prompt": "Create a 1200x630 Open Graph image for interactive liberty tools: scorecards, checklists, bingo, generators. Brutalist zine design, cream/black/red/yellow, thick borders, hard shadows."
+    },
+    {
+      "name": "Resources",
+      "path": "assets/social/og-resources.svg",
+      "prompt": "Create a 1200x630 Open Graph image for a liberty resource library. Books, folders, index cards, maps, privacy tools, thick borders, cream/black/red palette, brutalist editorial layout."
+    }
+  ]
+}

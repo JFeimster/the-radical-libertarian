@@ -16,10 +16,6 @@ Slides:
 6. The exit strategy
 7. CTA
 
-## Essay To Thread
-
-Turn this essay into a punchy social thread. Use one idea per post. Keep it sharp but coherent. Avoid calls for violence, harassment, or unsupported claims. End with a CTA to read the full essay or join the signal.
-
 ## Podcast To Clips
 
 Turn this podcast summary into 10 short clip ideas. For each clip, provide:
@@ -29,18 +25,31 @@ Turn this podcast summary into 10 short clip ideas. For each clip, provide:
 - 1-sentence context
 - Caption
 - CTA
+- Suggested visual
 
-## Quote Card Ideas
+## Quote Card Generator
 
 Generate 15 quote-card lines from the following essay or transcript. Keep them short, punchy, provocative, and memorable. Avoid fake quotes from real people.
 
-## Archive Repurpose
+Return:
 
-Given this older YouTube, Spotify, or Instagram content, create:
+- Quote
+- Topic
+- Suggested background concept
+- CTA
 
-- A cleaned-up title
-- SEO description
-- 5 tags
-- 3 social captions
-- 1 newsletter blurb
-- 1 related essay idea
+## Social Card Design Prompt
+
+Create a 1200x630 social card for this page using the Radical Libertarian brand system.
+
+Style:
+
+Brutalist punk-libertarian editorial design. Cream paper background, black ink, red accents, thick black borders, hard offset shadows, torn paper texture, zine layout, high contrast, bold type energy.
+
+Page:
+
+[INSERT PAGE]
+
+Headline:
+
+[INSERT HEADLINE]

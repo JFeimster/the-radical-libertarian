@@ -1,25 +1,38 @@
-# Social Assets
+# Social Cards
 
-Open Graph and social-card assets for The Radical Libertarian.
+Open Graph and social-share image system.
 
-## Current Placeholder
+## Current SVG Cards
 
+- `og-home.svg`
+- `og-manifesto.svg`
+- `og-essays.svg`
+- `og-podcast.svg`
+- `og-tools.svg`
+- `og-resources.svg`
+- `og-join.svg`
+- `og-archive.svg`
 - `og-placeholder.svg`
 
-## Recommended Future Cards
+## Recommended Production Cards
+
+Export final PNG/WebP versions later:
 
 - `og-home.png`
 - `og-manifesto.png`
-- `og-podcast.png`
 - `og-essays.png`
+- `og-podcast.png`
 - `og-tools.png`
-- `og-tyranny-detector.png`
-- `og-philosophy-grenade-generator.png`
-- `og-propaganda-bingo.png`
+- `og-resources.png`
+- `og-join.png`
+- `og-archive.png`
 
-## Suggested Dimensions
+## Size
 
-- Open Graph: 1200x630
-- YouTube thumbnail: 1280x720
-- Notion cover / wide banner: 1600x400
-- Square social: 1080x1080
+Open Graph standard: 1200x630.
+
+## Design Rules
+
+Brutalist, high contrast, red/black/cream, thick borders, hard shadows, bold uppercase editorial layout.
+
+No fake official seals. No platform logos unless legally safe and intentionally used.

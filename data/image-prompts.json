@@ -1,0 +1,30 @@
+{
+  "globalStyle": "Brutalist punk-libertarian editorial design. Cream paper background, black ink, red accents, thick black borders, hard offset shadows, torn paper texture, zine layout, high contrast, bold type energy, philosophical rebellion, no corporate polish.",
+  "prompts": [
+    {
+      "name": "Homepage Hero",
+      "targetPath": "assets/images/hero-placeholder.svg",
+      "prompt": "Create a wide cinematic brutalist editorial hero image for The Radical Libertarian. Abstract figure ripping through bureaucratic paper walls, cream background, black ink, red accents, thick borders, hard shadows, zine texture, rebellious but premium. No official logos."
+    },
+    {
+      "name": "Manifesto Cover",
+      "targetPath": "assets/images/manifesto-placeholder.svg",
+      "prompt": "Create a brutalist manifesto cover image: torn declaration pages, red stamp shapes, black ink, cream paper, hard shadows, punk philosophical energy. No fake seals, no official logos."
+    },
+    {
+      "name": "Podcast Cover",
+      "targetPath": "assets/images/podcast-placeholder.svg",
+      "prompt": "Create a bold podcast image for The Radical Libertarian Podcast. A black microphone shaped like a signal flare, red sound waves, cream paper background, thick black borders, underground radio energy. No platform logos."
+    },
+    {
+      "name": "Tools Cover",
+      "targetPath": "assets/images/tools-placeholder.svg",
+      "prompt": "Create a brutalist toolkit image for interactive liberty tools: scorecards, checklists, bingo cards, detector panels. Cream, black, red, yellow, thick borders, hard shadows."
+    },
+    {
+      "name": "Archive Cover",
+      "targetPath": "assets/images/archive-placeholder.svg",
+      "prompt": "Create a retro archive collage for old podcast/video/social content being recovered into a website. Stacked cards, tapes, waveform snippets, red labels, black ink, cream background, brutalist zine style."
+    }
+  ]
+}

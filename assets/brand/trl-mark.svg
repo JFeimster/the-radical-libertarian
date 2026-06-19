@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f6f0df"/>
+  <circle cx="256" cy="256" r="194" fill="#e4002b" stroke="#050505" stroke-width="24"/>
+  <path d="M138 262 L256 94 L374 262 H306 L306 388 H206 L206 262 Z" fill="#fff8e7" stroke="#050505" stroke-width="16" stroke-linejoin="round"/>
+  <text x="256" y="444" text-anchor="middle" font-family="Courier New, monospace" font-size="36" font-weight="900" fill="#050505">T.R.L.</text>
+</svg>

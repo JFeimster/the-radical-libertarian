@@ -1,0 +1,51 @@
+{
+  "style": {
+    "description": "Brutalist section icons with thick black borders, hard shapes, red/black/cream foundation, and simple labels or symbols.",
+    "rules": [
+      "readable at small sizes",
+      "no tiny details",
+      "no official party marks",
+      "no fake seals",
+      "simple geometry",
+      "high contrast"
+    ]
+  },
+  "icons": [
+    {
+      "name": "Core Icon 192",
+      "path": "assets/icons/icon-192.svg",
+      "size": "192x192",
+      "status": "placeholder-active"
+    },
+    {
+      "name": "Core Icon 512",
+      "path": "assets/icons/icon-512.svg",
+      "size": "512x512",
+      "status": "placeholder-active"
+    },
+    {
+      "name": "Podcast Icon",
+      "path": "assets/icons/icon-podcast.svg",
+      "size": "512x512",
+      "status": "placeholder-active"
+    },
+    {
+      "name": "Essays Icon",
+      "path": "assets/icons/icon-essays.svg",
+      "size": "512x512",
+      "status": "placeholder-active"
+    },
+    {
+      "name": "Tools Icon",
+      "path": "assets/icons/icon-tools.svg",
+      "size": "512x512",
+      "status": "placeholder-active"
+    },
+    {
+      "name": "Resources Icon",
+      "path": "assets/icons/icon-resources.svg",
+      "size": "512x512",
+      "status": "placeholder-active"
+    }
+  ]
+}

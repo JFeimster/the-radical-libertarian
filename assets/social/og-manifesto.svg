@@ -4,11 +4,11 @@
     <rect width="11" height="28" fill="rgba(0,0,0,0.055)"/>
   </pattern>
   <rect width="1200" height="630" fill="url(#paper)"/>
-  <rect x="62" y="62" width="1076" height="506" fill="#e4002b" stroke="#050505" stroke-width="10"/>
+  <rect x="62" y="62" width="1076" height="506" fill="#050505" stroke="#050505" stroke-width="10"/>
   <rect x="82" y="82" width="1076" height="506" fill="none" stroke="#050505" stroke-width="10"/>
   <rect x="98" y="105" width="170" height="70" fill="#050505"/>
   <text x="183" y="151" text-anchor="middle" font-family="Courier New, monospace" font-size="34" font-weight="900" fill="#fff8e7">T.R.L.</text>
-  <text x="600" y="295" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="92" font-weight="900" fill="#fff8e7">FREEDOM IS NOT</text>
-  <text x="600" y="398" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="100" font-weight="900" fill="#fff8e7">COMFORTABLE</text>
-  <text x="600" y="485" text-anchor="middle" font-family="Courier New, monospace" font-size="28" font-weight="900" fill="#050505">THE RADICAL LIBERTARIAN</text>
+  <text x="600" y="295" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="92" font-weight="900" fill="#fff8e7">READ THE</text>
+  <text x="600" y="398" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="100" font-weight="900" fill="#fff8e7">MANIFESTO</text>
+  <text x="600" y="485" text-anchor="middle" font-family="Courier New, monospace" font-size="28" font-weight="900" fill="#050505">SELF-OWNERSHIP. EXIT. DECENTRALIZE.</text>
 </svg>
