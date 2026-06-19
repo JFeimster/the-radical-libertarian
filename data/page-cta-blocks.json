@@ -1,0 +1,8 @@
+{
+  "ctaBlocks": [
+    { "group": "essays", "primary": "newsletter.html", "secondary": "podcast.html" },
+    { "group": "podcast", "primary": "podcast/listen.html", "secondary": "newsletter.html" },
+    { "group": "tools", "primary": "newsletter.html", "secondary": "essays.html" },
+    { "group": "resources", "primary": "tools/", "secondary": "newsletter.html" }
+  ]
+}

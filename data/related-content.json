@@ -1,0 +1,8 @@
+{
+  "rules": [
+    { "match": "essays", "links": ["podcast.html", "tools/", "newsletter.html"] },
+    { "match": "podcast", "links": ["podcast/episodes.html", "podcast/clips.html", "guest.html"] },
+    { "match": "tools", "links": ["essays.html", "resources/", "join.html"] },
+    { "match": "resources", "links": ["resources/glossary.html", "resources/civic-action.html", "tools/"] }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "batch": 12,
+  "status": "patched",
+  "homepageTouched": false,
+  "notes": [
+    "site-footer.js dynamically enhances footers",
+    "related-content.js adds contextual related links",
+    "major pages except index.html patched with footer/scripts"
+  ]
+}

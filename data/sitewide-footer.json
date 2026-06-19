@@ -1,0 +1,9 @@
+{
+  "cta": {
+    "headline": "Join the signal.",
+    "body": "Essays, audio grenades, tools, archive drops, and useful weirdness. No obedience rituals.",
+    "primary": { "label": "Subscribe Directly", "href": "newsletter.html" },
+    "secondary": { "label": "Explore Site", "href": "explore.html" }
+  },
+  "columns": ["Core", "Content", "Tools", "Utility"]
+}
