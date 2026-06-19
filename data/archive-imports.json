@@ -1,1 +1,28 @@
-{"imports":[]}
+{
+  "imports": [
+    {
+      "source": "YouTube",
+      "label": "The Radical Libertarian Podcast",
+      "url": "",
+      "status": "needs-url",
+      "targetPage": "archive/old-youtube-posts.html",
+      "notes": "Add channel, playlist, and episode URLs."
+    },
+    {
+      "source": "Spotify",
+      "label": "The Radical Libertarian on Spotify",
+      "url": "",
+      "status": "needs-url",
+      "targetPage": "archive/old-podcast-episodes.html",
+      "notes": "Add Spotify show and episode URLs."
+    },
+    {
+      "source": "Instagram",
+      "label": "@radicallibertarian",
+      "url": "https://www.instagram.com/radicallibertarian",
+      "status": "active",
+      "targetPage": "archive/old-instagram-posts.html",
+      "notes": "Recover themes, captions, hooks, and post ideas."
+    }
+  ]
+}

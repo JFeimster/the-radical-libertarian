@@ -8,13 +8,17 @@
       "name": "YouTube",
       "label": "The Radical Libertarian Podcast",
       "url": "",
+      "localPage": "youtube.html",
+      "archivePage": "archive/old-youtube-posts.html",
       "status": "needs-url",
-      "notes": "Add the actual channel or playlist URL."
+      "notes": "Add the actual YouTube channel or playlist URL."
     },
     {
       "name": "Spotify",
       "label": "The Radical Libertarian on Spotify",
       "url": "",
+      "localPage": "spotify.html",
+      "archivePage": "archive/old-podcast-episodes.html",
       "status": "needs-url",
       "notes": "Add the actual Spotify show URL."
     },
@@ -22,12 +26,16 @@
       "name": "Instagram",
       "label": "@radicallibertarian",
       "url": "https://www.instagram.com/radicallibertarian",
+      "localPage": "instagram.html",
+      "archivePage": "archive/old-instagram-posts.html",
       "status": "active"
     },
     {
       "name": "Libertarian National",
       "label": "Libertarian Party",
       "url": "https://lp.org/",
+      "localPage": "libertarian-national.html",
+      "archivePage": "",
       "status": "external-resource",
       "notes": "Independent resource link. This site does not speak for LP.org."
     }

@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Episodes | The Radical Libertarian</title>
-  <meta name="description" content="A static archive for podcast episodes." />
+  <title>Podcast Episodes | The Radical Libertarian</title>
+  <meta name="description" content="A static episode archive for The Radical Libertarian Podcast." />
 
-  <link rel="stylesheet" href="../style.css" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +26,42 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Podcast Layer</div>
-      <h1>Episodes</h1>
-      <p>A static archive for podcast episodes.</p>
+      <div class="sticker">Episode Archive</div>
+      <h1>Podcast Episodes</h1>
+      <p>A static episode archive for The Radical Libertarian Podcast.</p>
     </section>
 
-    <section class='podcast-grid'><article class='podcast-card'><h3>YouTube</h3><p>Add YouTube embeds or links.</p></article><article class='podcast-card'><h3>Spotify</h3><p>Add Spotify embeds or links.</p></article><article class='podcast-card'><h3>Archive</h3><p>Use data/podcast-episodes.json to power this section later.</p></article></section>
+    <section class="import-warning">
+      <h2>Episode archive scaffold.</h2>
+      <p>This page is ready for episode cards powered by <code>data/podcast-episodes.json</code>. Add old Spotify and YouTube episode links as they are recovered.</p>
+    </section>
+
+    <section class="archive-table">
+      <div class="archive-row">
+        <strong>Episode</strong>
+        <strong>Platform</strong>
+        <strong>Status</strong>
+      </div>
+
+      <div class="archive-row">
+        <span>Welcome to the Unfiltered Republic</span>
+        <span>Website / Podcast</span>
+        <span>Planned</span>
+      </div>
+
+      <div class="archive-row">
+        <span>Recovered older episodes</span>
+        <span>Spotify / YouTube</span>
+        <span>Needs import</span>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">ARCHIVE THE SIGNAL. DISTRIBUTE THE GRENADE.</p>
   </footer>
 
   <script src="../script.js"></script>
 </body>
 </html>
-
