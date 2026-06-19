@@ -1,0 +1,26 @@
+{
+  "primary": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "Essays", "href": "essays.html" },
+    { "label": "Manifesto", "href": "manifesto.html" },
+    { "label": "Podcast", "href": "podcast.html" },
+    { "label": "Join", "href": "join.html" }
+  ],
+  "secondary": [
+    { "label": "Start Here", "href": "start-here.html" },
+    { "label": "Principles", "href": "principles.html" },
+    { "label": "Library", "href": "library.html" },
+    { "label": "Resources", "href": "resources/index.html" },
+    { "label": "Tools", "href": "tools/index.html" },
+    { "label": "Archive", "href": "archive/index.html" }
+  ],
+  "footer": [
+    { "label": "About", "href": "about.html" },
+    { "label": "YouTube", "href": "youtube.html" },
+    { "label": "Spotify", "href": "spotify.html" },
+    { "label": "Instagram", "href": "instagram.html" },
+    { "label": "Support", "href": "support.html" },
+    { "label": "Contact", "href": "contact.html" },
+    { "label": "Libertarian National", "href": "libertarian-national.html" }
+  ]
+}

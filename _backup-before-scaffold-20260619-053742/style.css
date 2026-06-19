@@ -1,14 +1,13 @@
 :root {
-  --cream: #f7f0df;
-  --cream-2: #fff9eb;
+  --cream: #f6f0df;
+  --cream-2: #fff8e7;
   --black: #050505;
-  --ink: #141414;
+  --ink: #111111;
   --red: #e4002b;
-  --red-dark: #9f001d;
   --yellow: #f7c600;
   --blue: #00a3ff;
   --green: #00d084;
-  --muted: #675f52;
+  --muted: #6f6a5f;
   --border: 4px solid var(--black);
   --shadow: 10px 10px 0 var(--black);
   --shadow-sm: 5px 5px 0 var(--black);
@@ -26,15 +25,15 @@ body {
   margin: 0;
   color: var(--black);
   background:
-    repeating-linear-gradient(45deg, rgba(0,0,0,.028), rgba(0,0,0,.028) 10px, transparent 10px, transparent 22px),
-    radial-gradient(circle at 18% 6%, rgba(228,0,43,.12), transparent 28%),
-    radial-gradient(circle at 86% 22%, rgba(247,198,0,.18), transparent 25%),
+    repeating-linear-gradient(
+      45deg,
+      rgba(0,0,0,0.025),
+      rgba(0,0,0,0.025) 10px,
+      transparent 10px,
+      transparent 22px
+    ),
     var(--cream);
   font-family: Georgia, "Times New Roman", serif;
-}
-
-a {
-  color: inherit;
 }
 
 .grain-overlay {
@@ -42,7 +41,7 @@ a {
   position: fixed;
   inset: 0;
   z-index: 999;
-  opacity: .06;
+  opacity: .08;
   background-image:
     radial-gradient(circle at 20% 30%, #000 1px, transparent 1px),
     radial-gradient(circle at 70% 80%, #000 1px, transparent 1px);
@@ -60,7 +59,7 @@ a {
   justify-content: space-between;
   gap: 24px;
   padding: 18px 24px;
-  background: rgba(247,240,223,.96);
+  background: rgba(246, 240, 223, .96);
   border-bottom: var(--border);
   backdrop-filter: blur(10px);
 }
@@ -106,18 +105,18 @@ a {
 .page-hero {
   max-width: 1260px;
   margin: 0 auto;
-  padding: 92px 24px 72px;
+  padding: 92px 24px 70px;
   text-align: center;
 }
 
 .hero h1,
 .page-hero h1 {
   margin: 28px auto 24px;
-  max-width: 1160px;
+  max-width: 1120px;
   font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
   font-size: clamp(3.2rem, 11vw, 8.8rem);
   line-height: .86;
-  letter-spacing: -.055em;
+  letter-spacing: -0.055em;
   text-transform: uppercase;
 }
 
@@ -127,17 +126,16 @@ a {
 
 .hero p,
 .page-hero p {
-  max-width: 860px;
+  max-width: 840px;
   margin: 0 auto;
   font-size: clamp(1.1rem, 2vw, 1.45rem);
   line-height: 1.42;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .sticker {
   display: inline-block;
   transform: rotate(-1.5deg);
-  margin: 0;
   padding: 10px 22px;
   color: var(--cream);
   background: var(--black);
@@ -201,11 +199,12 @@ a {
   font-size: clamp(2.4rem, 6vw, 5rem);
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: -.04em;
+  letter-spacing: -0.04em;
 }
 
-.card-grid,
+.grid,
 .manifesto-grid,
+.card-grid,
 .resource-grid,
 .tool-grid,
 .essay-grid,
@@ -224,40 +223,10 @@ a {
 .tool-card,
 .essay-card,
 .podcast-card {
-  position: relative;
   background: var(--cream-2);
   border: var(--border);
   box-shadow: var(--shadow);
   padding: 28px;
-  overflow: hidden;
-}
-
-.card::after,
-.manifesto-card::after,
-.resource-card::after,
-.tool-card::after,
-.essay-card::after,
-.podcast-card::after {
-  content: "";
-  position: absolute;
-  right: -40px;
-  top: -40px;
-  width: 110px;
-  height: 110px;
-  background: var(--yellow);
-  border: var(--border);
-  transform: rotate(18deg);
-  opacity: .9;
-}
-
-.card-kicker {
-  display: inline-block;
-  margin: 0 0 16px;
-  padding: 5px 10px;
-  background: var(--black);
-  color: var(--cream);
-  font-family: "Courier New", monospace;
-  font-weight: 900;
 }
 
 .card h2,
@@ -267,8 +236,6 @@ a {
 .tool-card h3,
 .essay-card h3,
 .podcast-card h3 {
-  position: relative;
-  z-index: 2;
   margin-top: 0;
   font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
   font-size: clamp(1.55rem, 3vw, 2.4rem);
@@ -282,11 +249,9 @@ a {
 .tool-card p,
 .essay-card p,
 .podcast-card p {
-  position: relative;
-  z-index: 2;
   font-size: 1.05rem;
   line-height: 1.5;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .feature-band {
@@ -305,13 +270,6 @@ a {
   font-size: clamp(2.2rem, 5vw, 5rem);
   line-height: .95;
   text-transform: uppercase;
-}
-
-.feature-band p {
-  max-width: 850px;
-  font-size: 1.25rem;
-  line-height: 1.45;
-  font-weight: 800;
 }
 
 .list-section {
@@ -400,11 +358,6 @@ select {
   font-weight: 900;
 }
 
-.site-footer a {
-  color: var(--cream);
-  margin: 0 8px;
-}
-
 .footer-note {
   opacity: .65;
 }
@@ -420,8 +373,9 @@ select {
     gap: 14px;
   }
 
-  .card-grid,
+  .grid,
   .manifesto-grid,
+  .card-grid,
   .resource-grid,
   .tool-grid,
   .essay-grid,

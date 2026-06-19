@@ -1,0 +1,32 @@
+{
+  "site": {
+    "name": "The Radical Libertarian",
+    "url": "https://the-radical-libertarian.vercel.app/"
+  },
+  "platforms": [
+    {
+      "name": "YouTube",
+      "label": "The Radical Libertarian Podcast",
+      "url": "",
+      "status": "needs-url"
+    },
+    {
+      "name": "Spotify",
+      "label": "The Radical Libertarian on Spotify",
+      "url": "",
+      "status": "needs-url"
+    },
+    {
+      "name": "Instagram",
+      "label": "@radicallibertarian",
+      "url": "https://www.instagram.com/radicallibertarian",
+      "status": "active"
+    },
+    {
+      "name": "Libertarian National",
+      "label": "Libertarian Party",
+      "url": "https://lp.org/",
+      "status": "external-resource"
+    }
+  ]
+}

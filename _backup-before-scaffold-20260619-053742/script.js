@@ -1,17 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll("[data-year]").forEach((node) => {
+  const yearNodes = document.querySelectorAll("[data-year]");
+  yearNodes.forEach((node) => {
     node.textContent = new Date().getFullYear();
   });
 
-  document.querySelectorAll("[data-random-quote]").forEach((button) => {
+  const quoteButtons = document.querySelectorAll("[data-random-quote]");
+  quoteButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const quotes = [
         "Freedom is not supposed to be comfortable.",
         "The leash is always marketed as convenience.",
-        "Exit is a strategy. Voice is a suggestion box.",
-        "The state is a fiction with a billing department.",
         "Question the consensus before it becomes a cage.",
-        "Code is speech. Privacy is posture. Sovereignty is practice."
+        "Exit is a strategy. Voice is a suggestion box.",
+        "The state is a fiction with a billing department."
       ];
 
       const target = document.querySelector(button.dataset.randomQuote);

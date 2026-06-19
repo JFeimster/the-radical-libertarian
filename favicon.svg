@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#e4002b"/>
+  <rect x="28" y="28" width="456" height="456" fill="#e4002b" stroke="#050505" stroke-width="28"/>
+  <text x="256" y="300" text-anchor="middle" font-family="Courier New, monospace" font-size="132" font-weight="900" fill="#fff8e7">TRL</text>
+</svg>

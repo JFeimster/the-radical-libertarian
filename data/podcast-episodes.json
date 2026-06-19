@@ -1,0 +1,20 @@
+{
+  "podcast": {
+    "name": "The Radical Libertarian Podcast",
+    "spotifyUrl": "",
+    "youtubeUrl": "",
+    "description": "Essays, rants, interviews, and philosophical grenades for people allergic to permission slips."
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "Welcome to the Unfiltered Republic",
+      "slug": "welcome-to-the-unfiltered-republic",
+      "summary": "A starter episode explaining the mission, tone, and ideological operating system behind The Radical Libertarian.",
+      "youtubeUrl": "",
+      "spotifyUrl": "",
+      "transcriptUrl": "",
+      "status": "planned"
+    }
+  ]
+}

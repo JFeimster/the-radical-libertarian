@@ -1,0 +1,24 @@
+{
+  "essays": [
+    {
+      "title": "The Architecture of Digital Serfdom",
+      "slug": "digital-serfdom",
+      "url": "essays/digital-serfdom.html",
+      "category": "Technology",
+      "tags": ["surveillance", "platforms", "digital-sovereignty"],
+      "excerpt": "How convenience became the leash and the login screen became the new border checkpoint.",
+      "status": "draft",
+      "featured": true
+    },
+    {
+      "title": "Cryptographic Secession",
+      "slug": "cryptographic-secession",
+      "url": "essays/cryptographic-secession.html",
+      "category": "Decentralization",
+      "tags": ["crypto", "privacy", "exit"],
+      "excerpt": "Building systems that do not beg brittle institutions for permission.",
+      "status": "draft",
+      "featured": true
+    }
+  ]
+}

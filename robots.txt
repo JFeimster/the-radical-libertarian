@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://the-radical-libertarian.vercel.app/sitemap.xml
