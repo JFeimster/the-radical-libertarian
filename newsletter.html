@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newsletter | The Radical Libertarian</title>
+  <meta name="description" content="A static newsletter capture scaffold for The Radical Libertarian." />
+  <meta property="og:title" content="Newsletter | The Radical Libertarian" />
+  <meta property="og:description" content="A static newsletter capture scaffold for The Radical Libertarian." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/newsletter.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-join.svg" />
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/newsletter.html" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="grain-overlay"></div>
+  <header class="site-header">
+    <a class="logo" href="index.html">T.R.L.</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="essays.html">Essays</a>
+      <a href="manifesto.html">Manifesto</a>
+      <a href="podcast.html">Podcast</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="sticker">Own The Audience</div>
+      <h1>Newsletter</h1>
+      <p>A static newsletter capture scaffold for The Radical Libertarian.</p>
+    </section>
+    <section class="conversion-command"><h2>Email beats rented reach.</h2><p>This page defines the newsletter capture flow. Wire it to Tally, Beehiiv, ConvertKit, Mailchimp, Buttondown, Formspree, Basin, or a backend when ready.</p></section>
+    <form class="conversion-form" data-static-form data-result-target="newsletter-result"><label for="newsletter-email">Email</label><input id="newsletter-email" name="email" type="email" placeholder="your-email@ungovernable.com" required /><label for="newsletter-lane">Why are you here?</label><select id="newsletter-lane" name="lane"><option>Essays</option><option>Podcast</option><option>Tools</option><option>Resources</option><option>All of the above, obviously</option></select><button class="btn" type="submit">Stage Subscribe</button></form>
+    <section class="conversion-result" id="newsletter-result"><h2>Provider not wired yet.</h2><p>This is intentional. Batch 11 creates the wiring scaffold. Add the real form endpoint in the production pass.</p></section>
+    <section class="form-grid"><article class="form-card"><span class="conversion-badge">Option A</span><h3>Tally</h3><p>Fastest no-code embed or redirect.</p></article><article class="form-card"><span class="conversion-badge">Option B</span><h3>Formspree / Basin</h3><p>Simple static-site form endpoints.</p></article><article class="form-card"><span class="conversion-badge">Option C</span><h3>Email Platform</h3><p>Beehiiv, ConvertKit, Mailchimp, Buttondown, Ghost, or Substack.</p></article></section>
+  </main>
+  <footer class="site-footer">
+    <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
+    <p class="footer-note">OWN THE AUDIENCE. WIRE THE SIGNAL.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/conversion.js"></script>
+</body>
+</html>

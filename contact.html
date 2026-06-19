@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Contact | The Radical Libertarian</title>
-  <meta name="description" content="For podcast pitches, collaborations, corrections, and smoke signals." />
-
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="A contact routing scaffold for podcast pitches, corrections, collaborations, archive submissions, and general messages." />
+  <meta property="og:title" content="Contact | The Radical Libertarian" />
+  <meta property="og:description" content="A contact routing scaffold for podcast pitches, corrections, collaborations, archive submissions, and general messages." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://the-radical-libertarian.vercel.app/contact.html" />
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-join.svg" />
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/contact.html" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="grain-overlay"></div>
-
   <header class="site-header">
     <a class="logo" href="index.html">T.R.L.</a>
-
     <nav class="site-nav" aria-label="Main navigation">
       <a href="essays.html">Essays</a>
       <a href="manifesto.html">Manifesto</a>
@@ -23,23 +26,23 @@
       <a href="join.html">Join</a>
     </nav>
   </header>
-
-  <main>
+  <main id="main-content">
     <section class="page-hero">
-      <div class="sticker">Send Signal</div>
+      <div class="sticker">Contact Routes</div>
       <h1>Contact</h1>
-      <p>For podcast pitches, collaborations, corrections, and smoke signals.</p>
+      <p>A contact routing scaffold for podcast pitches, corrections, collaborations, archive submissions, and general messages.</p>
     </section>
-
-    <section class='newsletter'><h2>Contact Form Placeholder</h2><p>Add Tally, Formspree, or email link here.</p><a class='btn' href='mailto:jasonfeimster@gmail.com'>Email</a></section>
+    <section class="conversion-command"><h2>Contact without opening the chaos portal.</h2><p>This page routes messages by type. Wire the form to a real endpoint later, or replace buttons with email/Tally links.</p></section>
+    <section class="cta-grid"><a class="cta-card" href="guest.html"><span class="conversion-badge">Podcast</span><h3>Guest Pitch</h3><p>Pitch a guest or topic.</p></a><a class="cta-card" href="newsletter.html"><span class="conversion-badge">Subscribe</span><h3>Join The Signal</h3><p>Get essays, episodes, tools, and archive drops.</p></a><a class="cta-card" href="platforms.html"><span class="conversion-badge">Links</span><h3>Platform Updates</h3><p>Add or verify YouTube, Spotify, Instagram, and external links.</p></a></section>
+    <form class="conversion-form" data-static-form data-result-target="contact-result"><label for="contact-type">Message Type</label><select id="contact-type" name="contactType"><option>General</option><option>Podcast Guest</option><option>Correction / Link Fix</option><option>Collaboration</option><option>Archive Submission</option></select><label for="contact-email">Email</label><input id="contact-email" name="email" type="email" placeholder="you@example.com" required /><label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="6" placeholder="Say the thing. Preferably with receipts."></textarea><button class="btn" type="submit">Stage Message</button></form>
+    <section class="conversion-result" id="contact-result"><h2>Contact form scaffold ready.</h2><p>No data is sent yet. Wire the endpoint before using this as a live contact form.</p></section>
   </main>
-
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">OWN THE AUDIENCE. WIRE THE SIGNAL.</p>
   </footer>
-
   <script src="script.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/conversion.js"></script>
 </body>
 </html>
-

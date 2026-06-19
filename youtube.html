@@ -3,31 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>YouTube | The Radical Libertarian</title>
-  <meta name="description" content="A video archive and playlist hub for The Radical Libertarian Podcast on YouTube." />
-
+  <meta name="description" content="A video hub and embed zone for The Radical Libertarian Podcast on YouTube." />
   <meta property="og:title" content="YouTube | The Radical Libertarian" />
-  <meta property="og:description" content="A video archive and playlist hub for The Radical Libertarian Podcast on YouTube." />
+  <meta property="og:description" content="A video hub and embed zone for The Radical Libertarian Podcast on YouTube." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://the-radical-libertarian.vercel.app/youtube.html" />
-  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="YouTube | The Radical Libertarian" />
-  <meta name="twitter:description" content="A video archive and playlist hub for The Radical Libertarian Podcast on YouTube." />
-  <meta name="twitter:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-placeholder.svg" />
-
+  <meta property="og:image" content="https://the-radical-libertarian.vercel.app/assets/social/og-join.svg" />
   <link rel="canonical" href="https://the-radical-libertarian.vercel.app/youtube.html" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="grain-overlay"></div>
-
   <header class="site-header">
     <a class="logo" href="index.html">T.R.L.</a>
-
     <nav class="site-nav" aria-label="Main navigation">
       <a href="essays.html">Essays</a>
       <a href="manifesto.html">Manifesto</a>
@@ -35,33 +26,21 @@
       <a href="join.html">Join</a>
     </nav>
   </header>
-
-  <main>
+  <main id="main-content">
     <section class="page-hero">
-      <div class="sticker">Video Archive</div>
+      <div class="sticker">Video Wiring</div>
       <h1>YouTube</h1>
-      <p>A video archive and playlist hub for The Radical Libertarian Podcast on YouTube.</p>
+      <p>A video hub and embed zone for The Radical Libertarian Podcast on YouTube.</p>
     </section>
-
-    <section class="embed-placeholder">
-      <h2>Video archive staging area.</h2>
-      <p>Add the actual YouTube channel, playlist, or episode URLs for <strong>The Radical Libertarian Podcast</strong>. Until then, this hub routes traffic into the archive and clip factory.</p>
-      <a class="btn" href="podcast/youtube.html">Podcast YouTube Page</a>
-    </section>
-
-    <section class="media-grid">
-      <a class="media-card" href="podcast/episodes.html"><h3>Episode Archive</h3><p>Seed episodes and recovered-video placeholders.</p><span class="media-badge">Episodes</span></a>
-      <a class="media-card" href="podcast/clips.html"><h3>Clip Factory</h3><p>Short-form ideas for Shorts, Reels, and quote cards.</p><span class="media-badge">Clips</span></a>
-      <a class="media-card" href="archive/old-youtube-posts.html"><h3>Old YouTube Posts</h3><p>Recover older YouTube posts and episodes.</p><span class="media-badge">Recover</span></a>
-    </section>
+    <section class="embed-zone"><div><h2>YouTube embed zone.</h2><p>Paste the confirmed YouTube channel, playlist, or video embed here when available.</p><p><strong>Status:</strong> Needs URL</p></div></section>
+    <section class="platform-grid-v2"><a class="platform-card-v2" href="platforms.html"><h3>Platform Tasks</h3><p>Track the missing YouTube URL and embed tasks.</p><span class="conversion-badge">Tasks</span></a><a class="platform-card-v2" href="podcast/youtube.html"><h3>Podcast YouTube</h3><p>Dedicated podcast YouTube embed page.</p><span class="conversion-badge">Video</span></a><a class="platform-card-v2" href="archive/old-youtube-posts.html"><h3>Old YouTube Posts</h3><p>Recover older YouTube episodes and posts.</p><span class="conversion-badge">Archive</span></a></section>
   </main>
-
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">AUDIO GRENADES. VIDEO SIGNALS. ARCHIVE EVERYTHING.</p>
+    <p class="footer-note">OWN THE AUDIENCE. WIRE THE SIGNAL.</p>
   </footer>
-
   <script src="script.js"></script>
-  <script src="js/media.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/conversion.js"></script>
 </body>
 </html>
