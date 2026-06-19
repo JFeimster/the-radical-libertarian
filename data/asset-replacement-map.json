@@ -1,0 +1,19 @@
+{
+  "replacementRules": [
+    {
+      "slot": "assets/production/hero/home-hero-slot.svg",
+      "replaceWith": "assets/production/hero/home-hero.webp",
+      "beforeUse": ["check dimensions", "check file size", "test homepage mobile", "test homepage desktop"]
+    },
+    {
+      "slot": "assets/production/social/home-og-slot.svg",
+      "replaceWith": "assets/production/social/home-og.png",
+      "beforeUse": ["check 1200x630", "update og:image", "test social preview"]
+    }
+  ],
+  "doNot": [
+    "Do not add oversized hero images directly into index.html without testing.",
+    "Do not remove prompts or asset registries when replacing placeholders.",
+    "Do not invent platform logos or fake official marks."
+  ]
+}

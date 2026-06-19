@@ -1,30 +1,29 @@
 # Links
 
-## Launch + QA
+## Batch 15 Production Assets
 
-- QA Dashboard: `/qa.html`
-- Launch Hub: `/launch.html`
-- Reports: `/reports/index.html`
-- QA Report: `/reports/qa-report.md`
-- Link Audit: `/reports/link-audit.md`
-- JSON Validation: `/reports/json-validation.md`
-- Deployment Check: `/reports/deployment-check.md`
-- Launch Readiness: `/reports/launch-readiness.md`
+- Production Assets Page: `/assets-production.html`
+- Production Assets Docs: `/PRODUCTION_ASSETS.md`
+- Image Replacement Plan: `/IMAGE_REPLACEMENT_PLAN.md`
+- Asset QA: `/ASSET_QA.md`
+- Prompt Pack: `/PROMPT_PACK_IMAGES.md`
+
+## Production Asset Folders
+
+- Hero Slots: `/assets/production/hero/`
+- Social Slots: `/assets/production/social/`
+- Thumbnail Slots: `/assets/production/thumbnails/`
+- Square Slots: `/assets/production/square/`
+- Cover Slots: `/assets/production/covers/`
+
+## Data
+
+- Production Assets: `/data/production-assets.json`
+- Replacement Map: `/data/asset-replacement-map.json`
+- Dimensions: `/data/image-dimensions.json`
+- Asset QA: `/data/asset-qa.json`
 
 ## Scripts
 
-- QA Audit: `/scripts/qa-audit.ps1`
-- Link Audit: `/scripts/link-audit.ps1`
-- JSON Validate: `/scripts/json-validate.ps1`
-- Site Inventory: `/scripts/site-inventory.ps1`
-- Launch Check: `/scripts/launch-check.ps1`
-
-## Core
-
-- Home: `/index.html`
-- Manifesto: `/manifesto.html`
-- Essays: `/essays.html`
-- Podcast: `/podcast.html`
-- Newsletter: `/newsletter.html`
-- Search: `/search.html`
-- Sitemap: `/sitemap.html`
+- Asset Inventory: `/scripts/asset-inventory.ps1`
+- Image Slot Check: `/scripts/image-slot-check.ps1`

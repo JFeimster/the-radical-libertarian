@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f6f0df"/>
+  <pattern id="grain" width="32" height="32" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="12" height="32" fill="rgba(0,0,0,0.06)"/>
+  </pattern>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+  <rect x="92" y="92" width="1416" height="716" fill="#050505" stroke="#050505" stroke-width="14"/>
+  <rect x="122" y="122" width="1416" height="716" fill="none" stroke="#050505" stroke-width="12"/>
+  <rect x="150" y="150" width="210" height="84" fill="#050505"/>
+  <text x="255" y="205" text-anchor="middle" font-family="Courier New, monospace" font-size="42" font-weight="900" fill="#fff8e7">T.R.L.</text>
+  <text x="800" y="420" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="118" font-weight="900" fill="#fff8e7">MANIFESTO</text>
+  <text x="800" y="524" text-anchor="middle" font-family="Courier New, monospace" font-size="38" font-weight="900" fill="#050505">1600x900</text>
+  <text x="800" y="622" text-anchor="middle" font-family="Courier New, monospace" font-size="28" font-weight="900" fill="#050505">PRODUCTION SLOT — REPLACE WITH PNG/WEBP WHEN READY</text>
+</svg>

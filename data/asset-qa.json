@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Confirm image dimensions",
+    "Confirm file size",
+    "Confirm mobile layout",
+    "Confirm desktop layout",
+    "Confirm no fake logos/seals",
+    "Confirm no unreadable tiny text",
+    "Confirm alt text when image is used in HTML",
+    "Confirm social preview where applicable"
+  ]
+}

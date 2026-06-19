@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Production Assets | The Radical Libertarian</title>
+  <meta name="description" content="Production image slots, asset replacement plan, and image QA for The Radical Libertarian." />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/assets-production.html" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="grain-overlay"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">T.R.L.</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="essays.html">Essays</a>
+      <a href="manifesto.html">Manifesto</a>
+      <a href="podcast.html">Podcast</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="sticker">Asset Slots</div>
+      <h1>Production Assets</h1>
+      <p>Final image slots, replacement plan, and image QA. Nothing here injects oversized images into the homepage.</p>
+    </section>
+
+    <section class="production-asset-command">
+      <h2>Replace carefully. Test locally. Then deploy.</h2>
+      <p>This is where generated art gets staged before it earns a place in the live layout.</p>
+    </section>
+
+    <section class="production-asset-grid">
+      <a class="production-asset-card" href="assets/production/hero/home-hero-slot.svg">
+        <img src="assets/production/hero/home-hero-slot.svg" alt="Home hero slot" />
+        <span class="production-asset-badge">Hero</span>
+        <h3>Home Hero Slot</h3>
+        <p>1600x900 hero art slot. Do not inject until tested.</p>
+      </a>
+
+      <a class="production-asset-card" href="assets/production/social/home-og-slot.svg">
+        <img src="assets/production/social/home-og-slot.svg" alt="Home OG slot" />
+        <span class="production-asset-badge">OG</span>
+        <h3>Home OG Slot</h3>
+        <p>1200x630 social-share image slot.</p>
+      </a>
+
+      <a class="production-asset-card" href="assets/production/thumbnails/youtube-thumbnail-slot.svg">
+        <img src="assets/production/thumbnails/youtube-thumbnail-slot.svg" alt="YouTube thumbnail slot" />
+        <span class="production-asset-badge">Thumbnail</span>
+        <h3>YouTube Thumbnail</h3>
+        <p>1280x720 thumbnail staging slot.</p>
+      </a>
+
+      <a class="production-asset-card" href="assets/production/square/profile-slot.svg">
+        <img src="assets/production/square/profile-slot.svg" alt="Profile slot" />
+        <span class="production-asset-badge">Square</span>
+        <h3>Profile Slot</h3>
+        <p>1080x1080 profile/social image slot.</p>
+      </a>
+
+      <a class="production-asset-card" href="assets/production/covers/notion-cover-slot.svg">
+        <img src="assets/production/covers/notion-cover-slot.svg" alt="Notion cover slot" />
+        <span class="production-asset-badge">Cover</span>
+        <h3>Notion Cover Slot</h3>
+        <p>1600x400 wide-cover staging slot.</p>
+      </a>
+
+      <a class="production-asset-card" href="IMAGE_REPLACEMENT_PLAN.md">
+        <span class="production-asset-badge">Plan</span>
+        <h3>Replacement Plan</h3>
+        <p>Rules for replacing placeholders without wrecking layout.</p>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer trl-enhanced-footer" data-site-footer>
+    <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/site-footer.js"></script>
+</body>
+</html>

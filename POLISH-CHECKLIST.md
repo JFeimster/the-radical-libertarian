@@ -1,30 +1,19 @@
 # Polish Checklist
 
-## Batch 14 Added
+## Batch 15 Added
 
-- [x] QA dashboard
-- [x] Launch hub
-- [x] Reports folder
-- [x] Local link audit script
-- [x] JSON validation script
-- [x] Site inventory script
-- [x] Launch check script
-- [x] Final QA docs
-- [x] Launch checklist
-- [x] Deployment check docs
+- [x] Production asset slots
+- [x] Asset replacement plan
+- [x] Image QA checklist
+- [x] Production prompt pack
+- [x] Asset inventory script
+- [x] Image slot check script
 
-## Run Before Launch
-
-- [ ] `scripts/qa-audit.ps1`
-- [ ] `scripts/launch-check.ps1`
-- [ ] Confirm Vercel deployment
-- [ ] Check homepage live
-- [ ] Check mobile layout
-
-## Post-Launch
+## Remaining
 
 - [ ] Real YouTube URL
 - [ ] Real Spotify URL
 - [ ] Newsletter provider
 - [ ] Guest intake provider
-- [ ] Final production images
+- [ ] Contact provider
+- [ ] Final generated PNG/WebP replacements

@@ -1,0 +1,12 @@
+{
+  "status": "slots-created",
+  "rule": "Do not inject production images into page layouts until locally tested.",
+  "assets": [
+    { "name": "Home Hero", "slot": "assets/production/hero/home-hero-slot.svg", "targetFinal": "assets/production/hero/home-hero.webp", "size": "1600x900", "status": "slot" },
+    { "name": "Manifesto Hero", "slot": "assets/production/hero/manifesto-hero-slot.svg", "targetFinal": "assets/production/hero/manifesto-hero.webp", "size": "1600x900", "status": "slot" },
+    { "name": "Podcast Hero", "slot": "assets/production/hero/podcast-hero-slot.svg", "targetFinal": "assets/production/hero/podcast-hero.webp", "size": "1600x900", "status": "slot" },
+    { "name": "Home OG", "slot": "assets/production/social/home-og-slot.svg", "targetFinal": "assets/production/social/home-og.png", "size": "1200x630", "status": "slot" },
+    { "name": "YouTube Thumbnail", "slot": "assets/production/thumbnails/youtube-thumbnail-slot.svg", "targetFinal": "assets/production/thumbnails/youtube-thumbnail.png", "size": "1280x720", "status": "slot" },
+    { "name": "Profile", "slot": "assets/production/square/profile-slot.svg", "targetFinal": "assets/production/square/profile.png", "size": "1080x1080", "status": "slot" }
+  ]
+}

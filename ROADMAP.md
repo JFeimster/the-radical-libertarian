@@ -1,6 +1,6 @@
 # Roadmap
 
-## Completed Through Batch 14
+## Completed Through Batch 15
 
 - [x] Core static spine
 - [x] Archive recovery
@@ -16,20 +16,12 @@
 - [x] Global footer + internal-link polish
 - [x] Homepage final conversion pass
 - [x] Final QA + broken-link audit scaffold
+- [x] Production asset slots + image QA
 
-## Launch-Ready Definition
-
-The site is launch-ready after:
-
-- [ ] `scripts/qa-audit.ps1` passes
-- [ ] `scripts/launch-check.ps1` passes
-- [ ] Latest Vercel deployment is confirmed
-- [ ] Homepage and core pages load live
-
-## Post-Launch
+## Recommended Batch 16 — Real URL/Form Provider Wiring
 
 - [ ] Add real YouTube URL
 - [ ] Add real Spotify URL
-- [ ] Connect newsletter provider
-- [ ] Connect guest/contact forms
-- [ ] Replace placeholder SVGs with final assets
+- [ ] Add newsletter provider link/embed
+- [ ] Add guest intake form link/embed
+- [ ] Add contact form link/embed

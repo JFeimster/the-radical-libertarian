@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6f0df"/>
+  <pattern id="paper" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="11" height="28" fill="rgba(0,0,0,0.055)"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#paper)"/>
+  <rect x="62" y="62" width="1076" height="506" fill="#050505" stroke="#050505" stroke-width="10"/>
+  <rect x="82" y="82" width="1076" height="506" fill="none" stroke="#050505" stroke-width="10"/>
+  <text x="600" y="302" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="96" font-weight="900" fill="#fff8e7">MANIFESTO OG</text>
+  <text x="600" y="410" text-anchor="middle" font-family="Courier New, monospace" font-size="32" font-weight="900" fill="#050505">1200x630 OG SLOT</text>
+  <text x="600" y="482" text-anchor="middle" font-family="Courier New, monospace" font-size="26" font-weight="900" fill="#050505">REPLACE WITH FINAL PNG/WEBP AFTER GENERATION</text>
+</svg>

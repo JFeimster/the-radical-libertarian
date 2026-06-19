@@ -1,0 +1,9 @@
+{
+  "recommendedDimensions": [
+    { "type": "Open Graph", "width": 1200, "height": 630, "formats": ["png", "webp"] },
+    { "type": "YouTube Thumbnail", "width": 1280, "height": 720, "formats": ["png", "webp"] },
+    { "type": "Hero", "width": 1600, "height": 900, "formats": ["webp", "png"] },
+    { "type": "Square Social", "width": 1080, "height": 1080, "formats": ["png", "webp"] },
+    { "type": "Wide Cover", "width": 1600, "height": 400, "formats": ["png", "webp"] }
+  ]
+}
