@@ -1,0 +1,10 @@
+{
+  "ctas": [
+    { "location": "hero", "label": "Read The Manifesto", "href": "manifesto.html", "priority": "primary" },
+    { "location": "hero", "label": "Join The Signal", "href": "newsletter.html", "priority": "secondary" },
+    { "location": "hero", "label": "Explore Site", "href": "explore.html", "priority": "secondary" },
+    { "location": "conversion-band", "label": "Subscribe Directly", "href": "newsletter.html", "priority": "primary" },
+    { "location": "conversion-band", "label": "View Conversion Map", "href": "conversion.html", "priority": "secondary" },
+    { "location": "platform-row", "label": "Contact", "href": "contact.html", "priority": "utility" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 13,
+  "status": "homepage-final-pass-complete",
+  "indexUpdated": true,
+  "homepageGoals": [
+    "clearer positioning",
+    "stronger CTAs",
+    "routes to essays, podcast, tools, resources, archive, assets",
+    "direct newsletter conversion",
+    "platform links exposed",
+    "mobile responsive layout"
+  ],
+  "next": [
+    "Batch 14 final QA and broken-link audit",
+    "Add real YouTube URL",
+    "Add real Spotify URL",
+    "Connect newsletter form"
+  ]
+}

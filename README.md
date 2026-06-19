@@ -1,45 +1,26 @@
 # The Radical Libertarian
 
-A brutalist static site for essays, podcast content, philosophical grenades, resource pages, old platform archives, interactive liberty tools, and shareable media assets.
+A brutalist static site for essays, podcast content, philosophical grenades, resource pages, old platform archives, interactive liberty tools, conversion routing, and shareable media assets.
 
 ## Live Site
 
 https://the-radical-libertarian.vercel.app/
 
-## GitHub Repo
-
-https://github.com/JFeimster/the-radical-libertarian
-
 ## Core Pages
 
-- `index.html` — homepage
+- `index.html` — final conversion homepage
 - `manifesto.html` — ideological spine
 - `essays.html` — essay archive
 - `podcast.html` — podcast hub
-- `join.html` — newsletter / follow / conversion page
-- `about.html` — project overview
-- `start-here.html` — new visitor onboarding
-
-## Utility Pages
-
+- `join.html` — join / conversion hub
+- `newsletter.html` — direct subscription scaffold
+- `explore.html` — guided browsing
 - `search.html` — static search
 - `sitemap.html` — human sitemap
-- `explore.html` — guided browsing
-- `navigation.html` — navigation system overview
-- `updates.html` — build log
-- `assets.html` — brand and social asset gallery
 
-## Major Folders
+## Current Launch State
 
-- `essays/` — essay detail pages
-- `podcast/` — podcast/media pages
-- `resources/` — resource hub
-- `tools/` — interactive tools
-- `archive/` — recovered platform content
-- `assets/` — brand, icon, image, and social assets
-- `data/` — structured registries
-- `schemas/` — JSON schemas
-- `seo/` — SEO/social metadata
+The site is structurally complete through Batch 13. Remaining work is final QA, real platform URL wiring, and form provider connection.
 
 ## Local Preview
 
@@ -47,18 +28,11 @@ https://github.com/JFeimster/the-radical-libertarian
 python -m http.server 8080
 ```
 
-Then open:
+Open:
 
 ```txt
 http://localhost:8080
 ```
-
-## Older Platform Content To Connect
-
-- YouTube: The Radical Libertarian Podcast
-- Spotify: The Radical Libertarian on Spotify
-- Instagram: @radicallibertarian
-- Libertarian National: https://lp.org/
 
 ## Operating Rule
 

@@ -1,26 +1,8 @@
 # Links
 
-## Batch 12 Footer + Internal Links
-
-- Footer System: `/footer.html`
-- Related Content System: `/related.html`
-- Internal Link System: `/internal-links.html`
-- Footer Docs: `/FOOTER_SYSTEM.md`
-- Related Docs: `/RELATED_CONTENT.md`
-- Internal Link Docs: `/INTERNAL_LINK_POLISH.md`
-
-## Data
-
-- Sitewide Footer: `/data/sitewide-footer.json`
-- Related Content: `/data/related-content.json`
-- Page CTA Blocks: `/data/page-cta-blocks.json`
-- Breadcrumbs: `/data/breadcrumbs.json`
-- Footer Audit: `/data/footer-audit.json`
-
 ## Core
 
 - Home: `/index.html`
-- Start Here: `/start-here.html`
 - Manifesto: `/manifesto.html`
 - Essays: `/essays.html`
 - Podcast: `/podcast.html`
@@ -29,3 +11,30 @@
 - Explore: `/explore.html`
 - Search: `/search.html`
 - Sitemap: `/sitemap.html`
+
+## Homepage Batch 13
+
+- Homepage Data: `/data/homepage.json`
+- Homepage Sections: `/data/homepage-sections.json`
+- Homepage CTAs: `/data/homepage-ctas.json`
+- Homepage Audit: `/data/homepage-audit.json`
+- Homepage JS: `/js/homepage.js`
+- Homepage Notes: `/HOMEPAGE_FINAL_PASS.md`
+- Conversion Notes: `/CONVERSION_NOTES.md`
+
+## Featured Routes
+
+- Digital Serfdom: `/essays/digital-serfdom.html`
+- Exit Over Voice: `/essays/exit-over-voice.html`
+- Code Is Speech: `/essays/code-is-speech.html`
+- Tools: `/tools/`
+- Resources: `/resources/`
+- Archive: `/archive/`
+- Assets: `/assets.html`
+
+## Platform URLs
+
+- YouTube: `TODO`
+- Spotify: `TODO`
+- Instagram: https://www.instagram.com/radicallibertarian
+- LP.org: https://lp.org/

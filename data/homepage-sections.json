@@ -1,0 +1,11 @@
+{
+  "sections": [
+    { "name": "Hero", "status": "complete", "purpose": "Front-door positioning and primary CTAs." },
+    { "name": "Signal Strip", "status": "complete", "purpose": "Communicate ideological pillars quickly." },
+    { "name": "Pick Your Weapon", "status": "complete", "purpose": "Route visitors to essays, podcast, and tools." },
+    { "name": "Own The Audience", "status": "complete", "purpose": "Route visitors to direct newsletter/conversion paths." },
+    { "name": "Library Wing", "status": "complete", "purpose": "Route visitors to resources, archive, and assets." },
+    { "name": "Featured Grenades", "status": "complete", "purpose": "Route visitors to major essay detail pages." },
+    { "name": "Platform Row", "status": "complete", "purpose": "Expose platform and utility links." }
+  ]
+}

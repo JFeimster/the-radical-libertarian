@@ -2,18 +2,19 @@
 
 ## Completed
 
-- [x] Footer JS system
-- [x] Related-content JS system
-- [x] Footer data registry
-- [x] Related-content registry
-- [x] Major pages patched except homepage
+- [x] Final homepage conversion pass
+- [x] Homepage routes to essays, podcast, tools, resources, archive, assets
+- [x] Newsletter CTA added
+- [x] Featured essay links added
+- [x] Platform row added
+- [x] Homepage data registries added
 
-## Still Needed
+## Remaining
 
-- [ ] Final homepage conversion pass
-- [ ] Add real YouTube URL
-- [ ] Add real Spotify URL
-- [ ] Connect newsletter form
-- [ ] Connect guest intake form
-- [ ] Run final broken-link audit
-- [ ] Confirm Vercel deployment
+- [ ] Final QA / broken-link audit
+- [ ] Real YouTube URL
+- [ ] Real Spotify URL
+- [ ] Newsletter provider
+- [ ] Guest intake provider
+- [ ] Contact provider
+- [ ] Final asset replacements

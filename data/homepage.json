@@ -1,0 +1,17 @@
+{
+  "title": "The Radical Libertarian",
+  "headline": "Freedom Is Not Supposed To Be Comfortable.",
+  "description": "Essays, podcasts, rants, tools, and philosophical grenades for people who distrust both the boot and the person begging to polish it.",
+  "primaryCta": {
+    "label": "Read The Manifesto",
+    "href": "manifesto.html"
+  },
+  "secondaryCta": {
+    "label": "Join The Signal",
+    "href": "newsletter.html"
+  },
+  "tertiaryCta": {
+    "label": "Explore Site",
+    "href": "explore.html"
+  }
+}
