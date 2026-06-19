@@ -1,1 +1,23 @@
-{"states":[]}
+{
+  "directoryStatus": "scaffolded",
+  "nationalResource": {
+    "name": "Libertarian Party",
+    "url": "https://lp.org/",
+    "status": "active",
+    "notes": "External national resource. This site does not speak for LP.org."
+  },
+  "states": [
+    {
+      "state": "TODO",
+      "name": "",
+      "url": "",
+      "status": "needs-research"
+    }
+  ],
+  "instructions": [
+    "Add only verified state-party URLs.",
+    "Do not invent affiliate links.",
+    "Use official state-party pages when possible.",
+    "Keep this as an independent resource directory."
+  ]
+}

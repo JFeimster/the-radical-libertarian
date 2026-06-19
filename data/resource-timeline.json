@@ -1,0 +1,34 @@
+{
+  "timeline": [
+    {
+      "era": "Classical Liberty",
+      "topic": "Natural rights, self-ownership, voluntary association, and limits on state power.",
+      "status": "scaffolded"
+    },
+    {
+      "era": "Sound Money Debates",
+      "topic": "Gold, fiat, central banking, inflation, debt, and monetary control.",
+      "status": "scaffolded"
+    },
+    {
+      "era": "Digital Privacy",
+      "topic": "Encryption, surveillance, data brokers, censorship, and digital identity systems.",
+      "status": "scaffolded"
+    },
+    {
+      "era": "Platform Power",
+      "topic": "Social networks, algorithmic moderation, deplatforming, and creator dependence.",
+      "status": "scaffolded"
+    },
+    {
+      "era": "Crypto & Exit",
+      "topic": "Bitcoin, cypherpunk systems, self-custody, and censorship-resistant settlement rails.",
+      "status": "scaffolded"
+    },
+    {
+      "era": "Parallel Systems",
+      "topic": "Local trade, independent media, alternative education, mutual aid, and resilient communities.",
+      "status": "scaffolded"
+    }
+  ]
+}

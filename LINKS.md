@@ -10,6 +10,8 @@ Master link registry for The Radical Libertarian.
 
 ## Internal Pages
 
+### Core
+
 - Home: `/index.html`
 - Manifesto: `/manifesto.html`
 - Essays: `/essays.html`
@@ -17,6 +19,9 @@ Master link registry for The Radical Libertarian.
 - Join: `/join.html`
 - About: `/about.html`
 - Start Here: `/start-here.html`
+
+### Platform + Archive
+
 - YouTube: `/youtube.html`
 - Spotify: `/spotify.html`
 - Instagram: `/instagram.html`
@@ -28,6 +33,21 @@ Master link registry for The Radical Libertarian.
 - Old Podcast Episodes: `/archive/old-podcast-episodes.html`
 - Podcast Episodes: `/podcast/episodes.html`
 - Listen Everywhere: `/podcast/listen.html`
+
+### Resource Hub
+
+- Library: `/library.html`
+- Libertarian National: `/libertarian-national.html`
+- Resources: `/resources/index.html`
+- Libertarian Party Resource: `/resources/libertarian-party.html`
+- State Parties: `/resources/state-parties.html`
+- Reading List: `/resources/reading-list.html`
+- Organizations: `/resources/organizations.html`
+- Tools: `/resources/tools.html`
+- Glossary: `/resources/glossary.html`
+- Timeline: `/resources/timeline.html`
+- Civic Action: `/resources/civic-action.html`
+- Local Groups: `/resources/local-groups.html`
 
 ## External Platforms
 

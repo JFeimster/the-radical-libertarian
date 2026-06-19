@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "Political Resource",
+      "description": "Party, ballot, candidate, civic, and policy resources."
+    },
+    {
+      "name": "Reading",
+      "description": "Books, essays, papers, speeches, and long-form references."
+    },
+    {
+      "name": "Organizations",
+      "description": "Liberty organizations, think tanks, media projects, and advocacy groups."
+    },
+    {
+      "name": "Tools",
+      "description": "Privacy, publishing, creator, money, and local-stack tools."
+    },
+    {
+      "name": "Glossary",
+      "description": "Definitions for core concepts and contested language."
+    },
+    {
+      "name": "Local Groups",
+      "description": "Meetups, reading groups, chapters, civic-watch groups, and offline communities."
+    }
+  ]
+}

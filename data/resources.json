@@ -1,1 +1,52 @@
-{"resources":[]}
+{
+  "resources": [
+    {
+      "title": "Libertarian Party",
+      "category": "Political Resource",
+      "url": "https://lp.org/",
+      "localPage": "resources/libertarian-party.html",
+      "status": "external-resource",
+      "notes": "Independent reference link. The Radical Libertarian does not speak for LP.org."
+    },
+    {
+      "title": "State Party Directory",
+      "category": "Directory",
+      "url": "resources/state-parties.html",
+      "localPage": "resources/state-parties.html",
+      "status": "scaffolded",
+      "notes": "Add verified state-party links only."
+    },
+    {
+      "title": "Reading List",
+      "category": "Education",
+      "url": "resources/reading-list.html",
+      "localPage": "resources/reading-list.html",
+      "status": "scaffolded",
+      "notes": "Add books, essays, and thinkers."
+    },
+    {
+      "title": "Organizations",
+      "category": "Directory",
+      "url": "resources/organizations.html",
+      "localPage": "resources/organizations.html",
+      "status": "scaffolded",
+      "notes": "Add organizations, media projects, think tanks, and privacy groups."
+    },
+    {
+      "title": "Tools",
+      "category": "Practical Stack",
+      "url": "resources/tools.html",
+      "localPage": "resources/tools.html",
+      "status": "scaffolded",
+      "notes": "Add privacy, publishing, creator, and money-stack tools."
+    },
+    {
+      "title": "Glossary",
+      "category": "Reference",
+      "url": "resources/glossary.html",
+      "localPage": "resources/glossary.html",
+      "status": "scaffolded",
+      "notes": "Add definitions and source notes where needed."
+    }
+  ]
+}

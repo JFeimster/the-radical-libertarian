@@ -627,3 +627,133 @@ select {
     grid-template-columns: 1fr;
   }
 }
+
+/* === Batch 3 Resource Hub Layouts === */
+.resource-command {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 34px;
+  background: var(--red, #e4002b);
+  color: #fff;
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+}
+
+.resource-command h2 {
+  margin-top: 0;
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  line-height: .95;
+  text-transform: uppercase;
+}
+
+.resource-directory,
+.reading-grid,
+.org-grid,
+.glossary-grid,
+.timeline-grid,
+.civic-grid {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.resource-tile,
+.reading-card,
+.org-card,
+.glossary-card,
+.timeline-card,
+.civic-card {
+  display: block;
+  color: var(--black, #050505);
+  background: var(--cream-2, #fff8e7);
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+  padding: 28px;
+  text-decoration: none;
+}
+
+.resource-tile:hover,
+.reading-card:hover,
+.org-card:hover,
+.glossary-card:hover,
+.timeline-card:hover,
+.civic-card:hover {
+  background: var(--yellow, #f7c600);
+}
+
+.resource-tile h2,
+.resource-tile h3,
+.reading-card h2,
+.reading-card h3,
+.org-card h2,
+.org-card h3,
+.glossary-card h2,
+.glossary-card h3,
+.timeline-card h2,
+.timeline-card h3,
+.civic-card h2,
+.civic-card h3 {
+  margin-top: 0;
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+}
+
+.resource-badge {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 8px 12px;
+  color: var(--cream, #f6f0df);
+  background: var(--black, #050505);
+  border: 3px solid var(--black, #050505);
+  font-family: "Courier New", monospace;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.resource-table {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 0 24px;
+}
+
+.resource-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr .8fr;
+  gap: 18px;
+  align-items: start;
+  padding: 18px;
+  background: var(--cream-2, #fff8e7);
+  border: var(--border, 4px solid #050505);
+  border-bottom: 0;
+  font-weight: 900;
+}
+
+.resource-row:last-child {
+  border-bottom: var(--border, 4px solid #050505);
+}
+
+.resource-row strong {
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+}
+
+@media (max-width: 860px) {
+  .resource-directory,
+  .reading-grid,
+  .org-grid,
+  .glossary-grid,
+  .timeline-grid,
+  .civic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-row {
+    grid-template-columns: 1fr;
+  }
+}

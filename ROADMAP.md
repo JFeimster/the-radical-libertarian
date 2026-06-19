@@ -2,7 +2,7 @@
 
 ## Phase 1 — Core Static Spine
 
-Status: in progress.
+Status: complete.
 
 - [x] Restore homepage
 - [x] Create manifesto page
@@ -15,36 +15,45 @@ Status: in progress.
 
 ## Phase 2 — Archive Recovery
 
-Create:
+Status: complete.
 
-- `youtube.html`
-- `spotify.html`
-- `instagram.html`
-- `social.html`
-- `archive/index.html`
-- `archive/old-youtube-posts.html`
-- `archive/old-instagram-posts.html`
-- `archive/old-podcast-episodes.html`
+- [x] `youtube.html`
+- [x] `spotify.html`
+- [x] `instagram.html`
+- [x] `social.html`
+- [x] `subscribe.html`
+- [x] `archive/index.html`
+- [x] `archive/old-youtube-posts.html`
+- [x] `archive/old-instagram-posts.html`
+- [x] `archive/old-podcast-episodes.html`
+- [x] `podcast/episodes.html`
+- [x] `podcast/listen.html`
 
 ## Phase 3 — Resource Hub
 
-Create:
+Status: complete.
 
-- `resources/index.html`
-- `resources/libertarian-party.html`
-- `resources/state-parties.html`
-- `resources/reading-list.html`
-- `resources/organizations.html`
-- `resources/tools.html`
-- `resources/glossary.html`
-- `resources/timeline.html`
-- `resources/civic-action.html`
-- `resources/local-groups.html`
+- [x] `library.html`
+- [x] `libertarian-national.html`
+- [x] `resources/index.html`
+- [x] `resources/libertarian-party.html`
+- [x] `resources/state-parties.html`
+- [x] `resources/reading-list.html`
+- [x] `resources/organizations.html`
+- [x] `resources/tools.html`
+- [x] `resources/glossary.html`
+- [x] `resources/timeline.html`
+- [x] `resources/civic-action.html`
+- [x] `resources/local-groups.html`
+- [x] `data/resources.json`
+- [x] `data/glossary.json`
+- [x] `data/state-parties.json`
 
 ## Phase 4 — Interactive Tools
 
 Create:
 
+- `tools/index.html`
 - `tools/tyranny-detector.html`
 - `tools/boot-polisher-index.html`
 - `tools/npc-narrative-checker.html`
@@ -55,6 +64,8 @@ Create:
 - `tools/philosophy-grenade-generator.html`
 - `tools/propaganda-bingo.html`
 - `tools/sovereignty-checklist.html`
+- `data/tools.json`
+- `js/toolkit.js`
 
 ## Phase 5 — SEO + Metadata
 
@@ -68,3 +79,24 @@ Create:
 - `seo/social-cards.json`
 - `seo/redirects.json`
 - `seo/keywords.json`
+
+## Phase 6 — Schemas + Governance
+
+Create:
+
+- `schemas/essay.schema.json`
+- `schemas/podcast-episode.schema.json`
+- `schemas/resource.schema.json`
+- `schemas/quote.schema.json`
+- `schemas/platform-link.schema.json`
+- `schemas/glossary-term.schema.json`
+- `schemas/tool.schema.json`
+- `schemas/manifesto.schema.json`
+- `schemas/site-page.schema.json`
+- `schemas/archive-item.schema.json`
+- `design-system.md`
+- `brand-voice.md`
+- `content-taxonomy.md`
+- `copy-bank.md`
+- `image-prompts.md`
+- `social-post-prompts.md`

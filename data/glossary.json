@@ -1,1 +1,40 @@
-{"terms":[]}
+{
+  "terms": [
+    {
+      "term": "Self-Ownership",
+      "category": "Core Principle",
+      "definition": "The principle that the individual owns their body, labor, mind, time, and conscience.",
+      "localPage": "resources/glossary.html"
+    },
+    {
+      "term": "Decentralization",
+      "category": "Power",
+      "definition": "The distribution of control away from single choke points and concentrated authorities.",
+      "localPage": "resources/glossary.html"
+    },
+    {
+      "term": "Agorism",
+      "category": "Exit Strategy",
+      "definition": "A strategy focused on voluntary exchange, counter-economics, and building outside coercive systems.",
+      "localPage": "resources/glossary.html"
+    },
+    {
+      "term": "Cypherpunk",
+      "category": "Technology",
+      "definition": "An ethos using cryptography and code to defend privacy, speech, and individual autonomy.",
+      "localPage": "resources/glossary.html"
+    },
+    {
+      "term": "Fiat Money",
+      "category": "Money",
+      "definition": "Currency whose value is enforced by government decree and institutional acceptance rather than commodity backing.",
+      "localPage": "resources/glossary.html"
+    },
+    {
+      "term": "Manufactured Consent",
+      "category": "Media",
+      "definition": "The shaping of public agreement through media framing, institutional pressure, and selective narrative repetition.",
+      "localPage": "resources/glossary.html"
+    }
+  ]
+}
