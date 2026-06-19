@@ -49,6 +49,20 @@ Master link registry for The Radical Libertarian.
 - Civic Action: `/resources/civic-action.html`
 - Local Groups: `/resources/local-groups.html`
 
+### Interactive Tools
+
+- Tools Index: `/tools/index.html`
+- Tyranny Detector: `/tools/tyranny-detector.html`
+- Boot Polisher Index: `/tools/boot-polisher-index.html`
+- NPC Narrative Checker: `/tools/npc-narrative-checker.html`
+- Freedom Scorecard: `/tools/freedom-scorecard.html`
+- Exit Plan Builder: `/tools/exit-plan-builder.html`
+- Privacy Stack: `/tools/privacy-stack.html`
+- Parallel Economy Builder: `/tools/parallel-economy-builder.html`
+- Philosophy Grenade Generator: `/tools/philosophy-grenade-generator.html`
+- Propaganda Bingo: `/tools/propaganda-bingo.html`
+- Sovereignty Checklist: `/tools/sovereignty-checklist.html`
+
 ## External Platforms
 
 ### YouTube

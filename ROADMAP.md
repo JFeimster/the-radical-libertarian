@@ -51,21 +51,21 @@ Status: complete.
 
 ## Phase 4 — Interactive Tools
 
-Create:
+Status: complete.
 
-- `tools/index.html`
-- `tools/tyranny-detector.html`
-- `tools/boot-polisher-index.html`
-- `tools/npc-narrative-checker.html`
-- `tools/freedom-scorecard.html`
-- `tools/exit-plan-builder.html`
-- `tools/privacy-stack.html`
-- `tools/parallel-economy-builder.html`
-- `tools/philosophy-grenade-generator.html`
-- `tools/propaganda-bingo.html`
-- `tools/sovereignty-checklist.html`
-- `data/tools.json`
-- `js/toolkit.js`
+- [x] `tools/index.html`
+- [x] `tools/tyranny-detector.html`
+- [x] `tools/boot-polisher-index.html`
+- [x] `tools/npc-narrative-checker.html`
+- [x] `tools/freedom-scorecard.html`
+- [x] `tools/exit-plan-builder.html`
+- [x] `tools/privacy-stack.html`
+- [x] `tools/parallel-economy-builder.html`
+- [x] `tools/philosophy-grenade-generator.html`
+- [x] `tools/propaganda-bingo.html`
+- [x] `tools/sovereignty-checklist.html`
+- [x] `data/tools.json`
+- [x] `js/toolkit.js`
 
 ## Phase 5 — SEO + Metadata
 

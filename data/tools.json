@@ -1,1 +1,84 @@
-{"tools":[]}
+{
+  "tools": [
+    {
+      "title": "Tyranny Detector",
+      "slug": "tyranny-detector",
+      "url": "tools/tyranny-detector.html",
+      "type": "scorecard",
+      "category": "satire",
+      "description": "A satirical policy sniff test for tyranny, theater, and bureaucratic nonsense."
+    },
+    {
+      "title": "Boot Polisher Index",
+      "slug": "boot-polisher-index",
+      "url": "tools/boot-polisher-index.html",
+      "type": "scorecard",
+      "category": "satire",
+      "description": "A comedic scorecard for institutional obedience."
+    },
+    {
+      "title": "NPC Narrative Checker",
+      "slug": "npc-narrative-checker",
+      "url": "tools/npc-narrative-checker.html",
+      "type": "scorecard",
+      "category": "media-literacy",
+      "description": "A satirical checker for recycled consensus sludge."
+    },
+    {
+      "title": "Freedom Scorecard",
+      "slug": "freedom-scorecard",
+      "url": "tools/freedom-scorecard.html",
+      "type": "checklist",
+      "category": "self-audit",
+      "description": "A personal liberty self-audit."
+    },
+    {
+      "title": "Exit Plan Builder",
+      "slug": "exit-plan-builder",
+      "url": "tools/exit-plan-builder.html",
+      "type": "checklist",
+      "category": "exit-strategy",
+      "description": "A checklist for money, media, tech, skills, and community independence."
+    },
+    {
+      "title": "Privacy Stack",
+      "slug": "privacy-stack",
+      "url": "tools/privacy-stack.html",
+      "type": "checklist",
+      "category": "privacy",
+      "description": "A basic digital privacy checklist."
+    },
+    {
+      "title": "Parallel Economy Builder",
+      "slug": "parallel-economy-builder",
+      "url": "tools/parallel-economy-builder.html",
+      "type": "checklist",
+      "category": "parallel-systems",
+      "description": "A checklist for local trade, independent income, and resilience."
+    },
+    {
+      "title": "Philosophy Grenade Generator",
+      "slug": "philosophy-grenade-generator",
+      "url": "tools/philosophy-grenade-generator.html",
+      "type": "generator",
+      "category": "content",
+      "description": "A random quote and rant generator."
+    },
+    {
+      "title": "Propaganda Bingo",
+      "slug": "propaganda-bingo",
+      "url": "tools/propaganda-bingo.html",
+      "type": "printable",
+      "category": "media-literacy",
+      "description": "A printable bingo card for media narratives and political theater."
+    },
+    {
+      "title": "Sovereignty Checklist",
+      "slug": "sovereignty-checklist",
+      "url": "tools/sovereignty-checklist.html",
+      "type": "checklist",
+      "category": "personal-sovereignty",
+      "description": "A checklist for money, skills, tools, health, network, speech, and leverage."
+    }
+  ]
+}

@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Privacy Stack | The Radical Libertarian</title>
-  <meta name="description" content="A checklist for digital privacy basics." />
+  <meta name="description" content="A basic digital privacy checklist for reducing unnecessary exposure and platform dependence." />
 
-  <link rel="stylesheet" href="../style.css" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +26,40 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Interactive Tool</div>
+      <div class="sticker">Digital Hygiene</div>
       <h1>Privacy Stack</h1>
-      <p>A checklist for digital privacy basics.</p>
+      <p>A basic digital privacy checklist for reducing unnecessary exposure and platform dependence.</p>
     </section>
 
-    <section class='tool-grid'><article class='tool-card'><h3>Step 1</h3><p>Answer the prompt.</p></article><article class='tool-card'><h3>Step 2</h3><p>Score your situation.</p></article><article class='tool-card'><h3>Step 3</h3><p>Pick one action and stop worshipping the suggestion box.</p></article></section><section class='newsletter'><h2>Satire Disclaimer</h2><p>This tool is satire, education, and self-reflection — not legal, financial, political, or professional advice.</p></section>
+    <section class="tool-command">
+      <h2>Privacy is not paranoia. It is hygiene.</h2>
+      <p>You do not need a spy movie bunker. You need fewer leaks, better defaults, and less data confetti.</p>
+    </section>
+
+    <section class="tool-form" id="privacy-tool">
+      <label><input type="checkbox" /> Use a password manager.</label>
+      <label><input type="checkbox" /> Use unique passwords for critical accounts.</label>
+      <label><input type="checkbox" /> Enable two-factor authentication.</label>
+      <label><input type="checkbox" /> Review app permissions.</label>
+      <label><input type="checkbox" /> Lock down social profiles.</label>
+      <label><input type="checkbox" /> Backup important files.</label>
+      <label><input type="checkbox" /> Use encrypted messaging when appropriate.</label>
+      <label><input type="checkbox" /> Reduce unnecessary data brokers, forms, and platform exposure.</label>
+      <button class="btn" type="button" onclick="TRLTools.runChecklistTool('#privacy-tool','#privacy-result')">Check Stack</button>
+    </section>
+
+    <section class="tool-result" id="privacy-result">
+      <h2>Result goes here.</h2>
+      <p>Check boxes. Patch leaks. Stop feeding the surveillance raccoon.</p>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">SATIRE, SELF-AUDIT, AND SIGNAL. NOT PROFESSIONAL ADVICE.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/toolkit.js"></script>
 </body>
 </html>
-

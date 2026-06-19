@@ -757,3 +757,157 @@ select {
     grid-template-columns: 1fr;
   }
 }
+
+/* === Batch 4 Interactive Tool Layouts === */
+.tool-command {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 34px;
+  background: var(--red, #e4002b);
+  color: #fff;
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+}
+
+.tool-command h2 {
+  margin-top: 0;
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  line-height: .95;
+  text-transform: uppercase;
+}
+
+.tool-directory,
+.tool-panel-grid,
+.checklist-grid,
+.bingo-grid {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.tool-tile,
+.tool-panel,
+.checklist-card,
+.bingo-card {
+  display: block;
+  color: var(--black, #050505);
+  background: var(--cream-2, #fff8e7);
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+  padding: 28px;
+  text-decoration: none;
+}
+
+.tool-tile:hover,
+.tool-panel:hover,
+.checklist-card:hover,
+.bingo-card:hover {
+  background: var(--yellow, #f7c600);
+}
+
+.tool-tile h2,
+.tool-tile h3,
+.tool-panel h2,
+.tool-panel h3,
+.checklist-card h2,
+.checklist-card h3,
+.bingo-card h2,
+.bingo-card h3 {
+  margin-top: 0;
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+}
+
+.tool-badge {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 8px 12px;
+  color: var(--cream, #f6f0df);
+  background: var(--black, #050505);
+  border: 3px solid var(--black, #050505);
+  font-family: "Courier New", monospace;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.tool-form {
+  max-width: 960px;
+  margin: 0 auto 80px;
+  padding: 34px;
+  background: var(--cream-2, #fff8e7);
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+}
+
+.tool-form label {
+  display: block;
+  margin: 18px 0;
+  font-weight: 900;
+}
+
+.tool-form input[type="checkbox"],
+.tool-form input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+  transform: scale(1.25);
+}
+
+.tool-result {
+  max-width: 960px;
+  margin: 0 auto 80px;
+  padding: 34px;
+  background: var(--black, #050505);
+  color: var(--cream, #f6f0df);
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+}
+
+.tool-result h2,
+.tool-result h3 {
+  margin-top: 0;
+  color: var(--cream, #f6f0df);
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  text-transform: uppercase;
+}
+
+.generator-output {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  line-height: 1.05;
+  font-weight: 900;
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .btn,
+  .grain-overlay {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .tool-panel,
+  .checklist-card,
+  .bingo-card,
+  .tool-form,
+  .tool-result {
+    box-shadow: none !important;
+  }
+}
+
+@media (max-width: 860px) {
+  .tool-directory,
+  .tool-panel-grid,
+  .checklist-grid,
+  .bingo-grid {
+    grid-template-columns: 1fr;
+  }
+}

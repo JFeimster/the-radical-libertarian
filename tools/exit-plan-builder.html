@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Exit Plan Builder | The Radical Libertarian</title>
-  <meta name="description" content="A checklist for money, media, tech, skills, and community independence." />
+  <meta name="description" content="A practical checklist for money, media, tech, skills, and community independence." />
 
-  <link rel="stylesheet" href="../style.css" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +26,40 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Interactive Tool</div>
+      <div class="sticker">Exit Strategy</div>
       <h1>Exit Plan Builder</h1>
-      <p>A checklist for money, media, tech, skills, and community independence.</p>
+      <p>A practical checklist for money, media, tech, skills, and community independence.</p>
     </section>
 
-    <section class='tool-grid'><article class='tool-card'><h3>Step 1</h3><p>Answer the prompt.</p></article><article class='tool-card'><h3>Step 2</h3><p>Score your situation.</p></article><article class='tool-card'><h3>Step 3</h3><p>Pick one action and stop worshipping the suggestion box.</p></article></section><section class='newsletter'><h2>Satire Disclaimer</h2><p>This tool is satire, education, and self-reflection — not legal, financial, political, or professional advice.</p></section>
+    <section class="tool-command">
+      <h2>Build an exit plan before you need one.</h2>
+      <p>This is not bunker cosplay. This is adult leverage with fewer canned beans and more operational sanity.</p>
+    </section>
+
+    <section class="tool-form" id="exit-tool">
+      <label><input type="checkbox" /> Map your top five dependency chokepoints.</label>
+      <label><input type="checkbox" /> Build an emergency cash buffer.</label>
+      <label><input type="checkbox" /> Create a direct audience channel: email, RSS, website, or community.</label>
+      <label><input type="checkbox" /> Learn one marketable offline or digital skill.</label>
+      <label><input type="checkbox" /> Strengthen local relationships.</label>
+      <label><input type="checkbox" /> Backup critical files and documents.</label>
+      <label><input type="checkbox" /> Create redundant payment and communication rails.</label>
+      <label><input type="checkbox" /> Schedule a monthly exit-plan review.</label>
+      <button class="btn" type="button" onclick="TRLTools.runChecklistTool('#exit-tool','#exit-result')">Build Plan</button>
+    </section>
+
+    <section class="tool-result" id="exit-result">
+      <h2>Result goes here.</h2>
+      <p>Check the items you already have handled. Then go handle one more.</p>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">SATIRE, SELF-AUDIT, AND SIGNAL. NOT PROFESSIONAL ADVICE.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/toolkit.js"></script>
 </body>
 </html>
-

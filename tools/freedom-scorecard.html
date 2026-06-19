@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Freedom Scorecard | The Radical Libertarian</title>
-  <meta name="description" content="A personal liberty self-audit." />
+  <meta name="description" content="A personal liberty self-audit for money, speech, privacy, income, skills, and network resilience." />
 
-  <link rel="stylesheet" href="../style.css" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +26,40 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Interactive Tool</div>
+      <div class="sticker">Self-Audit</div>
       <h1>Freedom Scorecard</h1>
-      <p>A personal liberty self-audit.</p>
+      <p>A personal liberty self-audit for money, speech, privacy, income, skills, and network resilience.</p>
     </section>
 
-    <section class='tool-grid'><article class='tool-card'><h3>Step 1</h3><p>Answer the prompt.</p></article><article class='tool-card'><h3>Step 2</h3><p>Score your situation.</p></article><article class='tool-card'><h3>Step 3</h3><p>Pick one action and stop worshipping the suggestion box.</p></article></section><section class='newsletter'><h2>Satire Disclaimer</h2><p>This tool is satire, education, and self-reflection — not legal, financial, political, or professional advice.</p></section>
+    <section class="tool-command">
+      <h2>Audit your actual freedom, not your bumper sticker.</h2>
+      <p>Check what you have covered. Unchecked items are not shame. They are targets.</p>
+    </section>
+
+    <section class="tool-form" id="freedom-tool">
+      <label><input type="checkbox" /> I have emergency savings or a realistic cash buffer.</label>
+      <label><input type="checkbox" /> I can communicate outside major social platforms.</label>
+      <label><input type="checkbox" /> I know basic digital privacy and use a password manager.</label>
+      <label><input type="checkbox" /> I have at least one independent income path.</label>
+      <label><input type="checkbox" /> I have useful offline skills.</label>
+      <label><input type="checkbox" /> I know people locally who can solve real problems.</label>
+      <label><input type="checkbox" /> I can publish or distribute ideas without one platform owning my audience.</label>
+      <label><input type="checkbox" /> I have reduced dependency on obvious choke points.</label>
+      <button class="btn" type="button" onclick="TRLTools.runChecklistTool('#freedom-tool','#freedom-result')">Score Freedom</button>
+    </section>
+
+    <section class="tool-result" id="freedom-result">
+      <h2>Result goes here.</h2>
+      <p>Check boxes, then pick the weakest area and start there.</p>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">SATIRE, SELF-AUDIT, AND SIGNAL. NOT PROFESSIONAL ADVICE.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/toolkit.js"></script>
 </body>
 </html>
-

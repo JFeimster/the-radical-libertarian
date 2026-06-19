@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>NPC Narrative Checker | The Radical Libertarian</title>
-  <meta name="description" content="A satirical checker for recycled consensus sludge." />
+  <meta name="description" content="A satirical checker for recycled consensus sludge and pre-chewed talking points." />
 
-  <link rel="stylesheet" href="../style.css" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="grain-overlay"></div>
@@ -26,20 +26,38 @@
 
   <main>
     <section class="page-hero">
-      <div class="sticker">Interactive Tool</div>
+      <div class="sticker">Narrative Sniffer</div>
       <h1>NPC Narrative Checker</h1>
-      <p>A satirical checker for recycled consensus sludge.</p>
+      <p>A satirical checker for recycled consensus sludge and pre-chewed talking points.</p>
     </section>
 
-    <section class='tool-grid'><article class='tool-card'><h3>Step 1</h3><p>Answer the prompt.</p></article><article class='tool-card'><h3>Step 2</h3><p>Score your situation.</p></article><article class='tool-card'><h3>Step 3</h3><p>Pick one action and stop worshipping the suggestion box.</p></article></section><section class='newsletter'><h2>Satire Disclaimer</h2><p>This tool is satire, education, and self-reflection — not legal, financial, political, or professional advice.</p></section>
+    <section class="tool-command">
+      <h2>Is this a thought or a downloaded update?</h2>
+      <p>Check the signs that a talking point came pre-chewed from the narrative vending machine.</p>
+    </section>
+
+    <section class="tool-form" id="npc-tool">
+      <label><input type="checkbox" /> It uses the same phrase every major outlet used this week.</label>
+      <label><input type="checkbox" /> It demands urgency but rejects questions.</label>
+      <label><input type="checkbox" /> It swaps evidence for moral panic.</label>
+      <label><input type="checkbox" /> It labels dissent before answering it.</label>
+      <label><input type="checkbox" /> It treats nuance as betrayal.</label>
+      <label><input type="checkbox" /> It gets louder when definitions are requested.</label>
+      <button class="btn" type="button" onclick="TRLTools.runScoreTool('#npc-tool','#npc-result',2,4)">Check Narrative</button>
+    </section>
+
+    <section class="tool-result" id="npc-result">
+      <h2>Result goes here.</h2>
+      <p>Check boxes. Find out if the argument has a receipt or just a costume.</p>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-    <p class="footer-note">BUILT FOR PEOPLE WHO PREFER SIGNAL OVER SCRIPTED OBEDIENCE.</p>
+    <p class="footer-note">SATIRE, SELF-AUDIT, AND SIGNAL. NOT PROFESSIONAL ADVICE.</p>
   </footer>
 
   <script src="../script.js"></script>
+  <script src="../js/toolkit.js"></script>
 </body>
 </html>
-
