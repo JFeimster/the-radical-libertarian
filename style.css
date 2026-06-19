@@ -2100,3 +2100,121 @@ select {
     grid-template-columns: 1fr;
   }
 }
+
+/* === Batch 16 Real URL / Form Provider Wiring === */
+.wiring-command {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 34px;
+  background: var(--red, #e4002b);
+  color: #fff;
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+}
+
+.wiring-command h2 {
+  margin-top: 0;
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  line-height: .95;
+  text-transform: uppercase;
+}
+
+.wiring-grid,
+.provider-grid,
+.embed-provider-grid {
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.wiring-card,
+.provider-card,
+.embed-provider-card {
+  display: block;
+  color: var(--black, #050505);
+  background: var(--cream-2, #fff8e7);
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+  padding: 28px;
+  text-decoration: none;
+}
+
+.wiring-card:hover,
+.provider-card:hover,
+.embed-provider-card:hover {
+  background: var(--yellow, #f7c600);
+}
+
+.wiring-card h3,
+.provider-card h3,
+.embed-provider-card h3 {
+  margin-top: 0;
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+}
+
+.wiring-badge {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 8px 12px;
+  color: var(--cream, #f6f0df);
+  background: var(--black, #050505);
+  border: 3px solid var(--black, #050505);
+  font-family: "Courier New", monospace;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.provider-form {
+  max-width: 960px;
+  margin: 0 auto 80px;
+  padding: 34px;
+  background: var(--cream-2, #fff8e7);
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+}
+
+.provider-form label {
+  display: block;
+  margin: 18px 0 8px;
+  font-family: "Courier New", monospace;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.provider-form input,
+.provider-form textarea,
+.provider-form select {
+  width: 100%;
+  max-width: none;
+}
+
+.provider-status-panel {
+  max-width: 960px;
+  margin: 0 auto 80px;
+  padding: 34px;
+  background: var(--black, #050505);
+  color: var(--cream, #f6f0df);
+  border: var(--border, 4px solid #050505);
+  box-shadow: var(--shadow, 10px 10px 0 #050505);
+}
+
+.provider-status-panel h2,
+.provider-status-panel h3 {
+  color: var(--cream, #f6f0df);
+  font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+  text-transform: uppercase;
+}
+
+@media (max-width: 860px) {
+  .wiring-grid,
+  .provider-grid,
+  .embed-provider-grid {
+    grid-template-columns: 1fr;
+  }
+}

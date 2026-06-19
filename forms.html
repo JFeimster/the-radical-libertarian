@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Forms | The Radical Libertarian</title>
+  <meta name="description" content="Form provider decision page for newsletter, guest intake, and contact wiring." />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/forms.html" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="grain-overlay"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">T.R.L.</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="essays.html">Essays</a>
+      <a href="manifesto.html">Manifesto</a>
+      <a href="podcast.html">Podcast</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="sticker">Form Wiring</div>
+      <h1>Forms</h1>
+      <p>Form provider decision page for newsletter, guest intake, and contact wiring.</p>
+    </section>
+
+    <section class="wiring-command">
+      <h2>Forms need endpoints, not vibes.</h2>
+      <p>Use this page to decide which form provider powers newsletter, guest intake, and contact routes.</p>
+    </section>
+
+    <section class="provider-grid">
+      <article class="provider-card">
+        <span class="wiring-badge">Newsletter</span>
+        <h3>Email Capture</h3>
+        <p>Recommended: Beehiiv, ConvertKit, Buttondown, Mailchimp, or Tally redirect.</p>
+      </article>
+
+      <article class="provider-card">
+        <span class="wiring-badge">Guest</span>
+        <h3>Guest Intake</h3>
+        <p>Recommended: Tally, Airtable, Notion, Formspree, or Basin.</p>
+      </article>
+
+      <article class="provider-card">
+        <span class="wiring-badge">Contact</span>
+        <h3>Contact Route</h3>
+        <p>Recommended: Tally, Formspree, Basin, or Airtable.</p>
+      </article>
+    </section>
+
+    <section class="provider-status-panel" data-provider-status></section>
+  </main>
+
+  <footer class="site-footer trl-enhanced-footer" data-site-footer>
+    <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/site-footer.js"></script>
+  <script src="js/provider-status.js"></script>
+</body>
+</html>

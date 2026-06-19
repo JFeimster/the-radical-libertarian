@@ -1,0 +1,11 @@
+{
+  "status": "wiring-pending",
+  "providers": [
+    { "name": "YouTube", "type": "platform", "url": "", "status": "needs-confirmed-url" },
+    { "name": "Spotify", "type": "platform", "url": "", "status": "needs-confirmed-url" },
+    { "name": "Instagram", "type": "platform", "url": "https://www.instagram.com/radicallibertarian", "status": "active" },
+    { "name": "Newsletter", "type": "form", "provider": "", "endpoint": "", "status": "needs-provider" },
+    { "name": "Guest Intake", "type": "form", "provider": "", "endpoint": "", "status": "needs-provider" },
+    { "name": "Contact", "type": "form", "provider": "", "endpoint": "", "status": "needs-provider" }
+  ]
+}

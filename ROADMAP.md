@@ -1,6 +1,6 @@
 # Roadmap
 
-## Completed Through Batch 15
+## Completed Through Batch 16
 
 - [x] Core static spine
 - [x] Archive recovery
@@ -17,11 +17,13 @@
 - [x] Homepage final conversion pass
 - [x] Final QA + broken-link audit scaffold
 - [x] Production asset slots + image QA
+- [x] Real URL/form provider wiring scaffold
 
-## Recommended Batch 16 — Real URL/Form Provider Wiring
+## Remaining Before Fully Wired Launch
 
 - [ ] Add real YouTube URL
 - [ ] Add real Spotify URL
-- [ ] Add newsletter provider link/embed
-- [ ] Add guest intake form link/embed
-- [ ] Add contact form link/embed
+- [ ] Choose newsletter provider
+- [ ] Choose guest intake provider
+- [ ] Choose contact provider
+- [ ] Apply confirmed provider config

@@ -1,0 +1,7 @@
+{
+  "forms": [
+    { "name": "Newsletter", "pages": ["newsletter.html", "subscribe.html", "join.html"], "provider": "", "embedCode": "", "endpoint": "", "status": "needs-provider" },
+    { "name": "Guest Intake", "pages": ["guest.html", "podcast/guest-intake.html"], "provider": "", "embedCode": "", "endpoint": "", "status": "needs-provider" },
+    { "name": "Contact", "pages": ["contact.html"], "provider": "", "embedCode": "", "endpoint": "", "status": "needs-provider" }
+  ]
+}

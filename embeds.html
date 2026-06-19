@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Embeds | The Radical Libertarian</title>
+  <meta name="description" content="Embed wiring rules for YouTube and Spotify pages." />
+
+  <link rel="canonical" href="https://the-radical-libertarian.vercel.app/embeds.html" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="grain-overlay"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">T.R.L.</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="essays.html">Essays</a>
+      <a href="manifesto.html">Manifesto</a>
+      <a href="podcast.html">Podcast</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="sticker">Embed Wiring</div>
+      <h1>Embeds</h1>
+      <p>Embed wiring rules for YouTube and Spotify pages.</p>
+    </section>
+
+    <section class="wiring-command">
+      <h2>Embed carefully. Keep fallback links.</h2>
+      <p>YouTube and Spotify embeds should come from official share/embed tools. Always keep a plain fallback link nearby.</p>
+    </section>
+
+    <section class="embed-provider-grid">
+      <article class="embed-provider-card">
+        <span class="wiring-badge">YouTube</span>
+        <h3>Video Embed</h3>
+        <p>Needs official channel, playlist, or video embed code.</p>
+      </article>
+
+      <article class="embed-provider-card">
+        <span class="wiring-badge">Spotify</span>
+        <h3>Audio Embed</h3>
+        <p>Needs official show or episode embed code.</p>
+      </article>
+
+      <article class="embed-provider-card">
+        <span class="wiring-badge">Fallback</span>
+        <h3>Plain Links</h3>
+        <p>Keep direct links visible for users with blocked embeds.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer trl-enhanced-footer" data-site-footer>
+    <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/site-footer.js"></script>
+  <script src="js/provider-status.js"></script>
+</body>
+</html>

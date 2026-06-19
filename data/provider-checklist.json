@@ -1,0 +1,14 @@
+{
+  "checklist": [
+    { "task": "Confirm YouTube channel URL", "status": "todo" },
+    { "task": "Confirm YouTube playlist/embed URL", "status": "todo" },
+    { "task": "Confirm Spotify show URL", "status": "todo" },
+    { "task": "Choose newsletter provider", "status": "todo" },
+    { "task": "Choose guest intake provider", "status": "todo" },
+    { "task": "Choose contact provider", "status": "todo" },
+    { "task": "Update data/provider-status.json", "status": "todo" },
+    { "task": "Update data/url-wiring.json", "status": "todo" },
+    { "task": "Update data/form-provider-map.json", "status": "todo" },
+    { "task": "Test live pages after deployment", "status": "todo" }
+  ]
+}

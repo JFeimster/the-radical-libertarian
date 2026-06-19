@@ -1,0 +1,13 @@
+{
+  "batch": 16,
+  "status": "provider-wiring-scaffold-created",
+  "urlsInvented": false,
+  "indexTouched": false,
+  "remaining": [
+    "real YouTube URL",
+    "real Spotify URL",
+    "newsletter provider",
+    "guest intake provider",
+    "contact provider"
+  ]
+}

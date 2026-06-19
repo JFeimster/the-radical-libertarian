@@ -1,0 +1,8 @@
+{
+  "embeds": [
+    { "name": "YouTube Root", "page": "youtube.html", "provider": "YouTube", "embedCode": "", "fallbackUrl": "", "status": "needs-url" },
+    { "name": "YouTube Podcast", "page": "podcast/youtube.html", "provider": "YouTube", "embedCode": "", "fallbackUrl": "", "status": "needs-url" },
+    { "name": "Spotify Root", "page": "spotify.html", "provider": "Spotify", "embedCode": "", "fallbackUrl": "", "status": "needs-url" },
+    { "name": "Spotify Podcast", "page": "podcast/spotify.html", "provider": "Spotify", "embedCode": "", "fallbackUrl": "", "status": "needs-url" }
+  ]
+}

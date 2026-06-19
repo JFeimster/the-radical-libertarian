@@ -1,29 +1,31 @@
 # Links
 
-## Batch 15 Production Assets
+## Batch 16 Provider Wiring
 
-- Production Assets Page: `/assets-production.html`
-- Production Assets Docs: `/PRODUCTION_ASSETS.md`
-- Image Replacement Plan: `/IMAGE_REPLACEMENT_PLAN.md`
-- Asset QA: `/ASSET_QA.md`
-- Prompt Pack: `/PROMPT_PACK_IMAGES.md`
+- Wiring Board: `/wiring.html`
+- Forms: `/forms.html`
+- Embeds: `/embeds.html`
+- Provider Status: `/provider-status.html`
 
-## Production Asset Folders
+## Integration Docs
 
-- Hero Slots: `/assets/production/hero/`
-- Social Slots: `/assets/production/social/`
-- Thumbnail Slots: `/assets/production/thumbnails/`
-- Square Slots: `/assets/production/square/`
-- Cover Slots: `/assets/production/covers/`
+- YouTube Wiring: `/integrations/YOUTUBE_WIRING.md`
+- Spotify Wiring: `/integrations/SPOTIFY_WIRING.md`
+- Newsletter Wiring: `/integrations/NEWSLETTER_WIRING.md`
+- Guest Form Wiring: `/integrations/GUEST_FORM_WIRING.md`
+- Contact Form Wiring: `/integrations/CONTACT_FORM_WIRING.md`
+- Provider Decision Log: `/integrations/PROVIDER_DECISION_LOG.md`
 
 ## Data
 
-- Production Assets: `/data/production-assets.json`
-- Replacement Map: `/data/asset-replacement-map.json`
-- Dimensions: `/data/image-dimensions.json`
-- Asset QA: `/data/asset-qa.json`
+- Provider Status: `/data/provider-status.json`
+- URL Wiring: `/data/url-wiring.json`
+- Form Provider Map: `/data/form-provider-map.json`
+- Embed Provider Map: `/data/embed-provider-map.json`
+- Provider Checklist: `/data/provider-checklist.json`
 
 ## Scripts
 
-- Asset Inventory: `/scripts/asset-inventory.ps1`
-- Image Slot Check: `/scripts/image-slot-check.ps1`
+- Provider Status: `/scripts/provider-status.ps1`
+- Wiring Check: `/scripts/wiring-check.ps1`
+- Apply Provider Config Placeholder: `/scripts/apply-provider-config.ps1`

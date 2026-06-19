@@ -1,0 +1,8 @@
+{
+  "urls": [
+    { "key": "youtube_channel", "label": "YouTube Channel", "value": "", "status": "todo", "pages": ["youtube.html", "podcast/youtube.html", "platforms.html"] },
+    { "key": "youtube_playlist", "label": "YouTube Playlist", "value": "", "status": "todo", "pages": ["youtube.html", "podcast/youtube.html"] },
+    { "key": "spotify_show", "label": "Spotify Show", "value": "", "status": "todo", "pages": ["spotify.html", "podcast/spotify.html", "podcast/listen.html"] },
+    { "key": "instagram", "label": "Instagram", "value": "https://www.instagram.com/radicallibertarian", "status": "active", "pages": ["instagram.html", "social.html"] }
+  ]
+}
