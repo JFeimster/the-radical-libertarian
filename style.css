@@ -2317,3 +2317,158 @@ select {
     grid-template-columns: 1fr;
   }
 }
+
+/* === Focused Homepage Header Repair — above-the-fold hero optimization ===
+   Scope: homepage hero/header classes only.
+   Goal: make headline, side panel, description, and CTAs readable above the fold.
+   No color changes. No global page redesign.
+*/
+.home-final-hero {
+  max-width: 1240px;
+  min-height: calc(100svh - 96px);
+  margin: 0 auto;
+  padding: clamp(26px, 4vw, 54px) 24px clamp(24px, 4vw, 46px);
+  display: grid;
+  grid-template-columns: minmax(0, 1.04fr) minmax(280px, .72fr);
+  gap: clamp(24px, 3vw, 38px);
+  align-items: center;
+}
+
+.home-final-copy {
+  padding: clamp(24px, 4vw, 40px);
+  overflow: visible;
+}
+
+.home-final-copy .sticker {
+  margin-bottom: clamp(14px, 2vw, 20px);
+  font-size: clamp(.78rem, 1vw, .98rem);
+}
+
+.home-final-copy h1 {
+  max-width: 780px;
+  margin: 0 0 clamp(16px, 2vw, 22px);
+  font-family: "Arial Black", Impact, Haettenschweiler, sans-serif;
+  font-size: clamp(3.15rem, 6.9vw, 6.55rem);
+  line-height: .88;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: balance;
+}
+
+.home-final-copy p {
+  max-width: 720px;
+  margin: 0;
+  font-size: clamp(1.02rem, 1.45vw, 1.24rem);
+  line-height: 1.36;
+  font-weight: 900;
+}
+
+.home-final-panel {
+  align-self: center;
+  max-width: 390px;
+  padding: clamp(24px, 3.2vw, 36px);
+}
+
+.home-final-panel h2 {
+  margin: 0 0 16px;
+  font-family: "Arial Black", Impact, Haettenschweiler, sans-serif;
+  font-size: clamp(2.05rem, 4.2vw, 4rem);
+  line-height: .9;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.home-final-panel p {
+  max-width: 31ch;
+  margin: 0;
+  font-size: clamp(.98rem, 1.25vw, 1.12rem);
+  line-height: 1.34;
+  font-weight: 900;
+}
+
+.home-cta-row {
+  gap: 12px;
+  margin-top: clamp(18px, 2.3vw, 24px);
+}
+
+.home-cta-row .btn {
+  margin-top: 0;
+  padding: 13px 18px;
+  box-shadow: 7px 7px 0 var(--black);
+  font-size: clamp(.78rem, .95vw, .96rem);
+}
+
+.home-signal-strip {
+  max-width: 1240px;
+  margin: 0 auto clamp(56px, 6vw, 76px);
+  padding: 0 24px;
+  gap: 14px;
+}
+
+.home-signal-item {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: clamp(.78rem, .95vw, .95rem);
+  line-height: 1.1;
+}
+
+@media (max-width: 1040px) {
+  .home-final-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 34px;
+  }
+
+  .home-final-copy h1 {
+    max-width: 900px;
+    font-size: clamp(3.2rem, 10vw, 6.2rem);
+  }
+
+  .home-final-panel {
+    max-width: none;
+  }
+
+  .home-final-panel p {
+    max-width: 68ch;
+  }
+}
+
+@media (max-width: 680px) {
+  .home-final-hero {
+    padding: 26px 18px 28px;
+  }
+
+  .home-final-copy {
+    padding: 22px;
+  }
+
+  .home-final-copy h1 {
+    font-size: clamp(2.65rem, 13vw, 4.7rem);
+    line-height: .9;
+    letter-spacing: -0.045em;
+  }
+
+  .home-final-copy p {
+    font-size: 1rem;
+  }
+
+  .home-final-panel h2 {
+    font-size: clamp(2rem, 11vw, 3.25rem);
+  }
+
+  .home-cta-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home-cta-row .btn {
+    width: 100%;
+  }
+}
+/* === End Focused Homepage Header Repair === */
