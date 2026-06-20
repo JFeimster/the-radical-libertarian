@@ -2665,3 +2665,142 @@ main p,
   }
 }
 /* === End Width + Readability Repair === */
+
+/* === Header Letter-Spacing Repair — display fonts only ===
+   Scope:
+   - Header-like/display typography only.
+   - Paragraph/body copy intentionally untouched.
+   - Colors untouched.
+   - Goal: reduce the crushed/overlapped look while keeping the heavy brutalist tone.
+*/
+
+/* Global display headings */
+h1,
+h2,
+h3,
+.page-hero h1,
+.home-final-copy h1,
+.home-final-panel h2,
+.home-section-heading h2,
+.home-conversion-inner h2,
+.related-module-title,
+.asset-command h2,
+.nav-command h2,
+.conversion-command h2,
+.qa-command h2,
+.pipeline-command h2,
+.wiring-command h2,
+.production-asset-command h2,
+.resource-command h2,
+.tool-command h2,
+.seo-command h2 {
+  letter-spacing: -0.018em;
+}
+
+/* The largest homepage headline needs the most breathing room */
+.home-final-copy h1 {
+  letter-spacing: -0.012em;
+}
+
+/* Red side panel / conversion panels were visually crunching hardest */
+.home-final-panel h2,
+.home-conversion-inner h2,
+.footer-cta-strip h2,
+.related-strip h2 {
+  letter-spacing: -0.01em;
+}
+
+/* Card titles should stay punchy but not mashed together */
+.home-feature-card h3,
+.asset-card h3,
+.social-preview-card h3,
+.icon-preview-card h3,
+.nav-card h3,
+.sitemap-card h3,
+.explore-card h3,
+.update-card h3,
+.search-result-card h3,
+.conversion-card h3,
+.platform-card-v2 h3,
+.form-card h3,
+.embed-card h3,
+.cta-card h3,
+.qa-card h3,
+.launch-card h3,
+.report-card h3,
+.pipeline-card h3,
+.import-card-v2 h3,
+.template-card h3,
+.wiring-card h3,
+.provider-card h3,
+.embed-provider-card h3,
+.production-asset-card h3,
+.related-link-card h3,
+.internal-link-card h3,
+.resource-tile h3,
+.reading-card h3,
+.org-card h3,
+.glossary-card h3,
+.timeline-card h3,
+.civic-card h3,
+.tool-card h3,
+.link-card h3 {
+  letter-spacing: -0.012em;
+}
+
+/* Badges and nav are already small; give them slightly positive tracking */
+.sticker,
+.home-badge,
+.asset-badge,
+.nav-badge,
+.conversion-badge,
+.qa-badge,
+.pipeline-badge,
+.wiring-badge,
+.production-asset-badge,
+.resource-badge,
+.platform-badge,
+.site-nav a,
+.logo {
+  letter-spacing: 0.045em;
+}
+
+/* Very large black section headers need extra protection from overlap */
+.home-section-heading h2,
+.page-hero h1 {
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: balance;
+}
+
+/* Mobile: keep display headlines readable without spreading too wide */
+@media (max-width: 700px) {
+  h1,
+  h2,
+  h3,
+  .page-hero h1,
+  .home-final-copy h1,
+  .home-final-panel h2,
+  .home-section-heading h2,
+  .home-conversion-inner h2,
+  .related-module-title {
+    letter-spacing: -0.008em;
+  }
+
+  .sticker,
+  .home-badge,
+  .asset-badge,
+  .nav-badge,
+  .conversion-badge,
+  .qa-badge,
+  .pipeline-badge,
+  .wiring-badge,
+  .production-asset-badge,
+  .resource-badge,
+  .platform-badge,
+  .site-nav a,
+  .logo {
+    letter-spacing: 0.035em;
+  }
+}
+/* === End Header Letter-Spacing Repair === */
