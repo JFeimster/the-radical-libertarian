@@ -1,0 +1,14 @@
+{
+  "podcast_title": "The Radical Libertarian",
+  "status": "active",
+  "listen_links": [
+    { "platform": "Spotify", "label": "Listen on Spotify", "url": "https://open.spotify.com/show/3cP4yQijoAUS1xS71ZEBoG", "short_url": "https://bit.ly/3uCur7m", "priority": 1 },
+    { "platform": "YouTube", "label": "Play on YouTube", "url": "https://bit.ly/3RqwLYc", "priority": 2 },
+    { "platform": "Episode Archive", "label": "Full List of Episodes", "url": "https://bit.ly/3sVjQEi", "priority": 3 }
+  ],
+  "embeds": [
+    { "embed_id": "youtube_playlist", "label": "YouTube Playlist", "type": "youtube_playlist", "src": "https://www.youtube.com/embed/videoseries?si=GX97FWsfmErJQEo9&list=PLNVTCBFgR1TcFG8Blwuciuq8bQay4SWWd", "width": 560, "height": 315, "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share", "allowfullscreen": true },
+    { "embed_id": "youtube_episode_1", "label": "Episode 1", "type": "youtube_video", "episode_id": "episode-001", "src": "https://www.youtube.com/embed/IkF-9YSf2Hw?si=1AMCjbrWrf7cxy3u", "watch_url": "https://youtu.be/IkF-9YSf2Hw", "width": 560, "height": 315, "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share", "allowfullscreen": true }
+  ],
+  "last_updated": "2026-06-20"
+}

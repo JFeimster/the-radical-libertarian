@@ -1,8 +1,9 @@
 {
   "embeds": [
-    { "name": "YouTube Root", "page": "youtube.html", "provider": "YouTube", "embedCode": "", "fallbackUrl": "", "status": "needs-url" },
-    { "name": "YouTube Podcast", "page": "podcast/youtube.html", "provider": "YouTube", "embedCode": "", "fallbackUrl": "", "status": "needs-url" },
-    { "name": "Spotify Root", "page": "spotify.html", "provider": "Spotify", "embedCode": "", "fallbackUrl": "", "status": "needs-url" },
-    { "name": "Spotify Podcast", "page": "podcast/spotify.html", "provider": "Spotify", "embedCode": "", "fallbackUrl": "", "status": "needs-url" }
+    { "name": "YouTube Root", "page": "youtube.html", "provider": "YouTube", "src": "https://www.youtube.com/embed/videoseries?si=GX97FWsfmErJQEo9&list=PLNVTCBFgR1TcFG8Blwuciuq8bQay4SWWd", "fallbackUrl": "https://bit.ly/3RqwLYc", "status": "active" },
+    { "name": "YouTube Podcast", "page": "podcast/youtube.html", "provider": "YouTube", "src": "https://www.youtube.com/embed/videoseries?si=GX97FWsfmErJQEo9&list=PLNVTCBFgR1TcFG8Blwuciuq8bQay4SWWd", "fallbackUrl": "https://bit.ly/3RqwLYc", "status": "active" },
+    { "name": "Episode 1 YouTube", "page": "podcast/episode-1.html", "provider": "YouTube", "src": "https://www.youtube.com/embed/IkF-9YSf2Hw?si=1AMCjbrWrf7cxy3u", "fallbackUrl": "https://youtu.be/IkF-9YSf2Hw", "status": "active" },
+    { "name": "Spotify Root", "page": "spotify.html", "provider": "Spotify", "src": "", "fallbackUrl": "https://open.spotify.com/show/3cP4yQijoAUS1xS71ZEBoG", "status": "active-link-only" },
+    { "name": "Spotify Podcast", "page": "podcast/spotify.html", "provider": "Spotify", "src": "", "fallbackUrl": "https://open.spotify.com/show/3cP4yQijoAUS1xS71ZEBoG", "status": "active-link-only" }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "brand": "The Radical Libertarian",
+  "social_links": [
+    { "platform": "Instagram", "handle": "@radicallibertarian", "url": "https://www.instagram.com/radicallibertarian", "status": "active" },
+    { "platform": "Facebook", "handle": "The Radical Libertarian", "url": "https://facebook.com/theradicallibertarian", "status": "active" },
+    { "platform": "YouTube", "handle": "The Radical Libertarian Podcast", "url": "https://bit.ly/3RqwLYc", "status": "active" },
+    { "platform": "Spotify", "handle": "The Radical Libertarian", "url": "https://open.spotify.com/show/3cP4yQijoAUS1xS71ZEBoG", "short_url": "https://bit.ly/3uCur7m", "status": "active" }
+  ]
+}

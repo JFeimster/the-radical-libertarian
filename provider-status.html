@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Provider Status | The Radical Libertarian</title>
-  <meta name="description" content="Current status of platform URLs, embeds, and form provider wiring." />
-
+  <meta name="description" content="Current wiring status for TRL platforms, podcast links, social links, and form providers." />
   <link rel="canonical" href="https://the-radical-libertarian.vercel.app/provider-status.html" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
@@ -14,48 +12,18 @@
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="grain-overlay"></div>
-
   <header class="site-header">
     <a class="logo" href="index.html">T.R.L.</a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="essays.html">Essays</a>
-      <a href="manifesto.html">Manifesto</a>
-      <a href="podcast.html">Podcast</a>
-      <a href="join.html">Join</a>
+      <a href="essays.html">Essays</a><a href="manifesto.html">Manifesto</a><a href="podcast.html">Podcast</a><a href="join.html">Join</a>
     </nav>
   </header>
-
   <main id="main-content">
-    <section class="page-hero">
-      <div class="sticker">Status Board</div>
-      <h1>Provider Status</h1>
-      <p>Current status of platform URLs, embeds, and form provider wiring.</p>
-    </section>
-
-    <section class="wiring-command">
-      <h2>Current provider status.</h2>
-      <p>Everything below remains unresolved until real URLs and provider endpoints are confirmed.</p>
-    </section>
-
-    <section class="provider-grid">
-      <article class="provider-card"><span class="wiring-badge">Todo</span><h3>YouTube URL</h3><p>Status: needs confirmed channel/playlist URL.</p></article>
-      <article class="provider-card"><span class="wiring-badge">Todo</span><h3>Spotify URL</h3><p>Status: needs confirmed show URL.</p></article>
-      <article class="provider-card"><span class="wiring-badge">Todo</span><h3>Newsletter Provider</h3><p>Status: choose provider and endpoint/embed.</p></article>
-      <article class="provider-card"><span class="wiring-badge">Todo</span><h3>Guest Intake</h3><p>Status: choose provider and endpoint/embed.</p></article>
-      <article class="provider-card"><span class="wiring-badge">Todo</span><h3>Contact Form</h3><p>Status: choose provider and endpoint/embed.</p></article>
-      <article class="provider-card"><span class="wiring-badge">Active</span><h3>Instagram</h3><p>Status: known external link exists.</p></article>
-    </section>
-
-    <section class="provider-status-panel" data-provider-status></section>
+    <section class="page-hero"><div class="sticker">Status Board</div><h1>Provider Status</h1><p>Current wiring status for TRL platforms, podcast links, social links, and form providers.</p></section>
+    <section class="wiring-command"><h2>Platform status updated.</h2><p>Podcast/social URLs are now active. Form providers still need final selection.</p></section>
+    <section class="provider-grid"><article class="provider-card"><span class="wiring-badge">Active</span><h3>YouTube</h3><p>Playlist and Episode 1 are wired.</p><p><a class="btn" href="https://bit.ly/3RqwLYc">Open</a></p></article><article class="provider-card"><span class="wiring-badge">Active</span><h3>Spotify</h3><p>Canonical show URL is wired.</p><p><a class="btn" href="https://open.spotify.com/show/3cP4yQijoAUS1xS71ZEBoG">Open</a></p></article><article class="provider-card"><span class="wiring-badge">Active</span><h3>Instagram</h3><p>Official account is wired.</p><p><a class="btn" href="https://www.instagram.com/radicallibertarian">Open</a></p></article><article class="provider-card"><span class="wiring-badge">Active</span><h3>Facebook</h3><p>Official Facebook page is wired.</p><p><a class="btn" href="https://facebook.com/theradicallibertarian">Open</a></p></article><article class="provider-card"><span class="wiring-badge">Todo</span><h3>Newsletter</h3><p>Still needs provider and endpoint/embed.</p></article><article class="provider-card"><span class="wiring-badge">Todo</span><h3>Guest / Contact Forms</h3><p>Still need provider and endpoint/embed.</p></article></section>
   </main>
-
-  <footer class="site-footer trl-enhanced-footer" data-site-footer>
-    <p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p>
-  </footer>
-
-  <script src="script.js"></script>
-  <script src="js/navigation.js"></script>
-  <script src="js/site-footer.js"></script>
-  <script src="js/provider-status.js"></script>
+  <footer class="site-footer trl-enhanced-footer" data-site-footer><p>© THE RADICAL LIBERTARIAN. NO RIGHTS RESERVED. COPYING IS A VIRTUE.</p></footer>
+  <script src="script.js"></script><script src="js/navigation.js"></script><script src="js/site-footer.js"></script><script src="js/related-content.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+{
+  "brand": "The Radical Libertarian",
+  "canonical_site": "https://the-radical-libertarian.vercel.app/",
+  "github_repo": "https://github.com/JFeimster/the-radical-libertarian",
+  "platforms": [
+    { "platform_id": "instagram", "label": "Instagram", "url": "https://www.instagram.com/radicallibertarian", "handle": "@radicallibertarian", "type": "social", "status": "active", "priority": 1 },
+    { "platform_id": "facebook", "label": "Facebook", "url": "https://facebook.com/theradicallibertarian", "handle": "The Radical Libertarian", "type": "social", "status": "active", "priority": 2 },
+    { "platform_id": "spotify", "label": "Spotify", "url": "https://open.spotify.com/show/3cP4yQijoAUS1xS71ZEBoG", "short_url": "https://bit.ly/3uCur7m", "type": "podcast", "status": "active", "priority": 1 },
+    { "platform_id": "youtube", "label": "YouTube", "url": "https://bit.ly/3RqwLYc", "embed_url": "https://www.youtube.com/embed/videoseries?si=GX97FWsfmErJQEo9&list=PLNVTCBFgR1TcFG8Blwuciuq8bQay4SWWd", "type": "video", "status": "active", "priority": 1 },
+    { "platform_id": "youtube_episode_list", "label": "Full List of Episodes", "url": "https://bit.ly/3sVjQEi", "type": "podcast_archive", "status": "active", "priority": 3 },
+    { "platform_id": "github", "label": "GitHub", "url": "https://github.com/JFeimster/the-radical-libertarian", "type": "repository", "status": "active", "priority": 4 }
+  ],
+  "last_updated": "2026-06-20"
+}
