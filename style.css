@@ -2318,39 +2318,168 @@ select {
   }
 }
 
-/* === Focused Homepage Header Repair — above-the-fold hero optimization ===
-   Scope: homepage hero/header classes only.
-   Goal: make headline, side panel, description, and CTAs readable above the fold.
-   No color changes. No global page redesign.
+/* === Width + Readability Repair — sitewide content rhythm + homepage overflow fix ===
+   Scope:
+   - CSS only.
+   - Restores wider content containers across the site.
+   - Removes cramped typography side effects.
+   - Keeps colors untouched.
+   - Keeps homepage hero above-fold without clipping the headline.
 */
+
+/* Wider usable content area across major page patterns */
+.page-hero,
+.page-stack,
+.content-block,
+.asset-command,
+.nav-command,
+.conversion-command,
+.qa-command,
+.pipeline-command,
+.wiring-command,
+.production-asset-command,
+.resource-command,
+.tool-command,
+.seo-command {
+  max-width: min(1320px, calc(100vw - 64px));
+}
+
+.asset-grid,
+.social-card-grid,
+.icon-grid,
+.nav-grid,
+.sitemap-grid,
+.explore-grid,
+.update-grid,
+.search-results,
+.conversion-grid,
+.platform-grid-v2,
+.form-grid,
+.embed-grid,
+.cta-grid,
+.qa-grid,
+.launch-grid,
+.report-grid,
+.pipeline-grid,
+.import-grid-v2,
+.template-grid,
+.wiring-grid,
+.provider-grid,
+.embed-provider-grid,
+.production-asset-grid,
+.resource-directory,
+.reading-grid,
+.org-grid,
+.glossary-grid,
+.timeline-grid,
+.civic-grid,
+.tool-grid,
+.link-grid,
+.footer-link-grid,
+.related-link-grid,
+.internal-link-grid {
+  max-width: min(1320px, calc(100vw - 64px));
+}
+
+/* Restore readable copy sizing in cards and utility pages */
+main p,
+.asset-card p,
+.nav-card p,
+.sitemap-card p,
+.explore-card p,
+.update-card p,
+.search-result-card p,
+.conversion-card p,
+.platform-card-v2 p,
+.form-card p,
+.embed-card p,
+.cta-card p,
+.qa-card p,
+.launch-card p,
+.report-card p,
+.pipeline-card p,
+.import-card-v2 p,
+.template-card p,
+.wiring-card p,
+.provider-card p,
+.production-asset-card p,
+.related-link-card p,
+.internal-link-card p,
+.resource-tile p,
+.reading-card p,
+.org-card p,
+.glossary-card p,
+.timeline-card p,
+.civic-card p,
+.tool-card p,
+.link-card p {
+  font-size: clamp(1rem, 1.05vw, 1.12rem);
+  line-height: 1.5;
+}
+
+/* More breathing room for standard cards */
+.asset-card,
+.nav-card,
+.sitemap-card,
+.explore-card,
+.update-card,
+.search-result-card,
+.conversion-card,
+.platform-card-v2,
+.form-card,
+.embed-card,
+.cta-card,
+.qa-card,
+.launch-card,
+.report-card,
+.pipeline-card,
+.import-card-v2,
+.template-card,
+.wiring-card,
+.provider-card,
+.production-asset-card,
+.related-link-card,
+.internal-link-card,
+.resource-tile,
+.reading-card,
+.org-card,
+.glossary-card,
+.timeline-card,
+.civic-card,
+.tool-card,
+.link-card {
+  min-width: 0;
+}
+
+/* Homepage: widen the hero, keep it above fold, and prevent headline clipping */
 .home-final-hero {
-  max-width: 1240px;
-  min-height: calc(100svh - 96px);
+  max-width: min(1420px, calc(100vw - 56px));
+  min-height: calc(100svh - 94px);
   margin: 0 auto;
-  padding: clamp(26px, 4vw, 54px) 24px clamp(24px, 4vw, 46px);
+  padding: clamp(28px, 4vw, 52px) 24px clamp(22px, 3vw, 38px);
   display: grid;
-  grid-template-columns: minmax(0, 1.04fr) minmax(280px, .72fr);
-  gap: clamp(24px, 3vw, 38px);
+  grid-template-columns: minmax(0, 1.18fr) minmax(310px, .64fr);
+  gap: clamp(28px, 3.8vw, 52px);
   align-items: center;
 }
 
 .home-final-copy {
-  padding: clamp(24px, 4vw, 40px);
-  overflow: visible;
+  min-width: 0;
+  padding: clamp(28px, 4vw, 44px);
+  overflow: hidden;
 }
 
 .home-final-copy .sticker {
   margin-bottom: clamp(14px, 2vw, 20px);
-  font-size: clamp(.78rem, 1vw, .98rem);
 }
 
 .home-final-copy h1 {
-  max-width: 780px;
+  max-width: 100%;
   margin: 0 0 clamp(16px, 2vw, 22px);
   font-family: "Arial Black", Impact, Haettenschweiler, sans-serif;
-  font-size: clamp(3.15rem, 6.9vw, 6.55rem);
-  line-height: .88;
-  letter-spacing: -0.05em;
+  font-size: clamp(3.25rem, 5.65vw, 5.85rem);
+  line-height: .9;
+  letter-spacing: -0.052em;
   text-transform: uppercase;
   overflow-wrap: normal;
   word-break: normal;
@@ -2358,67 +2487,76 @@ select {
 }
 
 .home-final-copy p {
-  max-width: 720px;
+  max-width: 780px;
   margin: 0;
-  font-size: clamp(1.02rem, 1.45vw, 1.24rem);
-  line-height: 1.36;
+  font-size: clamp(1.08rem, 1.35vw, 1.26rem);
+  line-height: 1.38;
   font-weight: 900;
 }
 
 .home-final-panel {
   align-self: center;
-  max-width: 390px;
-  padding: clamp(24px, 3.2vw, 36px);
+  min-width: 0;
+  max-width: 420px;
+  padding: clamp(26px, 3.2vw, 40px);
 }
 
 .home-final-panel h2 {
   margin: 0 0 16px;
   font-family: "Arial Black", Impact, Haettenschweiler, sans-serif;
-  font-size: clamp(2.05rem, 4.2vw, 4rem);
+  font-size: clamp(2.25rem, 3.9vw, 4.15rem);
   line-height: .9;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.045em;
   text-wrap: balance;
 }
 
 .home-final-panel p {
-  max-width: 31ch;
+  max-width: 34ch;
   margin: 0;
-  font-size: clamp(.98rem, 1.25vw, 1.12rem);
-  line-height: 1.34;
+  font-size: clamp(1rem, 1.2vw, 1.12rem);
+  line-height: 1.35;
   font-weight: 900;
 }
 
 .home-cta-row {
-  gap: 12px;
-  margin-top: clamp(18px, 2.3vw, 24px);
+  gap: 14px;
+  margin-top: clamp(20px, 2.5vw, 26px);
 }
 
 .home-cta-row .btn {
   margin-top: 0;
-  padding: 13px 18px;
-  box-shadow: 7px 7px 0 var(--black);
-  font-size: clamp(.78rem, .95vw, .96rem);
+  padding: 14px 18px;
+  font-size: clamp(.84rem, .95vw, .98rem);
 }
 
+/* Keep the first strip near the fold but not jammed */
 .home-signal-strip {
-  max-width: 1240px;
+  max-width: min(1420px, calc(100vw - 56px));
   margin: 0 auto clamp(56px, 6vw, 76px);
   padding: 0 24px;
-  gap: 14px;
+  gap: 16px;
 }
 
 .home-signal-item {
-  min-height: 64px;
+  min-height: 66px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 16px;
+  padding: 15px 16px;
   text-align: center;
-  font-size: clamp(.78rem, .95vw, .95rem);
-  line-height: 1.1;
+  font-size: clamp(.84rem, .98vw, .98rem);
+  line-height: 1.12;
 }
 
-@media (max-width: 1040px) {
+/* Widen later homepage sections too, without changing vertical rhythm */
+.home-feature-section,
+.home-conversion-band,
+.home-platform-row {
+  max-width: min(1420px, calc(100vw - 56px));
+}
+
+/* Tablet */
+@media (max-width: 1100px) {
   .home-final-hero {
     grid-template-columns: 1fr;
     min-height: auto;
@@ -2426,8 +2564,7 @@ select {
   }
 
   .home-final-copy h1 {
-    max-width: 900px;
-    font-size: clamp(3.2rem, 10vw, 6.2rem);
+    font-size: clamp(3.05rem, 8vw, 5.85rem);
   }
 
   .home-final-panel {
@@ -2435,13 +2572,62 @@ select {
   }
 
   .home-final-panel p {
-    max-width: 68ch;
+    max-width: 70ch;
   }
 }
 
-@media (max-width: 680px) {
+/* Mobile */
+@media (max-width: 700px) {
+  .page-hero,
+  .page-stack,
+  .content-block,
+  .asset-command,
+  .nav-command,
+  .conversion-command,
+  .qa-command,
+  .pipeline-command,
+  .wiring-command,
+  .production-asset-command,
+  .resource-command,
+  .tool-command,
+  .seo-command {
+    max-width: calc(100vw - 32px);
+  }
+
+  .asset-grid,
+  .social-card-grid,
+  .icon-grid,
+  .nav-grid,
+  .sitemap-grid,
+  .explore-grid,
+  .update-grid,
+  .search-results,
+  .conversion-grid,
+  .platform-grid-v2,
+  .form-grid,
+  .embed-grid,
+  .cta-grid,
+  .qa-grid,
+  .launch-grid,
+  .report-grid,
+  .pipeline-grid,
+  .import-grid-v2,
+  .template-grid,
+  .wiring-grid,
+  .provider-grid,
+  .embed-provider-grid,
+  .production-asset-grid,
+  .footer-link-grid,
+  .related-link-grid,
+  .internal-link-grid {
+    max-width: calc(100vw - 32px);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .home-final-hero {
-    padding: 26px 18px 28px;
+    max-width: calc(100vw - 32px);
+    padding: 26px 0 28px;
   }
 
   .home-final-copy {
@@ -2449,17 +2635,17 @@ select {
   }
 
   .home-final-copy h1 {
-    font-size: clamp(2.65rem, 13vw, 4.7rem);
-    line-height: .9;
+    font-size: clamp(2.55rem, 12vw, 4.35rem);
+    line-height: .92;
     letter-spacing: -0.045em;
   }
 
   .home-final-copy p {
-    font-size: 1rem;
+    font-size: 1.02rem;
   }
 
   .home-final-panel h2 {
-    font-size: clamp(2rem, 11vw, 3.25rem);
+    font-size: clamp(2.05rem, 10vw, 3.25rem);
   }
 
   .home-cta-row {
@@ -2470,5 +2656,12 @@ select {
   .home-cta-row .btn {
     width: 100%;
   }
+
+  .home-signal-strip,
+  .home-feature-section,
+  .home-conversion-band,
+  .home-platform-row {
+    max-width: calc(100vw - 32px);
+  }
 }
-/* === End Focused Homepage Header Repair === */
+/* === End Width + Readability Repair === */
